@@ -38,8 +38,8 @@
     
     
     [UMSocialData defaultData].extConfig.title = @"分享的title";
-    [UMSocialData defaultData].extConfig.qqData.url = @"http://baidu.com";
     
+    [UMSocialData defaultData].extConfig.qqData.url = @"http://baidu.com";
     [UMSocialData defaultData].extConfig.wechatSessionData.url = @"http://baidu.com";
     [UMSocialData defaultData].extConfig.wechatTimelineData.url = @"http://baidu.com";
 
@@ -47,8 +47,10 @@
                                          appKey:@"5770fde8e0f55a84e9002cb5"
                                       shareText:@"友盟社会化分享让您快速实现分享等社会化功能，http://umeng.com/social"
                                      shareImage:[UIImage imageNamed:@"icon"]
-                                shareToSnsNames:@[UMShareToWechatSession,UMShareToWechatTimeline,UMShareToSina,UMShareToQQ,UMShareToQzone]
-                                       delegate:self];
+                                shareToSnsNames:@[UMShareToQzone]
+                                       delegate:nil];
+    
+  
     
     
 }

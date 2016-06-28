@@ -33,6 +33,7 @@
 		E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */; };
 		E53317161CFFD942004A2CB9 /* TempDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317151CFFD942004A2CB9 /* TempDemoTests.m */; };
 		E53317211CFFD942004A2CB9 /* TempDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317201CFFD942004A2CB9 /* TempDemoUITests.m */; };
+		E53448AB1D2231CF00C38AB4 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E53448AA1D2231CF00C38AB4 /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		E533171C1CFFD942004A2CB9 /* TempDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53317201CFFD942004A2CB9 /* TempDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempDemoUITests.m; sourceTree = "<group>"; };
 		E53317221CFFD942004A2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E53448AA1D2231CF00C38AB4 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53448AB1D2231CF00C38AB4 /* ImageIO.framework in Frameworks */,
 				E52F71161D2132B900539004 /* libz.tbd in Frameworks */,
 				E52F71141D2132AB00539004 /* libstdc++.tbd in Frameworks */,
 				E52F71121D21329C00539004 /* CoreTelephony.framework in Frameworks */,
@@ -183,6 +186,7 @@
 		E52F71171D2132F200539004 /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				E53448AA1D2231CF00C38AB4 /* ImageIO.framework */,
 				E52F70E31D21317500539004 /* UMSocial_Sdk_5.2.1 */,
 				E52F71151D2132B900539004 /* libz.tbd */,
 				E52F71131D2132AB00539004 /* libstdc++.tbd */,
@@ -551,12 +555,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
 				INFOPLIST_FILE = TempDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TempDemo/UMSocial_Sdk_5.2.1",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.text.TempDemo;
@@ -568,12 +579,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+				);
 				INFOPLIST_FILE = TempDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TempDemo/UMSocial_Sdk_5.2.1",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
+					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.text.TempDemo;

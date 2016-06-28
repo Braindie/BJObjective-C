@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "UMSocial.h"
 //#import "UMSocialQQHandler.h"
+//#import "UMSocialSinaSSOHandler.h"
 
 
 @interface AppDelegate ()
@@ -25,6 +26,11 @@
     [UMSocialData setAppKey:@"5770fde8e0f55a84e9002cb5"];
     
     
+    
+    //第一个参数为新浪appkey,第二个参数为新浪secret，第三个参数是新浪微博回调地址，这里必须要和你在新浪微博后台设置的回调地址一致。
+//    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:@"323969170"
+//                                              secret:@"ebe3fe6b285d58038cd527f556a19d5f"
+//                                         RedirectURL:@"http://baidu.com"];
 //    //设置友盟社会化组件appkey
 //    [UMSocialData setAppKey:@"5770fde8e0f55a84e9002cb5"];
 //    //设置微信AppId、appSecret，分享url
