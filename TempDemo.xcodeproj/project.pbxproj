@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50169721EEA363600203EDC /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E50169711EEA363600203EDC /* BookModel.m */; };
 		E52B98E81D7FCB3E0033A764 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E52B98B01D7FCB3E0033A764 /* UMSocialLocalizable.strings */; };
 		E52B98E91D7FCB3E0033A764 /* libUMSocial_Sdk_5.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B98BE1D7FCB3E0033A764 /* libUMSocial_Sdk_5.2.1.a */; };
 		E52B98EA1D7FCB3E0033A764 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52B98C01D7FCB3E0033A764 /* UMSCommentDetailController.xib */; };
@@ -64,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E50169701EEA363600203EDC /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		E50169711EEA363600203EDC /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 		E52B98B11D7FCB3E0033A764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
 		E52B98B31D7FCB3E0033A764 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
 		E52B98B41D7FCB3E0033A764 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
@@ -295,14 +298,6 @@
 		E52F71171D2132F200539004 /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				E52B98AE1D7FCB3E0033A764 /* umeng_ios_social_sdk_5.2.1_arm64_custom */,
-			);
-			path = FrameWork;
-			sourceTree = "<group>";
-		};
-		E53316EF1CFFD942004A2CB9 = {
-			isa = PBXGroup;
-			children = (
 				E52B990C1D7FCC5E0033A764 /* libz.tbd */,
 				E52B990A1D7FCC530033A764 /* libstdc++.tbd */,
 				E52B99081D7FCC440033A764 /* CoreTelephony.framework */,
@@ -312,6 +307,14 @@
 				E52B99001D7FCC0D0033A764 /* Security.framework */,
 				E52B98FE1D7FCBFB0033A764 /* ImageIO.framework */,
 				E52B98FC1D7FCB8B0033A764 /* SystemConfiguration.framework */,
+				E52B98AE1D7FCB3E0033A764 /* umeng_ios_social_sdk_5.2.1_arm64_custom */,
+			);
+			path = FrameWork;
+			sourceTree = "<group>";
+		};
+		E53316EF1CFFD942004A2CB9 = {
+			isa = PBXGroup;
+			children = (
 				E53316FA1CFFD942004A2CB9 /* TempDemo */,
 				E53317141CFFD942004A2CB9 /* TempDemoTests */,
 				E533171F1CFFD942004A2CB9 /* TempDemoUITests */,
@@ -337,6 +340,8 @@
 				E53316FF1CFFD942004A2CB9 /* AppDelegate.m */,
 				E53317011CFFD942004A2CB9 /* ViewController.h */,
 				E53317021CFFD942004A2CB9 /* ViewController.m */,
+				E50169701EEA363600203EDC /* BookModel.h */,
+				E50169711EEA363600203EDC /* BookModel.m */,
 				E53317041CFFD942004A2CB9 /* Main.storyboard */,
 				E53317071CFFD942004A2CB9 /* Assets.xcassets */,
 				E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */,
@@ -439,6 +444,8 @@
 				TargetAttributes = {
 					E53316F71CFFD942004A2CB9 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = D52TEC35MW;
+						ProvisioningStyle = Automatic;
 					};
 					E53317101CFFD942004A2CB9 = {
 						CreatedOnToolsVersion = 7.3;
@@ -518,6 +525,7 @@
 			files = (
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
+				E50169721EEA363600203EDC /* BookModel.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -668,6 +676,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D52TEC35MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
@@ -698,6 +709,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D52TEC35MW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
