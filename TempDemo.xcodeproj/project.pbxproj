@@ -45,6 +45,10 @@
 		E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */; };
 		E53317161CFFD942004A2CB9 /* TempDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317151CFFD942004A2CB9 /* TempDemoTests.m */; };
 		E53317211CFFD942004A2CB9 /* TempDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317201CFFD942004A2CB9 /* TempDemoUITests.m */; };
+		E5B009A81F593AC200F5BB73 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009A71F593AC200F5BB73 /* Printer.m */; };
+		E5B009AB1F593B3000F5BB73 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009AA1F593B3000F5BB73 /* ColorPrinter.m */; };
+		E5B009AE1F593B3F00F5BB73 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009AD1F593B3F00F5BB73 /* BlackPrinter.m */; };
+		E5B009B11F593BC400F5BB73 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009B01F593BC400F5BB73 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +145,14 @@
 		E533171C1CFFD942004A2CB9 /* TempDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53317201CFFD942004A2CB9 /* TempDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempDemoUITests.m; sourceTree = "<group>"; };
 		E53317221CFFD942004A2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5B009A61F593AC200F5BB73 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		E5B009A71F593AC200F5BB73 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		E5B009A91F593B3000F5BB73 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
+		E5B009AA1F593B3000F5BB73 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
+		E5B009AC1F593B3F00F5BB73 /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
+		E5B009AD1F593B3F00F5BB73 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
+		E5B009AF1F593BC400F5BB73 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E5B009B01F593BC400F5BB73 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +352,14 @@
 				E53316FF1CFFD942004A2CB9 /* AppDelegate.m */,
 				E53317011CFFD942004A2CB9 /* ViewController.h */,
 				E53317021CFFD942004A2CB9 /* ViewController.m */,
+				E5B009A61F593AC200F5BB73 /* Printer.h */,
+				E5B009A71F593AC200F5BB73 /* Printer.m */,
+				E5B009A91F593B3000F5BB73 /* ColorPrinter.h */,
+				E5B009AA1F593B3000F5BB73 /* ColorPrinter.m */,
+				E5B009AC1F593B3F00F5BB73 /* BlackPrinter.h */,
+				E5B009AD1F593B3F00F5BB73 /* BlackPrinter.m */,
+				E5B009AF1F593BC400F5BB73 /* Person.h */,
+				E5B009B01F593BC400F5BB73 /* Person.m */,
 				E50169701EEA363600203EDC /* BookModel.h */,
 				E50169711EEA363600203EDC /* BookModel.m */,
 				E53317041CFFD942004A2CB9 /* Main.storyboard */,
@@ -523,10 +543,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B009AB1F593B3000F5BB73 /* ColorPrinter.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
+				E5B009B11F593BC400F5BB73 /* Person.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
+				E5B009A81F593AC200F5BB73 /* Printer.m in Sources */,
 				E50169721EEA363600203EDC /* BookModel.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
+				E5B009AE1F593B3F00F5BB73 /* BlackPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

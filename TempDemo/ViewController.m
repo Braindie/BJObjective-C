@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
-
 #import "UMSocial.h"
-
 #import <AddressBook/AddressBook.h>
 #import <AddressBookUI/AddressBookUI.h>
 #import "BookModel.h"
+
+#import "Person.h"
+#import "ColorPrinter.h"
+#import "BlackPrinter.h"
 
 @interface ViewController ()
 @property (nonatomic, strong)NSMutableArray *linkManArray;
@@ -29,11 +31,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = [UIColor whiteColor];
 
+#pragma mark - 多态
     
+    Person *person = [[Person alloc] init];
+    
+    ColorPrinter *colorPrint = [[ColorPrinter alloc] init];
+    BlackPrinter *blackPrint = [[BlackPrinter alloc] init];
+    
+    BOOL isColorPrinter;
+    if (isColorPrinter) {
+        [person doPrint:colorPrint];
+    }else{
+        [person doPrint:blackPrint];
+    }
+    
+    
+#pragma mark - 分享
     UIButton *shareBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     shareBtn.frame = CGRectMake(0, 200, self.view.frame.size.width, 50);
     [shareBtn setTitle:@"分享" forState:UIControlStateNormal];
@@ -41,6 +56,8 @@
     [shareBtn addTarget:self action:@selector(shareAction:) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:shareBtn];
 
+    
+#pragma mark - 获取通讯录
     UIButton *bookBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     bookBtn.frame = CGRectMake(0, 300, self.view.frame.size.width, 50);
     [bookBtn setTitle:@"获取通讯录" forState:UIControlStateNormal];
@@ -49,6 +66,9 @@
     [self.view addSubview:bookBtn];
 
 }
+
+
+#pragma mark - 获取通讯录方法
 
 - (void)bookAction:(UIButton *)sender{
     
@@ -70,6 +90,7 @@
         [alert show];
     }
 }
+
 
 - (void)copyAddressBook:(ABAddressBookRef)addressBook{
     //获取联系人个数
@@ -125,7 +146,7 @@
     NSLog(@"%@",self.linkManArray);
 }
 
-
+#pragma mark - 分享
 - (void)shareAction:(UIButton *)sender{
     
     /*点击后调到的URL*/
