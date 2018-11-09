@@ -7,25 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E52B98FD1D7FCB8B0033A764 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B98FC1D7FCB8B0033A764 /* SystemConfiguration.framework */; };
-		E52B98FF1D7FCBFB0033A764 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B98FE1D7FCBFB0033A764 /* ImageIO.framework */; };
-		E52B99011D7FCC0D0033A764 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B99001D7FCC0D0033A764 /* Security.framework */; };
-		E52B99031D7FCC170033A764 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B99021D7FCC170033A764 /* libiconv.tbd */; };
-		E52B99051D7FCC280033A764 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B99041D7FCC280033A764 /* CoreGraphics.framework */; };
-		E52B99071D7FCC3B0033A764 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B99061D7FCC3B0033A764 /* libsqlite3.tbd */; };
-		E52B99091D7FCC440033A764 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B99081D7FCC440033A764 /* CoreTelephony.framework */; };
-		E52B990B1D7FCC530033A764 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B990A1D7FCC530033A764 /* libstdc++.tbd */; };
-		E52B990D1D7FCC5E0033A764 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E52B990C1D7FCC5E0033A764 /* libz.tbd */; };
 		E53316FD1CFFD942004A2CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E53316FC1CFFD942004A2CB9 /* main.m */; };
 		E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E53316FF1CFFD942004A2CB9 /* AppDelegate.m */; };
 		E53317031CFFD942004A2CB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317021CFFD942004A2CB9 /* ViewController.m */; };
 		E53317061CFFD942004A2CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317041CFFD942004A2CB9 /* Main.storyboard */; };
 		E53317081CFFD942004A2CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53317071CFFD942004A2CB9 /* Assets.xcassets */; };
 		E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */; };
-		E5B009A81F593AC200F5BB73 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009A71F593AC200F5BB73 /* Printer.m */; };
-		E5B009AB1F593B3000F5BB73 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009AA1F593B3000F5BB73 /* ColorPrinter.m */; };
-		E5B009AE1F593B3F00F5BB73 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009AD1F593B3F00F5BB73 /* BlackPrinter.m */; };
-		E5B009B11F593BC400F5BB73 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B009B01F593BC400F5BB73 /* Person.m */; };
+		E58AA8C821958CC8001455F5 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C421958CC7001455F5 /* Printer.m */; };
+		E58AA8C921958CC8001455F5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C521958CC7001455F5 /* Person.m */; };
+		E58AA8CA21958CC8001455F5 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C621958CC7001455F5 /* ColorPrinter.m */; };
+		E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C721958CC7001455F5 /* BlackPrinter.m */; };
+		E58AA8CF21959631001455F5 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8CE21959631001455F5 /* Animal.m */; };
+		E58AA8D221959720001455F5 /* Mammal.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8D121959720001455F5 /* Mammal.m */; };
+		E58AA8D5219597F6001455F5 /* Whale.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8D4219597F6001455F5 /* Whale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E52B98FC1D7FCB8B0033A764 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E52B98FE1D7FCBFB0033A764 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		E52B99001D7FCC0D0033A764 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		E52B99021D7FCC170033A764 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		E52B99041D7FCC280033A764 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E52B99061D7FCC3B0033A764 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		E52B99081D7FCC440033A764 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		E52B990A1D7FCC530033A764 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		E52B990C1D7FCC5E0033A764 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E53316F81CFFD942004A2CB9 /* TempDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53316FC1CFFD942004A2CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E53316FE1CFFD942004A2CB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,14 +52,20 @@
 		E533170C1CFFD942004A2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53317111CFFD942004A2CB9 /* TempDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E533171C1CFFD942004A2CB9 /* TempDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5B009A61F593AC200F5BB73 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
-		E5B009A71F593AC200F5BB73 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
-		E5B009A91F593B3000F5BB73 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
-		E5B009AA1F593B3000F5BB73 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
-		E5B009AC1F593B3F00F5BB73 /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
-		E5B009AD1F593B3F00F5BB73 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
-		E5B009AF1F593BC400F5BB73 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		E5B009B01F593BC400F5BB73 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E58AA8C021958CC7001455F5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E58AA8C121958CC7001455F5 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		E58AA8C221958CC7001455F5 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
+		E58AA8C321958CC7001455F5 /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
+		E58AA8C421958CC7001455F5 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		E58AA8C521958CC7001455F5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E58AA8C621958CC7001455F5 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
+		E58AA8C721958CC7001455F5 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
+		E58AA8CD21959631001455F5 /* Animal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		E58AA8CE21959631001455F5 /* Animal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		E58AA8D021959720001455F5 /* Mammal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mammal.h; sourceTree = "<group>"; };
+		E58AA8D121959720001455F5 /* Mammal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mammal.m; sourceTree = "<group>"; };
+		E58AA8D3219597F6001455F5 /* Whale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Whale.h; sourceTree = "<group>"; };
+		E58AA8D4219597F6001455F5 /* Whale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Whale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,15 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52B990D1D7FCC5E0033A764 /* libz.tbd in Frameworks */,
-				E52B990B1D7FCC530033A764 /* libstdc++.tbd in Frameworks */,
-				E52B99091D7FCC440033A764 /* CoreTelephony.framework in Frameworks */,
-				E52B99071D7FCC3B0033A764 /* libsqlite3.tbd in Frameworks */,
-				E52B99051D7FCC280033A764 /* CoreGraphics.framework in Frameworks */,
-				E52B99031D7FCC170033A764 /* libiconv.tbd in Frameworks */,
-				E52B99011D7FCC0D0033A764 /* Security.framework in Frameworks */,
-				E52B98FF1D7FCBFB0033A764 /* ImageIO.framework in Frameworks */,
-				E52B98FD1D7FCB8B0033A764 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,22 +93,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E52F71171D2132F200539004 /* FrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				E52B990C1D7FCC5E0033A764 /* libz.tbd */,
-				E52B990A1D7FCC530033A764 /* libstdc++.tbd */,
-				E52B99081D7FCC440033A764 /* CoreTelephony.framework */,
-				E52B99061D7FCC3B0033A764 /* libsqlite3.tbd */,
-				E52B99041D7FCC280033A764 /* CoreGraphics.framework */,
-				E52B99021D7FCC170033A764 /* libiconv.tbd */,
-				E52B99001D7FCC0D0033A764 /* Security.framework */,
-				E52B98FE1D7FCBFB0033A764 /* ImageIO.framework */,
-				E52B98FC1D7FCB8B0033A764 /* SystemConfiguration.framework */,
-			);
-			path = FrameWork;
-			sourceTree = "<group>";
-		};
 		E53316EF1CFFD942004A2CB9 = {
 			isa = PBXGroup;
 			children = (
@@ -148,24 +114,16 @@
 		E53316FA1CFFD942004A2CB9 /* TempDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E58AA8BE21958CC7001455F5 /* Class */,
 				E53316FE1CFFD942004A2CB9 /* AppDelegate.h */,
 				E53316FF1CFFD942004A2CB9 /* AppDelegate.m */,
 				E53317011CFFD942004A2CB9 /* ViewController.h */,
 				E53317021CFFD942004A2CB9 /* ViewController.m */,
-				E5B009A61F593AC200F5BB73 /* Printer.h */,
-				E5B009A71F593AC200F5BB73 /* Printer.m */,
-				E5B009A91F593B3000F5BB73 /* ColorPrinter.h */,
-				E5B009AA1F593B3000F5BB73 /* ColorPrinter.m */,
-				E5B009AC1F593B3F00F5BB73 /* BlackPrinter.h */,
-				E5B009AD1F593B3F00F5BB73 /* BlackPrinter.m */,
-				E5B009AF1F593BC400F5BB73 /* Person.h */,
-				E5B009B01F593BC400F5BB73 /* Person.m */,
 				E53317041CFFD942004A2CB9 /* Main.storyboard */,
 				E53317071CFFD942004A2CB9 /* Assets.xcassets */,
 				E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */,
 				E533170C1CFFD942004A2CB9 /* Info.plist */,
 				E53316FB1CFFD942004A2CB9 /* Supporting Files */,
-				E52F71171D2132F200539004 /* FrameWork */,
 			);
 			path = TempDemo;
 			sourceTree = "<group>";
@@ -176,6 +134,43 @@
 				E53316FC1CFFD942004A2CB9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E58AA8BE21958CC7001455F5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E58AA8CC2195950B001455F5 /* designatedInitializer */,
+				E58AA8BF21958CC7001455F5 /* polymorphism */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E58AA8BF21958CC7001455F5 /* polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				E58AA8C021958CC7001455F5 /* Person.h */,
+				E58AA8C521958CC7001455F5 /* Person.m */,
+				E58AA8C121958CC7001455F5 /* Printer.h */,
+				E58AA8C421958CC7001455F5 /* Printer.m */,
+				E58AA8C221958CC7001455F5 /* ColorPrinter.h */,
+				E58AA8C621958CC7001455F5 /* ColorPrinter.m */,
+				E58AA8C321958CC7001455F5 /* BlackPrinter.h */,
+				E58AA8C721958CC7001455F5 /* BlackPrinter.m */,
+			);
+			path = polymorphism;
+			sourceTree = "<group>";
+		};
+		E58AA8CC2195950B001455F5 /* designatedInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				E58AA8CD21959631001455F5 /* Animal.h */,
+				E58AA8CE21959631001455F5 /* Animal.m */,
+				E58AA8D021959720001455F5 /* Mammal.h */,
+				E58AA8D121959720001455F5 /* Mammal.m */,
+				E58AA8D3219597F6001455F5 /* Whale.h */,
+				E58AA8D4219597F6001455F5 /* Whale.m */,
+			);
+			path = designatedInitializer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,13 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B009AB1F593B3000F5BB73 /* ColorPrinter.m in Sources */,
+				E58AA8CA21958CC8001455F5 /* ColorPrinter.m in Sources */,
+				E58AA8C821958CC8001455F5 /* Printer.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
-				E5B009B11F593BC400F5BB73 /* Person.m in Sources */,
+				E58AA8D5219597F6001455F5 /* Whale.m in Sources */,
+				E58AA8C921958CC8001455F5 /* Person.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
-				E5B009A81F593AC200F5BB73 /* Printer.m in Sources */,
+				E58AA8CF21959631001455F5 /* Animal.m in Sources */,
+				E58AA8D221959720001455F5 /* Mammal.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
-				E5B009AE1F593B3F00F5BB73 /* BlackPrinter.m in Sources */,
+				E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
