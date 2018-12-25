@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E53316F71CFFD942004A2CB9"
-               BuildableName = "TempDemo.app"
-               BlueprintName = "TempDemo"
-               ReferencedContainer = "container:TempDemo.xcodeproj">
+               BuildableName = "BJOCDemo.app"
+               BlueprintName = "BJOCDemo"
+               ReferencedContainer = "container:BJOCDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E53317101CFFD942004A2CB9"
-               BuildableName = "TempDemoTests.xctest"
-               BlueprintName = "TempDemoTests"
-               ReferencedContainer = "container:TempDemo.xcodeproj">
+               BuildableName = "BJOCDemoTests.xctest"
+               BlueprintName = "BJOCDemoTests"
+               ReferencedContainer = "container:BJOCDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E533171B1CFFD942004A2CB9"
-               BuildableName = "TempDemoUITests.xctest"
-               BlueprintName = "TempDemoUITests"
-               ReferencedContainer = "container:TempDemo.xcodeproj">
+               BuildableName = "BJOCDemoUITests.xctest"
+               BlueprintName = "BJOCDemoUITests"
+               ReferencedContainer = "container:BJOCDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E53316F71CFFD942004A2CB9"
-            BuildableName = "TempDemo.app"
-            BlueprintName = "TempDemo"
-            ReferencedContainer = "container:TempDemo.xcodeproj">
+            BuildableName = "BJOCDemo.app"
+            BlueprintName = "BJOCDemo"
+            ReferencedContainer = "container:BJOCDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E53316F71CFFD942004A2CB9"
-            BuildableName = "TempDemo.app"
-            BlueprintName = "TempDemo"
-            ReferencedContainer = "container:TempDemo.xcodeproj">
+            BuildableName = "BJOCDemo.app"
+            BlueprintName = "BJOCDemo"
+            ReferencedContainer = "container:BJOCDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -102,9 +102,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E53316F71CFFD942004A2CB9"
-            BuildableName = "TempDemo.app"
-            BlueprintName = "TempDemo"
-            ReferencedContainer = "container:TempDemo.xcodeproj">
+            BuildableName = "BJOCDemo.app"
+            BlueprintName = "BJOCDemo"
+            ReferencedContainer = "container:BJOCDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

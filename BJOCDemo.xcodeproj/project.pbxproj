@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E53316F81CFFD942004A2CB9 /* TempDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53316F81CFFD942004A2CB9 /* BJOCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJOCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53316FC1CFFD942004A2CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E53316FE1CFFD942004A2CB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E53316FF1CFFD942004A2CB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,8 +50,8 @@
 		E53317071CFFD942004A2CB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E533170A1CFFD942004A2CB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E533170C1CFFD942004A2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E53317111CFFD942004A2CB9 /* TempDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E533171C1CFFD942004A2CB9 /* TempDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53317111CFFD942004A2CB9 /* BJOCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJOCDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E533171C1CFFD942004A2CB9 /* BJOCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJOCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58AA8C021958CC7001455F5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		E58AA8C121958CC7001455F5 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
 		E58AA8C221958CC7001455F5 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		E53316EF1CFFD942004A2CB9 = {
 			isa = PBXGroup;
 			children = (
-				E53316FA1CFFD942004A2CB9 /* TempDemo */,
+				E53316FA1CFFD942004A2CB9 /* BJOCDemo */,
 				E53316F91CFFD942004A2CB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,14 +104,14 @@
 		E53316F91CFFD942004A2CB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E53316F81CFFD942004A2CB9 /* TempDemo.app */,
-				E53317111CFFD942004A2CB9 /* TempDemoTests.xctest */,
-				E533171C1CFFD942004A2CB9 /* TempDemoUITests.xctest */,
+				E53316F81CFFD942004A2CB9 /* BJOCDemo.app */,
+				E53317111CFFD942004A2CB9 /* BJOCDemoTests.xctest */,
+				E533171C1CFFD942004A2CB9 /* BJOCDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E53316FA1CFFD942004A2CB9 /* TempDemo */ = {
+		E53316FA1CFFD942004A2CB9 /* BJOCDemo */ = {
 			isa = PBXGroup;
 			children = (
 				E58AA8BE21958CC7001455F5 /* Class */,
@@ -125,7 +125,7 @@
 				E533170C1CFFD942004A2CB9 /* Info.plist */,
 				E53316FB1CFFD942004A2CB9 /* Supporting Files */,
 			);
-			path = TempDemo;
+			path = BJOCDemo;
 			sourceTree = "<group>";
 		};
 		E53316FB1CFFD942004A2CB9 /* Supporting Files */ = {
@@ -176,9 +176,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E53316F71CFFD942004A2CB9 /* TempDemo */ = {
+		E53316F71CFFD942004A2CB9 /* BJOCDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E53317251CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "TempDemo" */;
+			buildConfigurationList = E53317251CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "BJOCDemo" */;
 			buildPhases = (
 				E53316F41CFFD942004A2CB9 /* Sources */,
 				E53316F51CFFD942004A2CB9 /* Frameworks */,
@@ -188,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = TempDemo;
+			name = BJOCDemo;
 			productName = TempDemo;
-			productReference = E53316F81CFFD942004A2CB9 /* TempDemo.app */;
+			productReference = E53316F81CFFD942004A2CB9 /* BJOCDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E53317101CFFD942004A2CB9 /* TempDemoTests */ = {
+		E53317101CFFD942004A2CB9 /* BJOCDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E53317281CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "TempDemoTests" */;
+			buildConfigurationList = E53317281CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "BJOCDemoTests" */;
 			buildPhases = (
 				E533170D1CFFD942004A2CB9 /* Sources */,
 				E533170E1CFFD942004A2CB9 /* Frameworks */,
@@ -206,14 +206,14 @@
 			dependencies = (
 				E53317131CFFD942004A2CB9 /* PBXTargetDependency */,
 			);
-			name = TempDemoTests;
+			name = BJOCDemoTests;
 			productName = TempDemoTests;
-			productReference = E53317111CFFD942004A2CB9 /* TempDemoTests.xctest */;
+			productReference = E53317111CFFD942004A2CB9 /* BJOCDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E533171B1CFFD942004A2CB9 /* TempDemoUITests */ = {
+		E533171B1CFFD942004A2CB9 /* BJOCDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E533172B1CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "TempDemoUITests" */;
+			buildConfigurationList = E533172B1CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "BJOCDemoUITests" */;
 			buildPhases = (
 				E53317181CFFD942004A2CB9 /* Sources */,
 				E53317191CFFD942004A2CB9 /* Frameworks */,
@@ -224,9 +224,9 @@
 			dependencies = (
 				E533171E1CFFD942004A2CB9 /* PBXTargetDependency */,
 			);
-			name = TempDemoUITests;
+			name = BJOCDemoUITests;
 			productName = TempDemoUITests;
-			productReference = E533171C1CFFD942004A2CB9 /* TempDemoUITests.xctest */;
+			productReference = E533171C1CFFD942004A2CB9 /* BJOCDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E53316F31CFFD942004A2CB9 /* Build configuration list for PBXProject "TempDemo" */;
+			buildConfigurationList = E53316F31CFFD942004A2CB9 /* Build configuration list for PBXProject "BJOCDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -267,9 +267,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E53316F71CFFD942004A2CB9 /* TempDemo */,
-				E53317101CFFD942004A2CB9 /* TempDemoTests */,
-				E533171B1CFFD942004A2CB9 /* TempDemoUITests */,
+				E53316F71CFFD942004A2CB9 /* BJOCDemo */,
+				E53317101CFFD942004A2CB9 /* BJOCDemoTests */,
+				E533171B1CFFD942004A2CB9 /* BJOCDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -338,12 +338,12 @@
 /* Begin PBXTargetDependency section */
 		E53317131CFFD942004A2CB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E53316F71CFFD942004A2CB9 /* TempDemo */;
+			target = E53316F71CFFD942004A2CB9 /* BJOCDemo */;
 			targetProxy = E53317121CFFD942004A2CB9 /* PBXContainerItemProxy */;
 		};
 		E533171E1CFFD942004A2CB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E53316F71CFFD942004A2CB9 /* TempDemo */;
+			target = E53316F71CFFD942004A2CB9 /* BJOCDemo */;
 			targetProxy = E533171D1CFFD942004A2CB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -462,7 +462,7 @@
 					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
-				INFOPLIST_FILE = TempDemo/Info.plist;
+				INFOPLIST_FILE = BJOCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -495,7 +495,7 @@
 					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
-				INFOPLIST_FILE = TempDemo/Info.plist;
+				INFOPLIST_FILE = BJOCDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -524,7 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.text.TempDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempDemo.app/TempDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJOCDemo.app/BJOCDemo";
 			};
 			name = Debug;
 		};
@@ -536,7 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.text.TempDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempDemo.app/TempDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BJOCDemo.app/BJOCDemo";
 			};
 			name = Release;
 		};
@@ -565,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E53316F31CFFD942004A2CB9 /* Build configuration list for PBXProject "TempDemo" */ = {
+		E53316F31CFFD942004A2CB9 /* Build configuration list for PBXProject "BJOCDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E53317231CFFD942004A2CB9 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E53317251CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "TempDemo" */ = {
+		E53317251CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "BJOCDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E53317261CFFD942004A2CB9 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E53317281CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "TempDemoTests" */ = {
+		E53317281CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "BJOCDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E53317291CFFD942004A2CB9 /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E533172B1CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "TempDemoUITests" */ = {
+		E533172B1CFFD942004A2CB9 /* Build configuration list for PBXNativeTarget "BJOCDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E533172C1CFFD942004A2CB9 /* Debug */,

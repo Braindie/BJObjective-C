@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TempDemo.xcodeproj">
+      location = "self:/Users/zcgt_ios_01/GitHub/BJObjective-C/BJOCDemo.xcodeproj">
    </FileRef>
 </Workspace>
