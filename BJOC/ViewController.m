@@ -12,7 +12,6 @@
 #import "ColorPrinter.h"
 #import "BlackPrinter.h"
 
-#import "Whale.h"
 
 @interface ViewController ()
     
@@ -28,28 +27,8 @@
 
     [self polymorphism];
     
-    
-    [self designatedInitializer];
-    
-    
 }
-- (void)designatedInitializer{
-    Whale *whale1 = [[Whale alloc] initWhale];                 // 1
-    NSLog(@"whale1 %@", whale1);
-    
-    Whale *whale2 = [[Whale alloc] initWithName:@"Whale"];     // 2
-    NSLog(@"whale2 %@", whale2);
 
-    Whale *whale3 = [[Whale alloc] init];                      // 3
-    NSLog(@"whale3 %@", whale3);
-
-    Whale *whale4 = [[Whale alloc] initWithLegs:4];            // 4
-    NSLog(@"whale4 %@", whale4);
-
-    Whale *whale5 = [[Whale alloc] initWithName:@"Whale" andLegs:8];    // 5
-    NSLog(@"whale5 %@", whale5);
-}
-    
 #pragma mark - 多态
 - (void)polymorphism{
     
@@ -63,6 +42,31 @@
         [person doPrint:colorPrint];
     }else{
         [person doPrint:blackPrint];
+    }
+}
+
+
+#pragma mark - 冒泡排序(由大到小）
+//很容易导致数组越界，后台返回的数据尽量少做处理，因为解析数据时会产生不必要的bug
+- (void)bobSortMethod{
+    
+    NSArray *array = @[@"24",@"17",@"85",@"13",@"9",@"54",@"76",@"45",@"5",@"63"];
+    
+    NSMutableArray *mutableArray = [NSMutableArray arrayWithArray:array];
+    
+    NSInteger num = [array count];
+    for (int  i = 0; i < num-1; i++) {
+        for (int j = 0; j < num - 1 - i; j++) {
+            if ([mutableArray[j] integerValue] < [mutableArray[j+1] integerValue]) {
+                NSString *tmpStr = mutableArray[j];
+                mutableArray[j] = mutableArray[j+1];
+                mutableArray[j+1] = tmpStr;
+            }
+        }
+    }
+    
+    for (int i = 0; i < num; i++) {
+        NSLog(@"%@",mutableArray[i]);
     }
 }
 
