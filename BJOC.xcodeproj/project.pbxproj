@@ -17,6 +17,8 @@
 		E58AA8C921958CC8001455F5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C521958CC7001455F5 /* Person.m */; };
 		E58AA8CA21958CC8001455F5 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C621958CC7001455F5 /* ColorPrinter.m */; };
 		E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C721958CC7001455F5 /* BlackPrinter.m */; };
+		E5B7747D2228E39000893449 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */; };
+		E5B774812228E66800893449 /* BJArithmeticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B774802228E66800893449 /* BJArithmeticViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		E58AA8C521958CC7001455F5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		E58AA8C621958CC7001455F5 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
 		E58AA8C721958CC7001455F5 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
+		E5B7747B2228E39000893449 /* BJPolymorphismViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJPolymorphismViewController.h; sourceTree = "<group>"; };
+		E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJPolymorphismViewController.m; sourceTree = "<group>"; };
+		E5B7747F2228E66700893449 /* BJArithmeticViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJArithmeticViewController.h; sourceTree = "<group>"; };
+		E5B774802228E66800893449 /* BJArithmeticViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJArithmeticViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +136,7 @@
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E5B7747E2228E65300893449 /* arithmetic */,
 				E58AA8BF21958CC7001455F5 /* polymorphism */,
 			);
 			path = Class;
@@ -138,6 +145,8 @@
 		E58AA8BF21958CC7001455F5 /* polymorphism */ = {
 			isa = PBXGroup;
 			children = (
+				E5B7747B2228E39000893449 /* BJPolymorphismViewController.h */,
+				E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */,
 				E58AA8C021958CC7001455F5 /* Person.h */,
 				E58AA8C521958CC7001455F5 /* Person.m */,
 				E58AA8C121958CC7001455F5 /* Printer.h */,
@@ -149,6 +158,16 @@
 			);
 			path = polymorphism;
 			sourceTree = "<group>";
+		};
+		E5B7747E2228E65300893449 /* arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				E5B7747F2228E66700893449 /* BJArithmeticViewController.h */,
+				E5B774802228E66800893449 /* BJArithmeticViewController.m */,
+			);
+			name = arithmetic;
+			path = BJOC/arithmetic;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -290,6 +309,8 @@
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
 				E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */,
+				E5B7747D2228E39000893449 /* BJPolymorphismViewController.m in Sources */,
+				E5B774812228E66800893449 /* BJArithmeticViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
