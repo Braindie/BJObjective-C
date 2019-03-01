@@ -19,7 +19,14 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self maopaoAction];
+    //降序排序（冒泡算法）
+//    [self maopaoAction];
+    
+    //升序排序
+//    [self shenxupaixuAction];
+    
+    //字符串逆序
+    [self stringInverseAction];
 }
 
 
@@ -45,6 +52,41 @@
     for (int i = 0; i < num; i++) {
         NSLog(@"%@",mutableArray[i]);
     }
+}
+
+#pragma mark - 升序排序
+- (void)shenxupaixuAction{
+    NSMutableArray *array = @[@"24",@"17",@"85",@"13",@"9",@"54",@"76",@"45",@"5",@"63"].mutableCopy;
+
+    NSInteger n = array.count;
+    NSInteger index;
+    for (NSInteger i = 0; i < n - 1; i++) {
+        index = i;
+        for (NSInteger j = i + 1; j < n; j++) {
+            if ([array[index] integerValue] > [array[j] integerValue]) {
+                index = j;//获取当前数后面的最小的数的坐标
+            }
+        }
+//        NSLog(@"-----%d",index);
+        if (index != i) {
+            NSString *str = array[i];//获取当前数
+            array[i] = array[index];//把最小的那个数赋给当前数
+            array[index] = str;//把当前数赋给之前最小的数的那个位置
+        }
+        
+//        for (int i = 0; i < n; i++) {
+//            NSLog(@"%@",array[i]);
+//        }
+    }
+    
+    for (int i = 0; i < n; i++) {
+        NSLog(@"%@",array[i]);
+    }
+}
+
+#pragma mark - 字符串逆序
+- (void)stringInverseAction{
+
 }
 
 @end

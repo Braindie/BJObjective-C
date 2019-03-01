@@ -40,7 +40,7 @@ static NSString * str;
     if (indexPath.row == 0) {
         cell.textLabel.text = @"多态";
     }else if (indexPath.row == 1){
-        cell.textLabel.text = @"冒泡算法";
+        cell.textLabel.text = @"算法";
     }
     return cell;
 }
