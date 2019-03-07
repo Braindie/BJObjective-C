@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "BJPolymorphismViewController.h"
 #import "BJArithmeticViewController.h"
+#import "BJDelegateViewController.h"
 
 static NSString * str;
 
@@ -41,6 +42,8 @@ static NSString * str;
         cell.textLabel.text = @"多态";
     }else if (indexPath.row == 1){
         cell.textLabel.text = @"算法";
+    }else if (indexPath.row == 2){
+        cell.textLabel.text = @"代理中的week和assign";
     }
     return cell;
 }
@@ -51,6 +54,9 @@ static NSString * str;
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 1){
         BJArithmeticViewController *vc = [[BJArithmeticViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 2){
+        BJDelegateViewController *vc = [[BJDelegateViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
