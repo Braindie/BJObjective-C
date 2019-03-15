@@ -20,6 +20,10 @@
 		E58AA8C921958CC8001455F5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C521958CC7001455F5 /* Person.m */; };
 		E58AA8CA21958CC8001455F5 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C621958CC7001455F5 /* ColorPrinter.m */; };
 		E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E58AA8C721958CC7001455F5 /* BlackPrinter.m */; };
+		E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */; };
+		E5A37771223BAFCC00CCFDE6 /* BJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37769223BAFCC00CCFDE6 /* BJStudent.m */; };
+		E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */; };
+		E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */; };
 		E5B7747D2228E39000893449 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +71,14 @@
 		E58AA8C521958CC7001455F5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		E58AA8C621958CC7001455F5 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
 		E58AA8C721958CC7001455F5 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
+		E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVCViewController.m; sourceTree = "<group>"; };
+		E5A37768223BAFCC00CCFDE6 /* BJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJStudent.h; sourceTree = "<group>"; };
+		E5A37769223BAFCC00CCFDE6 /* BJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJStudent.m; sourceTree = "<group>"; };
+		E5A3776A223BAFCC00CCFDE6 /* BJKVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVCViewController.h; sourceTree = "<group>"; };
+		E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
+		E5A3776D223BAFCC00CCFDE6 /* BJKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVOViewController.h; sourceTree = "<group>"; };
+		E5A3776E223BAFCC00CCFDE6 /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
+		E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
 		E5B7747B2228E39000893449 /* BJPolymorphismViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJPolymorphismViewController.h; sourceTree = "<group>"; };
 		E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJPolymorphismViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,6 +174,8 @@
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E5A37766223BAFCC00CCFDE6 /* KVC */,
+				E5A3776B223BAFCC00CCFDE6 /* KVO */,
 				E587CD922231207500671170 /* arithmetic */,
 				E587CD912231205A00671170 /* Delegate */,
 				E58AA8BF21958CC7001455F5 /* polymorphism */,
@@ -184,6 +198,28 @@
 				E58AA8C721958CC7001455F5 /* BlackPrinter.m */,
 			);
 			path = polymorphism;
+			sourceTree = "<group>";
+		};
+		E5A37766223BAFCC00CCFDE6 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				E5A3776A223BAFCC00CCFDE6 /* BJKVCViewController.h */,
+				E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */,
+				E5A37768223BAFCC00CCFDE6 /* BJStudent.h */,
+				E5A37769223BAFCC00CCFDE6 /* BJStudent.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		E5A3776B223BAFCC00CCFDE6 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				E5A3776D223BAFCC00CCFDE6 /* BJKVOViewController.h */,
+				E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */,
+				E5A3776E223BAFCC00CCFDE6 /* BJPerson.h */,
+				E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */,
+			);
+			path = KVO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,13 +359,17 @@
 				E58AA8C821958CC8001455F5 /* Printer.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
 				E58AA8C921958CC8001455F5 /* Person.m in Sources */,
+				E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */,
 				E587CD9B2231237100671170 /* BJDelegateView.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
+				E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
 				E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */,
 				E587CD982231208600671170 /* BJDelegateViewController.m in Sources */,
 				E5B7747D2228E39000893449 /* BJPolymorphismViewController.m in Sources */,
 				E587CD952231207500671170 /* BJArithmeticViewController.m in Sources */,
+				E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */,
+				E5A37771223BAFCC00CCFDE6 /* BJStudent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

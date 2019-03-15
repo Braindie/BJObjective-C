@@ -10,6 +10,8 @@
 #import "BJPolymorphismViewController.h"
 #import "BJArithmeticViewController.h"
 #import "BJDelegateViewController.h"
+#import "BJKVCViewController.h"
+#import "BJKVOViewController.h"
 
 static NSString * str;
 
@@ -43,7 +45,11 @@ static NSString * str;
     }else if (indexPath.row == 1){
         cell.textLabel.text = @"算法";
     }else if (indexPath.row == 2){
-        cell.textLabel.text = @"代理中的week和assign";
+        cell.textLabel.text = @"代理";
+    }else if (indexPath.row == 3){
+        cell.textLabel.text = @"KVO";
+    }else if (indexPath.row == 4){
+        cell.textLabel.text = @"KVC";
     }
     return cell;
 }
@@ -57,6 +63,12 @@ static NSString * str;
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.row == 2){
         BJDelegateViewController *vc = [[BJDelegateViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 3){
+        BJKVOViewController *vc = [[BJKVOViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 4){
+        BJKVCViewController *vc = [[BJKVCViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
