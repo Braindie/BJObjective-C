@@ -25,6 +25,10 @@
 		E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */; };
 		E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */; };
 		E5B7747D2228E39000893449 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */; };
+		E5EF1E2A223F38AC005DCC76 /* BJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E29223F38AC005DCC76 /* BJPeople.m */; };
+		E5EF1E2D223F3DCE005DCC76 /* BJObjectOrNot.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E2C223F3DCE005DCC76 /* BJObjectOrNot.m */; };
+		E5EF1E30223F40D8005DCC76 /* BJArrayType.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E2F223F40D8005DCC76 /* BJArrayType.m */; };
+		E5EF1E33223F44C9005DCC76 /* BJDictionaryType.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E32223F44C9005DCC76 /* BJDictionaryType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,14 @@
 		E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
 		E5B7747B2228E39000893449 /* BJPolymorphismViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJPolymorphismViewController.h; sourceTree = "<group>"; };
 		E5B7747C2228E39000893449 /* BJPolymorphismViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJPolymorphismViewController.m; sourceTree = "<group>"; };
+		E5EF1E28223F38AC005DCC76 /* BJPeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJPeople.h; sourceTree = "<group>"; };
+		E5EF1E29223F38AC005DCC76 /* BJPeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJPeople.m; sourceTree = "<group>"; };
+		E5EF1E2B223F3DCE005DCC76 /* BJObjectOrNot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectOrNot.h; sourceTree = "<group>"; };
+		E5EF1E2C223F3DCE005DCC76 /* BJObjectOrNot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJObjectOrNot.m; sourceTree = "<group>"; };
+		E5EF1E2E223F40D8005DCC76 /* BJArrayType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJArrayType.h; sourceTree = "<group>"; };
+		E5EF1E2F223F40D8005DCC76 /* BJArrayType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJArrayType.m; sourceTree = "<group>"; };
+		E5EF1E31223F44C9005DCC76 /* BJDictionaryType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDictionaryType.h; sourceTree = "<group>"; };
+		E5EF1E32223F44C9005DCC76 /* BJDictionaryType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDictionaryType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +219,14 @@
 				E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */,
 				E5A37768223BAFCC00CCFDE6 /* BJStudent.h */,
 				E5A37769223BAFCC00CCFDE6 /* BJStudent.m */,
+				E5EF1E28223F38AC005DCC76 /* BJPeople.h */,
+				E5EF1E29223F38AC005DCC76 /* BJPeople.m */,
+				E5EF1E2B223F3DCE005DCC76 /* BJObjectOrNot.h */,
+				E5EF1E2C223F3DCE005DCC76 /* BJObjectOrNot.m */,
+				E5EF1E2E223F40D8005DCC76 /* BJArrayType.h */,
+				E5EF1E2F223F40D8005DCC76 /* BJArrayType.m */,
+				E5EF1E31223F44C9005DCC76 /* BJDictionaryType.h */,
+				E5EF1E32223F44C9005DCC76 /* BJDictionaryType.m */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -359,11 +379,15 @@
 				E58AA8C821958CC8001455F5 /* Printer.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
 				E58AA8C921958CC8001455F5 /* Person.m in Sources */,
+				E5EF1E33223F44C9005DCC76 /* BJDictionaryType.m in Sources */,
 				E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */,
 				E587CD9B2231237100671170 /* BJDelegateView.m in Sources */,
+				E5EF1E2A223F38AC005DCC76 /* BJPeople.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
+				E5EF1E2D223F3DCE005DCC76 /* BJObjectOrNot.m in Sources */,
 				E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
+				E5EF1E30223F40D8005DCC76 /* BJArrayType.m in Sources */,
 				E58AA8CB21958CC8001455F5 /* BlackPrinter.m in Sources */,
 				E587CD982231208600671170 /* BJDelegateViewController.m in Sources */,
 				E5B7747D2228E39000893449 /* BJPolymorphismViewController.m in Sources */,
