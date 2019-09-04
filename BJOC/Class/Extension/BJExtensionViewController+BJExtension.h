@@ -11,7 +11,11 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BJExtensionViewController ()
+
 @property (nonatomic, copy) NSString *myName;
+
+- (void)printMyName;
+
 @end
 
 NS_ASSUME_NONNULL_END

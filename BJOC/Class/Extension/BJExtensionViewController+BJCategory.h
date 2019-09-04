@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface BJExtensionViewController (BJCategory)
 
 - (void)categoryMethod;
+
 @end
 
 NS_ASSUME_NONNULL_END
