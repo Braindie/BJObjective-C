@@ -35,48 +35,81 @@ static NSString * str;
 
 
 #pragma mark - UITableViewDelegate
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+  return 3;
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 10;
+  if (section == 0) {
+    return 1;
+  } else if (section == 1) {
+    return 3;
+  } else if (section == 2) {
+    return 2;
+  } else {
+    return 0;
+  }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
+  if (indexPath.section == 0) {
     if (indexPath.row == 0) {
-        cell.textLabel.text = @"算法";
-    }else if (indexPath.row == 1){
-        cell.textLabel.text = @"多态（swift类似）";
-    }else if (indexPath.row == 2){
-        cell.textLabel.text = @"代理";
-    }else if (indexPath.row == 3){
-        cell.textLabel.text = @"KVO";
-    }else if (indexPath.row == 4){
-        cell.textLabel.text = @"KVC";
-    }else if (indexPath.row == 5){
-        cell.textLabel.text = @"扩展、分类";
+      cell.textLabel.text = @"算法";
     }
+  } else if (indexPath.section == 1) {
+    if (indexPath.row == 0){
+      cell.textLabel.text = @"多态";
+    }else if (indexPath.row == 1){
+      cell.textLabel.text = @"扩展、分类";
+    }else if (indexPath.row == 2){
+      cell.textLabel.text = @"KVC";
+    }
+  } else if (indexPath.section == 2) {
+    if (indexPath.row == 0){
+      cell.textLabel.text = @"代理";
+    }else if (indexPath.row == 1){
+      cell.textLabel.text = @"KVO";
+    }
+  }
+
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+  if (indexPath.section == 0) {
     if (indexPath.row == 0) {
-        BJArithmeticViewController *vc = [[BJArithmeticViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }else if (indexPath.row == 1){
-        BJPolymorphismViewController *vc = [[BJPolymorphismViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }else if (indexPath.row == 2){
-        BJDelegateViewController *vc = [[BJDelegateViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }else if (indexPath.row == 3){
-        BJKVOViewController *vc = [[BJKVOViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }else if (indexPath.row == 4){
-        BJKVCViewController *vc = [[BJKVCViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
-    }else if (indexPath.row == 5){
-        BJExtensionViewController *vc = [[BJExtensionViewController alloc] init];
-        [self.navigationController pushViewController:vc animated:YES];
+      BJArithmeticViewController *vc = [[BJArithmeticViewController alloc] init];
+      [self.navigationController pushViewController:vc animated:YES];
     }
+  } else if (indexPath.section == 1) {
+    if (indexPath.row == 0){
+      BJPolymorphismViewController *vc = [[BJPolymorphismViewController alloc] init];
+      [self.navigationController pushViewController:vc animated:YES];
+      
+    }else if (indexPath.row == 1){
+      BJExtensionViewController *vc = [[BJExtensionViewController alloc] init];
+      [self.navigationController pushViewController:vc animated:YES];
+      
+    }else if (indexPath.row == 2){
+      BJKVCViewController *vc = [[BJKVCViewController alloc] init];
+      [self.navigationController pushViewController:vc animated:YES];
+      
+    }
+  } else if (indexPath.section == 2) {
+    if (indexPath.row == 0){
+      BJDelegateViewController *vc = [[BJDelegateViewController alloc] init];
+      [self.navigationController pushViewController:vc animated:YES];
+      
+    }else if (indexPath.row == 1){
+      BJKVOViewController *vc = [[BJKVOViewController alloc] init];
+      [self.navigationController pushViewController:vc animated:YES];
+      
+    }
+  }
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+  return 50;
 }
 
 

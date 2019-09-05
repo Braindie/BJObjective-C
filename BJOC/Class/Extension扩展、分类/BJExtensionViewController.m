@@ -40,6 +40,7 @@
   
   // 调用分类的方法
   [self categoryMethod];
+  NSStringFromSelector(@selector(categoryMethod));
 }
 
 - (void)printExtension{
