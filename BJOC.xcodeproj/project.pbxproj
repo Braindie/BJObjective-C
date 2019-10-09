@@ -170,7 +170,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E587CD912231205A00671170 /* Delegate */ = {
+		E587CD912231205A00671170 /* Delegate代理 */ = {
 			isa = PBXGroup;
 			children = (
 				E587CD962231208600671170 /* BJDelegateViewController.h */,
@@ -178,18 +178,18 @@
 				E587CD992231237100671170 /* BJDelegateView.h */,
 				E587CD9A2231237100671170 /* BJDelegateView.m */,
 			);
-			path = Delegate;
+			path = "Delegate代理";
 			sourceTree = "<group>";
 		};
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				E5C2F92E22B8BCEF00F0CECE /* Extension */,
-				E5C2F92222B8889B00F0CECE /* Arithmetic */,
-				E5C2F91222B8870200F0CECE /* Polymorphism */,
+				E5C2F92222B8889B00F0CECE /* Arithmetic算法 */,
+				E5C2F91222B8870200F0CECE /* Polymorphism多态 */,
+				E5C2F92E22B8BCEF00F0CECE /* Extension扩展、分类 */,
 				E5A37766223BAFCC00CCFDE6 /* KVC */,
+				E587CD912231205A00671170 /* Delegate代理 */,
 				E5A3776B223BAFCC00CCFDE6 /* KVO */,
-				E587CD912231205A00671170 /* Delegate */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			path = KVO;
 			sourceTree = "<group>";
 		};
-		E5C2F91222B8870200F0CECE /* Polymorphism */ = {
+		E5C2F91222B8870200F0CECE /* Polymorphism多态 */ = {
 			isa = PBXGroup;
 			children = (
 				E5C2F91522B8870200F0CECE /* BJPolymorphismViewController.h */,
@@ -238,19 +238,19 @@
 				E5C2F91722B8870200F0CECE /* BlackPrinter.h */,
 				E5C2F91C22B8870200F0CECE /* BlackPrinter.m */,
 			);
-			path = Polymorphism;
+			path = "Polymorphism多态";
 			sourceTree = "<group>";
 		};
-		E5C2F92222B8889B00F0CECE /* Arithmetic */ = {
+		E5C2F92222B8889B00F0CECE /* Arithmetic算法 */ = {
 			isa = PBXGroup;
 			children = (
 				E5C2F92322B8889B00F0CECE /* BJArithmeticViewController.h */,
 				E5C2F92422B8889B00F0CECE /* BJArithmeticViewController.m */,
 			);
-			path = Arithmetic;
+			path = "Arithmetic算法";
 			sourceTree = "<group>";
 		};
-		E5C2F92E22B8BCEF00F0CECE /* Extension */ = {
+		E5C2F92E22B8BCEF00F0CECE /* Extension扩展、分类 */ = {
 			isa = PBXGroup;
 			children = (
 				E5C2F92F22B8BCFD00F0CECE /* BJExtensionViewController.h */,
@@ -259,7 +259,7 @@
 				E5C2F93422B8C43100F0CECE /* BJExtensionViewController+BJCategory.h */,
 				E5C2F93522B8C43100F0CECE /* BJExtensionViewController+BJCategory.m */,
 			);
-			path = Extension;
+			path = "Extension扩展、分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

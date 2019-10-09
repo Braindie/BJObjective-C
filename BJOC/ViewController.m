@@ -44,7 +44,7 @@ static NSString * str;
   } else if (section == 1) {
     return 3;
   } else if (section == 2) {
-    return 2;
+    return 4;
   } else {
     return 0;
   }
@@ -68,7 +68,11 @@ static NSString * str;
     if (indexPath.row == 0){
       cell.textLabel.text = @"代理";
     }else if (indexPath.row == 1){
-      cell.textLabel.text = @"KVO";
+      cell.textLabel.text = @"Block";
+    }else if (indexPath.row == 2){
+        cell.textLabel.text = @"通知";
+    }else if (indexPath.row == 3){
+        cell.textLabel.text = @"KVO";
     }
   }
 
@@ -101,15 +105,25 @@ static NSString * str;
       [self.navigationController pushViewController:vc animated:YES];
       
     }else if (indexPath.row == 1){
-      BJKVOViewController *vc = [[BJKVOViewController alloc] init];
-      [self.navigationController pushViewController:vc animated:YES];
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"有个单独的Demo" preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+        [self.navigationController presentViewController:alert animated:YES completion:nil];
       
+    }else if (indexPath.row == 2){
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"太常见了，没写" preferredStyle:UIAlertControllerStyleAlert];
+        [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
+        [self.navigationController presentViewController:alert animated:YES completion:nil];
+        
+    }else if (indexPath.row == 3){
+        BJKVOViewController *vc = [[BJKVOViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
     }
   }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-  return 50;
+    return 80;
 }
 
 
