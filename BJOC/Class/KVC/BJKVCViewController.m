@@ -63,10 +63,10 @@
     ads.country = @"China";//set方法设值
     people1.address = ads;
     NSString *country1 = people1.address.country;//get方法获取
-    NSString *country2 = [people1 valueForKeyPath:@"address.country"];//KVO方式获取
+    NSString *country2 = [people1 valueForKeyPath:@"address.country"];//KVC方式获取
     NSLog(@"country1-%@，country2-%@",country1,country2);
     
-    [people1 setValue:@"USA" forKeyPath:@"address.country"];//KVO方式设值
+    [people1 setValue:@"USA" forKeyPath:@"address.country"];//KVC方式设值
     country1 = people1.address.country;
     country2 = [people1 valueForKeyPath:@"address.country"];
     NSLog(@"country1-%@，country2-%@",country1,country2);

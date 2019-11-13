@@ -13,6 +13,15 @@
 		E53317061CFFD942004A2CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317041CFFD942004A2CB9 /* Main.storyboard */; };
 		E53317081CFFD942004A2CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53317071CFFD942004A2CB9 /* Assets.xcassets */; };
 		E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */; };
+		E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */; };
+		E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */; };
+		E56180E7237BF79300A316C8 /* UIFont+BJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D4237BF79200A316C8 /* UIFont+BJFont.m */; };
+		E56180E8237BF79300A316C8 /* BJRuntimeFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D7237BF79200A316C8 /* BJRuntimeFontViewController.m */; };
+		E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */; };
+		E56180EA237BF79300A316C8 /* BJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DB237BF79200A316C8 /* BJObject.m */; };
+		E56180EB237BF79300A316C8 /* UIControl+BJRuntimeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DF237BF79200A316C8 /* UIControl+BJRuntimeControl.m */; };
+		E56180EC237BF79300A316C8 /* BJRuntimeButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180E0237BF79200A316C8 /* BJRuntimeButtonViewController.m */; };
+		E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */; };
 		E587CD982231208600671170 /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E587CD972231208600671170 /* BJDelegateViewController.m */; };
 		E587CD9B2231237100671170 /* BJDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = E587CD9A2231237100671170 /* BJDelegateView.m */; };
 		E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */; };
@@ -63,6 +72,24 @@
 		E533170C1CFFD942004A2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53317111CFFD942004A2CB9 /* BJOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E533171C1CFFD942004A2CB9 /* BJOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E56180CD237BF79200A316C8 /* BJRuntimeForwordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeForwordViewController.h; sourceTree = "<group>"; };
+		E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeForwordViewController.m; sourceTree = "<group>"; };
+		E56180D0237BF79200A316C8 /* BJRuntimeGrammarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeGrammarViewController.h; sourceTree = "<group>"; };
+		E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeGrammarViewController.m; sourceTree = "<group>"; };
+		E56180D4237BF79200A316C8 /* UIFont+BJFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BJFont.m"; sourceTree = "<group>"; };
+		E56180D5237BF79200A316C8 /* BJRuntimeFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeFontViewController.h; sourceTree = "<group>"; };
+		E56180D6237BF79200A316C8 /* UIFont+BJFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BJFont.h"; sourceTree = "<group>"; };
+		E56180D7237BF79200A316C8 /* BJRuntimeFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeFontViewController.m; sourceTree = "<group>"; };
+		E56180D9237BF79200A316C8 /* BJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJObject.h; sourceTree = "<group>"; };
+		E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJClassAndObjectViewController.m; sourceTree = "<group>"; };
+		E56180DB237BF79200A316C8 /* BJObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJObject.m; sourceTree = "<group>"; };
+		E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJClassAndObjectViewController.h; sourceTree = "<group>"; };
+		E56180DE237BF79200A316C8 /* BJRuntimeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeButtonViewController.h; sourceTree = "<group>"; };
+		E56180DF237BF79200A316C8 /* UIControl+BJRuntimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BJRuntimeControl.m"; sourceTree = "<group>"; };
+		E56180E0237BF79200A316C8 /* BJRuntimeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeButtonViewController.m; sourceTree = "<group>"; };
+		E56180E1237BF79200A316C8 /* UIControl+BJRuntimeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BJRuntimeControl.h"; sourceTree = "<group>"; };
+		E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJSelfAndSuperViewController.m; sourceTree = "<group>"; };
+		E56180F2237BF9CF00A316C8 /* BJSelfAndSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJSelfAndSuperViewController.h; sourceTree = "<group>"; };
 		E587CD962231208600671170 /* BJDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegateViewController.h; sourceTree = "<group>"; };
 		E587CD972231208600671170 /* BJDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDelegateViewController.m; sourceTree = "<group>"; };
 		E587CD992231237100671170 /* BJDelegateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegateView.h; sourceTree = "<group>"; };
@@ -170,6 +197,87 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E56180C4237BF79200A316C8 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				E56180ED237BF9CF00A316C8 /* runtimeMassageSend */,
+				E56180CC237BF79200A316C8 /* runtimeMassageForword */,
+				E56180CF237BF79200A316C8 /* runtimeGrammar */,
+				E56180D2237BF79200A316C8 /* runtimeMethodSwizzling */,
+				E56180D3237BF79200A316C8 /* runtimeFont */,
+				E56180D8237BF79200A316C8 /* classAndNSObject */,
+				E56180DD237BF79200A316C8 /* runtimeButton */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		E56180CC237BF79200A316C8 /* runtimeMassageForword */ = {
+			isa = PBXGroup;
+			children = (
+				E56180CD237BF79200A316C8 /* BJRuntimeForwordViewController.h */,
+				E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */,
+			);
+			path = runtimeMassageForword;
+			sourceTree = "<group>";
+		};
+		E56180CF237BF79200A316C8 /* runtimeGrammar */ = {
+			isa = PBXGroup;
+			children = (
+				E56180D0237BF79200A316C8 /* BJRuntimeGrammarViewController.h */,
+				E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */,
+			);
+			path = runtimeGrammar;
+			sourceTree = "<group>";
+		};
+		E56180D2237BF79200A316C8 /* runtimeMethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = runtimeMethodSwizzling;
+			sourceTree = "<group>";
+		};
+		E56180D3237BF79200A316C8 /* runtimeFont */ = {
+			isa = PBXGroup;
+			children = (
+				E56180D6237BF79200A316C8 /* UIFont+BJFont.h */,
+				E56180D4237BF79200A316C8 /* UIFont+BJFont.m */,
+				E56180D5237BF79200A316C8 /* BJRuntimeFontViewController.h */,
+				E56180D7237BF79200A316C8 /* BJRuntimeFontViewController.m */,
+			);
+			path = runtimeFont;
+			sourceTree = "<group>";
+		};
+		E56180D8237BF79200A316C8 /* classAndNSObject */ = {
+			isa = PBXGroup;
+			children = (
+				E56180D9237BF79200A316C8 /* BJObject.h */,
+				E56180DB237BF79200A316C8 /* BJObject.m */,
+				E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */,
+				E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */,
+			);
+			path = classAndNSObject;
+			sourceTree = "<group>";
+		};
+		E56180DD237BF79200A316C8 /* runtimeButton */ = {
+			isa = PBXGroup;
+			children = (
+				E56180DE237BF79200A316C8 /* BJRuntimeButtonViewController.h */,
+				E56180E0237BF79200A316C8 /* BJRuntimeButtonViewController.m */,
+				E56180E1237BF79200A316C8 /* UIControl+BJRuntimeControl.h */,
+				E56180DF237BF79200A316C8 /* UIControl+BJRuntimeControl.m */,
+			);
+			path = runtimeButton;
+			sourceTree = "<group>";
+		};
+		E56180ED237BF9CF00A316C8 /* runtimeMassageSend */ = {
+			isa = PBXGroup;
+			children = (
+				E56180F2237BF9CF00A316C8 /* BJSelfAndSuperViewController.h */,
+				E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */,
+			);
+			path = runtimeMassageSend;
+			sourceTree = "<group>";
+		};
 		E587CD912231205A00671170 /* Delegate代理 */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +292,7 @@
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E56180C4237BF79200A316C8 /* Runtime */,
 				E5C2F92222B8889B00F0CECE /* Arithmetic算法 */,
 				E5C2F91222B8870200F0CECE /* Polymorphism多态 */,
 				E5C2F92E22B8BCEF00F0CECE /* Extension扩展、分类 */,
@@ -398,20 +507,29 @@
 			files = (
 				E5C2F92022B8870200F0CECE /* ColorPrinter.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
+				E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */,
 				E5C2F93122B8BCFD00F0CECE /* BJExtensionViewController.m in Sources */,
 				E5EF1E33223F44C9005DCC76 /* BJDictionaryType.m in Sources */,
+				E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */,
+				E56180EC237BF79300A316C8 /* BJRuntimeButtonViewController.m in Sources */,
 				E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */,
 				E5C2F92522B8889B00F0CECE /* BJArithmeticViewController.m in Sources */,
 				E587CD9B2231237100671170 /* BJDelegateView.m in Sources */,
+				E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */,
 				E5C2F91F22B8870200F0CECE /* Person.m in Sources */,
+				E56180E8237BF79300A316C8 /* BJRuntimeFontViewController.m in Sources */,
 				E5EF1E2A223F38AC005DCC76 /* BJPeople.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
 				E5EF1E2D223F3DCE005DCC76 /* BJObjectOrNot.m in Sources */,
 				E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */,
+				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
 				E5C2F91E22B8870200F0CECE /* Printer.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
 				E5EF1E30223F40D8005DCC76 /* BJArrayType.m in Sources */,
 				E5C2F93622B8C43100F0CECE /* BJExtensionViewController+BJCategory.m in Sources */,
+				E56180E7237BF79300A316C8 /* UIFont+BJFont.m in Sources */,
+				E56180EB237BF79300A316C8 /* UIControl+BJRuntimeControl.m in Sources */,
+				E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */,
 				E587CD982231208600671170 /* BJDelegateViewController.m in Sources */,
 				E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */,
 				E5A37771223BAFCC00CCFDE6 /* BJStudent.m in Sources */,
@@ -558,26 +676,11 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = F79H2LLK8B;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = BJOC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/TempDemo/UMSocial_Sdk_5.2.1",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/Wechat",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_5.2.1",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_5.2.1",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.text.TempDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -591,26 +694,11 @@
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = F79H2LLK8B;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = BJOC/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/TempDemo/UMSocial_Sdk_5.2.1",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_Extra_Frameworks/Wechat",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/UMSocial_Sdk_5.2.1",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_5.2.1",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/SinaSSO",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
-					"$(PROJECT_DIR)/TempDemo/FrameWork/umeng_ios_social_sdk_5.2.1_arm64_custom/UMSocial_Sdk_Extra_Frameworks/Wechat",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.text.TempDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

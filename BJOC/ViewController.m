@@ -14,6 +14,13 @@
 #import "BJKVOViewController.h"
 #import "BJExtensionViewController.h"
 
+//#import "BJSelfAndSuperViewController.h"
+#import "BJRuntimeGrammarViewController.h"
+#import "BJRuntimeButtonViewController.h"
+#import "BJRuntimeFontViewController.h"
+#import "BJRuntimeForwordViewController.h"
+#import "BJClassAndObjectViewController.h"
+
 static NSString * str;
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -27,6 +34,7 @@ static NSString * str;
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+    self.title = @"OC";
 
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -36,7 +44,7 @@ static NSString * str;
 
 #pragma mark - UITableViewDelegate
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-  return 3;
+  return 4;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
   if (section == 0) {
@@ -45,6 +53,8 @@ static NSString * str;
     return 4;
   } else if (section == 2) {
     return 4;
+  } else if (section == 3) {
+     return 7;
   } else {
     return 0;
   }
@@ -73,6 +83,28 @@ static NSString * str;
           cell.textLabel.text = @"扩展、分类";
       }else if (indexPath.row == 2){
           cell.textLabel.text = @"KVC";
+      }
+  } else if (indexPath.section == 3) {
+      if (indexPath.row == 0) {
+        cell.textLabel.text = @"Runtime与NSObject";
+
+      }else if (indexPath.row == 1){
+        cell.textLabel.text = @"Runtime库函数";
+
+      }else if (indexPath.row == 2){
+        cell.textLabel.text = @"消息发送（objc_msgSend）";
+
+      }else if (indexPath.row == 3){
+        cell.textLabel.text = @"消息转发（objc_msgForward）";
+
+      }else if (indexPath.row == 4){
+        cell.textLabel.text = @"方法交换（Method Swizzling）";
+        
+      }else if (indexPath.row == 5){
+        cell.textLabel.text = @"应用（防止按钮重复点击）";
+          
+      }else if (indexPath.row == 6){
+        cell.textLabel.text = @"应用（修改字体大小）";
       }
   }
 
@@ -119,11 +151,64 @@ static NSString * str;
           [self.navigationController pushViewController:vc animated:YES];
           
       }
+  } else if (indexPath.section == 3) {
+      if (indexPath.row == 0) {
+        BJClassAndObjectViewController *vc = [[BJClassAndObjectViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+      }else if (indexPath.row == 1){
+        BJRuntimeGrammarViewController *vc = [[BJRuntimeGrammarViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+      }else if (indexPath.row == 2){
+//        BJSelfAndSuperViewController *vc = [[BJSelfAndSuperViewController alloc] init];
+//        [self.navigationController pushViewController:vc animated:YES];
+        
+      }else if (indexPath.row == 3){
+        BJRuntimeForwordViewController *vc = [[BJRuntimeForwordViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+      }else if (indexPath.row == 4){
+          BJRuntimeButtonViewController *vc = [[BJRuntimeButtonViewController alloc] init];
+          [self.navigationController pushViewController:vc animated:YES];
+        
+      }else if (indexPath.row == 5){
+          BJRuntimeFontViewController *vc = [[BJRuntimeFontViewController alloc] init];
+          [self.navigationController pushViewController:vc animated:YES];
+        
+      }
   }
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 80;
+    return 50;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 50)];
+    view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(15, 10, 250, 40)];
+    label.font = [UIFont boldSystemFontOfSize:20];
+    [view addSubview:label];
+    
+    switch (section) {
+        case 0:
+            label.text = @"算法";
+            break;
+        case 1:
+            label.text = @"通信方式";
+            break;
+        case 2:
+            label.text = @"一般语法";
+            break;
+        case 3:
+            label.text = @"重要语法（Runtime）";
+            break;
+        default:
+            break;
+    }
+    
+    return view;
 }
 
 
