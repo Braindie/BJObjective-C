@@ -25,7 +25,7 @@
 @implementation BJInitViewTypeViewController
 
 /*
- 当类或分类（Category）被加载到 Objective-C runtime 时（就是被引用的时候）被调用的，实现这个方法可以让我们在类加载的时候执行一些类相关的行为。当类被引用进项目的时候就会执行 load 函数（在 main 函数开始执行之前），与这个类是否被用到无关，每个类的 load 函数只会自动调用一次。
+ 当类或分类（Category）被加载到 Objective-C runtime 时（就是被引用的时候）被调用的，实现这个方法可以让我们在类加载的时候执行一些类相关的行为。当类被引用进项目的时候就会执行 load 函数（在 main 函数开始执行之前），与这个类是否被用到无关，每个类的 load 函数只会自动调用一次。x
  */
 + (void)load{
   NSLog(@"load");
@@ -38,9 +38,19 @@
   NSLog(@"initialize");
 }
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        NSLog(@"%s",__func__);
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     
     NSLog(@"%s",__func__);
     

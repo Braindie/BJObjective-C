@@ -17,13 +17,14 @@
 //        [self setNeedsLayout];
 //        [self layoutIfNeeded];
 //        [self setNeedsDisplay];
-        NSLog(@"%s",__func__);
         
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.backgroundColor = [UIColor blackColor];
         btn.frame = CGRectMake(0, 0, 30, 30);
         [btn addTarget:self action:@selector(btnAction:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:btn];
+        
+        NSLog(@"%s",__func__);
 
     }
     return self;
@@ -60,10 +61,10 @@
 
 
 - (void)btnAction:(UIButton *)sender{
-    //调用layoutSubviews
-    //    [self setNeedsLayout];
-    //
-    [self layoutIfNeeded];
+    //马上调用layoutSubviews
+    [self setNeedsLayout];
+
+//    [self layoutIfNeeded];
 }
 
 @end
