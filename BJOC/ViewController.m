@@ -14,6 +14,9 @@
 #import "BJKVOViewController.h"
 #import "BJExtensionViewController.h"
 
+#import "BJDesignatedInitializerViewController.h"
+#import "BJInitViewTypeViewController.h"
+
 //#import "BJSelfAndSuperViewController.h"
 #import "BJRuntimeGrammarViewController.h"
 #import "BJRuntimeButtonViewController.h"
@@ -52,7 +55,7 @@ static NSString * str;
   } else if (section == 1) {
     return 4;
   } else if (section == 2) {
-    return 4;
+    return 5;
   } else if (section == 3) {
      return 7;
   } else {
@@ -83,6 +86,10 @@ static NSString * str;
           cell.textLabel.text = @"扩展、分类";
       }else if (indexPath.row == 2){
           cell.textLabel.text = @"KVC";
+      }else if (indexPath.row == 3){
+          cell.textLabel.text = @"生命周期";
+      }else if (indexPath.row == 4){
+          cell.textLabel.text = @"初始化函数";
       }
   } else if (indexPath.section == 3) {
       if (indexPath.row == 0) {
@@ -150,6 +157,14 @@ static NSString * str;
           BJKVCViewController *vc = [[BJKVCViewController alloc] init];
           [self.navigationController pushViewController:vc animated:YES];
           
+      } else if (indexPath.row == 3){
+          BJInitViewTypeViewController *vc = [[BJInitViewTypeViewController alloc] init];
+          vc.title = @"生命周期";
+          [self.navigationController pushViewController:vc animated:YES];
+      } else if (indexPath.row == 4){
+          BJDesignatedInitializerViewController *vc = [[BJDesignatedInitializerViewController alloc] init];
+          vc.title = @"指定初始化函数";
+          [self.navigationController pushViewController:vc animated:YES];
       }
   } else if (indexPath.section == 3) {
       if (indexPath.row == 0) {

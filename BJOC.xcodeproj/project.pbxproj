@@ -24,6 +24,12 @@
 		E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */; };
 		E587CD982231208600671170 /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E587CD972231208600671170 /* BJDelegateViewController.m */; };
 		E587CD9B2231237100671170 /* BJDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = E587CD9A2231237100671170 /* BJDelegateView.m */; };
+		E58DC5B42383C3B80080FAAB /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5A82383C3B80080FAAB /* Animal.m */; };
+		E58DC5B52383C3B80080FAAB /* BJDesignatedInitializerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5AA2383C3B80080FAAB /* BJDesignatedInitializerViewController.m */; };
+		E58DC5B62383C3B90080FAAB /* BJuseXIBinit.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58DC5AD2383C3B80080FAAB /* BJuseXIBinit.xib */; };
+		E58DC5B72383C3B90080FAAB /* BJuseCODEinit.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5AE2383C3B80080FAAB /* BJuseCODEinit.m */; };
+		E58DC5B82383C3B90080FAAB /* BJInitViewTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5AF2383C3B80080FAAB /* BJInitViewTypeViewController.m */; };
+		E58DC5B92383C3B90080FAAB /* BJuseXIBinit.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5B02383C3B80080FAAB /* BJuseXIBinit.m */; };
 		E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */; };
 		E5A37771223BAFCC00CCFDE6 /* BJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37769223BAFCC00CCFDE6 /* BJStudent.m */; };
 		E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */; };
@@ -94,6 +100,17 @@
 		E587CD972231208600671170 /* BJDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDelegateViewController.m; sourceTree = "<group>"; };
 		E587CD992231237100671170 /* BJDelegateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegateView.h; sourceTree = "<group>"; };
 		E587CD9A2231237100671170 /* BJDelegateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDelegateView.m; sourceTree = "<group>"; };
+		E58DC5A82383C3B80080FAAB /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		E58DC5A92383C3B80080FAAB /* BJDesignatedInitializerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDesignatedInitializerViewController.h; sourceTree = "<group>"; };
+		E58DC5AA2383C3B80080FAAB /* BJDesignatedInitializerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDesignatedInitializerViewController.m; sourceTree = "<group>"; };
+		E58DC5AB2383C3B80080FAAB /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		E58DC5AD2383C3B80080FAAB /* BJuseXIBinit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJuseXIBinit.xib; sourceTree = "<group>"; };
+		E58DC5AE2383C3B80080FAAB /* BJuseCODEinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJuseCODEinit.m; sourceTree = "<group>"; };
+		E58DC5AF2383C3B80080FAAB /* BJInitViewTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJInitViewTypeViewController.m; sourceTree = "<group>"; };
+		E58DC5B02383C3B80080FAAB /* BJuseXIBinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJuseXIBinit.m; sourceTree = "<group>"; };
+		E58DC5B12383C3B80080FAAB /* BJInitViewTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJInitViewTypeViewController.h; sourceTree = "<group>"; };
+		E58DC5B22383C3B80080FAAB /* BJuseCODEinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseCODEinit.h; sourceTree = "<group>"; };
+		E58DC5B32383C3B80080FAAB /* BJuseXIBinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseXIBinit.h; sourceTree = "<group>"; };
 		E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVCViewController.m; sourceTree = "<group>"; };
 		E5A37768223BAFCC00CCFDE6 /* BJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJStudent.h; sourceTree = "<group>"; };
 		E5A37769223BAFCC00CCFDE6 /* BJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJStudent.m; sourceTree = "<group>"; };
@@ -292,6 +309,8 @@
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				E58DC5A72383C3B80080FAAB /* BJDesignatedInit */,
+				E58DC5AC2383C3B80080FAAB /* BJViewLife */,
 				E56180C4237BF79200A316C8 /* Runtime */,
 				E5C2F92222B8889B00F0CECE /* Arithmetic算法 */,
 				E5C2F91222B8870200F0CECE /* Polymorphism多态 */,
@@ -301,6 +320,31 @@
 				E5A3776B223BAFCC00CCFDE6 /* KVO */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		E58DC5A72383C3B80080FAAB /* BJDesignatedInit */ = {
+			isa = PBXGroup;
+			children = (
+				E58DC5A92383C3B80080FAAB /* BJDesignatedInitializerViewController.h */,
+				E58DC5AA2383C3B80080FAAB /* BJDesignatedInitializerViewController.m */,
+				E58DC5AB2383C3B80080FAAB /* Animal.h */,
+				E58DC5A82383C3B80080FAAB /* Animal.m */,
+			);
+			path = BJDesignatedInit;
+			sourceTree = "<group>";
+		};
+		E58DC5AC2383C3B80080FAAB /* BJViewLife */ = {
+			isa = PBXGroup;
+			children = (
+				E58DC5B12383C3B80080FAAB /* BJInitViewTypeViewController.h */,
+				E58DC5AF2383C3B80080FAAB /* BJInitViewTypeViewController.m */,
+				E58DC5B22383C3B80080FAAB /* BJuseCODEinit.h */,
+				E58DC5AE2383C3B80080FAAB /* BJuseCODEinit.m */,
+				E58DC5B32383C3B80080FAAB /* BJuseXIBinit.h */,
+				E58DC5B02383C3B80080FAAB /* BJuseXIBinit.m */,
+				E58DC5AD2383C3B80080FAAB /* BJuseXIBinit.xib */,
+			);
+			path = BJViewLife;
 			sourceTree = "<group>";
 		};
 		E5A37766223BAFCC00CCFDE6 /* KVC */ = {
@@ -479,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */,
+				E58DC5B62383C3B90080FAAB /* BJuseXIBinit.xib in Resources */,
 				E53317081CFFD942004A2CB9 /* Assets.xcassets in Resources */,
 				E53317061CFFD942004A2CB9 /* Main.storyboard in Resources */,
 			);
@@ -514,21 +559,26 @@
 				E56180EC237BF79300A316C8 /* BJRuntimeButtonViewController.m in Sources */,
 				E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */,
 				E5C2F92522B8889B00F0CECE /* BJArithmeticViewController.m in Sources */,
+				E58DC5B52383C3B80080FAAB /* BJDesignatedInitializerViewController.m in Sources */,
 				E587CD9B2231237100671170 /* BJDelegateView.m in Sources */,
+				E58DC5B92383C3B90080FAAB /* BJuseXIBinit.m in Sources */,
 				E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */,
 				E5C2F91F22B8870200F0CECE /* Person.m in Sources */,
 				E56180E8237BF79300A316C8 /* BJRuntimeFontViewController.m in Sources */,
 				E5EF1E2A223F38AC005DCC76 /* BJPeople.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
 				E5EF1E2D223F3DCE005DCC76 /* BJObjectOrNot.m in Sources */,
+				E58DC5B82383C3B90080FAAB /* BJInitViewTypeViewController.m in Sources */,
 				E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */,
 				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
+				E58DC5B42383C3B80080FAAB /* Animal.m in Sources */,
 				E5C2F91E22B8870200F0CECE /* Printer.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
 				E5EF1E30223F40D8005DCC76 /* BJArrayType.m in Sources */,
 				E5C2F93622B8C43100F0CECE /* BJExtensionViewController+BJCategory.m in Sources */,
 				E56180E7237BF79300A316C8 /* UIFont+BJFont.m in Sources */,
 				E56180EB237BF79300A316C8 /* UIControl+BJRuntimeControl.m in Sources */,
+				E58DC5B72383C3B90080FAAB /* BJuseCODEinit.m in Sources */,
 				E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */,
 				E587CD982231208600671170 /* BJDelegateViewController.m in Sources */,
 				E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */,
