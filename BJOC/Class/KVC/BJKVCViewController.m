@@ -44,6 +44,7 @@
     
     //KVC与崩溃
     [self kvcAndCrash];
+    [self arrAndCrash];
     
 }
 
@@ -60,10 +61,37 @@
     
     
     
-    
     // 取得时候不会崩
 //    NSString *str = [dic objectForKey:@"name"];
 //    NSString *str = dic[@"name"];
+    
+    /// 注意，注意，注意：会崩，推荐用KVC
+//    [dic setObject:nil forKey:@"name"];
+}
+
+- (void)arrAndCrash {
+    NSMutableArray *arr = [NSMutableArray array];
+    
+    /// 注意，注意，注意：会崩，对比 setObject: forKey: （object cannot be nil）
+//    [arr addObject:nil];
+    
+    
+    NSMutableArray *array = [NSMutableArray array];
+    [array addObject:@1];
+    [array addObject:@2];
+    [array addObject:@3];
+    [array addObject:@4];
+    // 不崩溃
+//    [array enumerateObjectsUsingBlock:^(NSNumber * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {if (obj.integerValue == 1) {
+//            [array removeObject:obj];
+//        }
+//    }];
+    // 崩溃，reason: '*** Collection was mutated while being enumerated.'
+    for (NSNumber *obj in array) {
+        if (obj.integerValue == 1) {
+            [array removeObject:obj];
+        }
+    }
 }
 
 - (void)kvcSearchKey{
