@@ -40,8 +40,30 @@
 //    [self kvcAndArray];
     
     //KVC与字典
-    [self kvcAndDictionary];
+//    [self kvcAndDictionary];
     
+    //KVC与崩溃
+    [self kvcAndCrash];
+    
+}
+
+- (void)kvcAndCrash {
+    NSMutableDictionary *dic = [NSMutableDictionary new];
+    // key为nil会崩
+//    [dic setValue:@"value" forKey:nil];
+    
+    // key为非对象会崩
+//    [dic setValue:@"value" forKey:@(1)];
+    
+    // value为nil不会崩，但key-value无法写入
+//    [dic setValue:nil forKey:@"key"];
+    
+    
+    
+    
+    // 取得时候不会崩
+//    NSString *str = [dic objectForKey:@"name"];
+//    NSString *str = dic[@"name"];
 }
 
 - (void)kvcSearchKey{
