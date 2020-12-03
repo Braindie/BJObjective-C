@@ -38,7 +38,9 @@
 
 - (void)btnAction{
 
-    [self.delegate clickBtnAction];
+    [self.bjDelegate toDoSomething];
+    
+//    [self.delegate clickBtnAction];
 
 //    if ([self.delegate respondsToSelector:@selector(clickBtnAction)]) {
 //        [self.delegate clickBtnAction];

@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4EAF22E25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */; };
+		A4EAF23525790F560079BA49 /* BJArithmeticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF23425790F560079BA49 /* BJArithmeticViewController.m */; };
+		A4EAF271257911820079BA49 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF23B257911820079BA49 /* BJPerson.m */; };
+		A4EAF272257911820079BA49 /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF23E257911820079BA49 /* BJKVOViewController.m */; };
+		A4EAF273257911820079BA49 /* BJDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF240257911820079BA49 /* BJDelegateView.m */; };
+		A4EAF274257911820079BA49 /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF243257911820079BA49 /* BJDelegateViewController.m */; };
+		A4EAF275257911820079BA49 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF246257911820079BA49 /* Animal.m */; };
+		A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */; };
+		A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF24B257911820079BA49 /* BJExtensionViewController.m */; };
+		A4EAF278257911820079BA49 /* BJuseXIBinit.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4EAF24E257911820079BA49 /* BJuseXIBinit.xib */; };
+		A4EAF279257911820079BA49 /* BJuseCODEinit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF24F257911820079BA49 /* BJuseCODEinit.m */; };
+		A4EAF27A257911820079BA49 /* BJInitViewTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF250257911820079BA49 /* BJInitViewTypeViewController.m */; };
+		A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF251257911820079BA49 /* BJuseXIBinit.m */; };
+		A4EAF27C257911820079BA49 /* BJExtensionViewController+BJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF256257911820079BA49 /* BJExtensionViewController+BJCategory.m */; };
+		A4EAF27D257911820079BA49 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF25F257911820079BA49 /* BJPolymorphismViewController.m */; };
+		A4EAF27E257911820079BA49 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF260257911820079BA49 /* Printer.m */; };
+		A4EAF27F257911820079BA49 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF261257911820079BA49 /* Person.m */; };
+		A4EAF280257911820079BA49 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF262257911820079BA49 /* ColorPrinter.m */; };
+		A4EAF281257911820079BA49 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF263257911820079BA49 /* BlackPrinter.m */; };
+		A4EAF282257911820079BA49 /* BJArrayType.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF268257911820079BA49 /* BJArrayType.m */; };
+		A4EAF283257911820079BA49 /* BJKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF269257911820079BA49 /* BJKVCViewController.m */; };
+		A4EAF284257911820079BA49 /* BJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26B257911820079BA49 /* BJPeople.m */; };
+		A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26C257911820079BA49 /* BJObjectOrNot.m */; };
+		A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26D257911820079BA49 /* BJDictionaryType.m */; };
+		A4EAF287257911820079BA49 /* BJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26E257911820079BA49 /* BJStudent.m */; };
+		A4EAF29B257915400079BA49 /* UIControl+BJRuntimeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */; };
+		A4EAF29C257915400079BA49 /* BJRuntimeButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */; };
+		A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF297257915400079BA49 /* UIFont+BJFont.m */; };
+		A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF29A257915400079BA49 /* BJRuntimeFontViewController.m */; };
+		A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF2AF257915C40079BA49 /* BJHook.m */; };
 		E53316FD1CFFD942004A2CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E53316FC1CFFD942004A2CB9 /* main.m */; };
 		E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E53316FF1CFFD942004A2CB9 /* AppDelegate.m */; };
 		E53317031CFFD942004A2CB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317021CFFD942004A2CB9 /* ViewController.m */; };
@@ -15,37 +45,9 @@
 		E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */; };
 		E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */; };
 		E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */; };
-		E56180E7237BF79300A316C8 /* UIFont+BJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D4237BF79200A316C8 /* UIFont+BJFont.m */; };
-		E56180E8237BF79300A316C8 /* BJRuntimeFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D7237BF79200A316C8 /* BJRuntimeFontViewController.m */; };
 		E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */; };
 		E56180EA237BF79300A316C8 /* BJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DB237BF79200A316C8 /* BJObject.m */; };
-		E56180EB237BF79300A316C8 /* UIControl+BJRuntimeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DF237BF79200A316C8 /* UIControl+BJRuntimeControl.m */; };
-		E56180EC237BF79300A316C8 /* BJRuntimeButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180E0237BF79200A316C8 /* BJRuntimeButtonViewController.m */; };
 		E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */; };
-		E587CD982231208600671170 /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E587CD972231208600671170 /* BJDelegateViewController.m */; };
-		E587CD9B2231237100671170 /* BJDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = E587CD9A2231237100671170 /* BJDelegateView.m */; };
-		E58DC5B42383C3B80080FAAB /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5A82383C3B80080FAAB /* Animal.m */; };
-		E58DC5B52383C3B80080FAAB /* BJDesignatedInitializerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5AA2383C3B80080FAAB /* BJDesignatedInitializerViewController.m */; };
-		E58DC5B62383C3B90080FAAB /* BJuseXIBinit.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58DC5AD2383C3B80080FAAB /* BJuseXIBinit.xib */; };
-		E58DC5B72383C3B90080FAAB /* BJuseCODEinit.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5AE2383C3B80080FAAB /* BJuseCODEinit.m */; };
-		E58DC5B82383C3B90080FAAB /* BJInitViewTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5AF2383C3B80080FAAB /* BJInitViewTypeViewController.m */; };
-		E58DC5B92383C3B90080FAAB /* BJuseXIBinit.m in Sources */ = {isa = PBXBuildFile; fileRef = E58DC5B02383C3B80080FAAB /* BJuseXIBinit.m */; };
-		E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */; };
-		E5A37771223BAFCC00CCFDE6 /* BJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A37769223BAFCC00CCFDE6 /* BJStudent.m */; };
-		E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */; };
-		E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */; };
-		E5C2F91D22B8870200F0CECE /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F91822B8870200F0CECE /* BJPolymorphismViewController.m */; };
-		E5C2F91E22B8870200F0CECE /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F91922B8870200F0CECE /* Printer.m */; };
-		E5C2F91F22B8870200F0CECE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F91A22B8870200F0CECE /* Person.m */; };
-		E5C2F92022B8870200F0CECE /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F91B22B8870200F0CECE /* ColorPrinter.m */; };
-		E5C2F92122B8870200F0CECE /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F91C22B8870200F0CECE /* BlackPrinter.m */; };
-		E5C2F92522B8889B00F0CECE /* BJArithmeticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F92422B8889B00F0CECE /* BJArithmeticViewController.m */; };
-		E5C2F93122B8BCFD00F0CECE /* BJExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F93022B8BCFD00F0CECE /* BJExtensionViewController.m */; };
-		E5C2F93622B8C43100F0CECE /* BJExtensionViewController+BJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F93522B8C43100F0CECE /* BJExtensionViewController+BJCategory.m */; };
-		E5EF1E2A223F38AC005DCC76 /* BJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E29223F38AC005DCC76 /* BJPeople.m */; };
-		E5EF1E2D223F3DCE005DCC76 /* BJObjectOrNot.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E2C223F3DCE005DCC76 /* BJObjectOrNot.m */; };
-		E5EF1E30223F40D8005DCC76 /* BJArrayType.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E2F223F40D8005DCC76 /* BJArrayType.m */; };
-		E5EF1E33223F44C9005DCC76 /* BJDictionaryType.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF1E32223F44C9005DCC76 /* BJDictionaryType.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4EAF22C25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRuntimeMethodSwizzlingViewController.h; sourceTree = "<group>"; };
+		A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeMethodSwizzlingViewController.m; sourceTree = "<group>"; };
+		A4EAF23325790F560079BA49 /* BJArithmeticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJArithmeticViewController.h; sourceTree = "<group>"; };
+		A4EAF23425790F560079BA49 /* BJArithmeticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJArithmeticViewController.m; sourceTree = "<group>"; };
+		A4EAF23B257911820079BA49 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
+		A4EAF23C257911820079BA49 /* BJKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVOViewController.h; sourceTree = "<group>"; };
+		A4EAF23D257911820079BA49 /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
+		A4EAF23E257911820079BA49 /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
+		A4EAF240257911820079BA49 /* BJDelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDelegateView.m; sourceTree = "<group>"; };
+		A4EAF241257911820079BA49 /* BJDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegateViewController.h; sourceTree = "<group>"; };
+		A4EAF242257911820079BA49 /* BJDelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegateView.h; sourceTree = "<group>"; };
+		A4EAF243257911820079BA49 /* BJDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDelegateViewController.m; sourceTree = "<group>"; };
+		A4EAF246257911820079BA49 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
+		A4EAF247257911820079BA49 /* BJDesignatedInitializerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDesignatedInitializerViewController.h; sourceTree = "<group>"; };
+		A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDesignatedInitializerViewController.m; sourceTree = "<group>"; };
+		A4EAF249257911820079BA49 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
+		A4EAF24B257911820079BA49 /* BJExtensionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJExtensionViewController.m; sourceTree = "<group>"; };
+		A4EAF24C257911820079BA49 /* BJExtensionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJExtensionViewController.h; sourceTree = "<group>"; };
+		A4EAF24E257911820079BA49 /* BJuseXIBinit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJuseXIBinit.xib; sourceTree = "<group>"; };
+		A4EAF24F257911820079BA49 /* BJuseCODEinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJuseCODEinit.m; sourceTree = "<group>"; };
+		A4EAF250257911820079BA49 /* BJInitViewTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJInitViewTypeViewController.m; sourceTree = "<group>"; };
+		A4EAF251257911820079BA49 /* BJuseXIBinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJuseXIBinit.m; sourceTree = "<group>"; };
+		A4EAF252257911820079BA49 /* BJInitViewTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJInitViewTypeViewController.h; sourceTree = "<group>"; };
+		A4EAF253257911820079BA49 /* BJuseCODEinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseCODEinit.h; sourceTree = "<group>"; };
+		A4EAF254257911820079BA49 /* BJuseXIBinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseXIBinit.h; sourceTree = "<group>"; };
+		A4EAF256257911820079BA49 /* BJExtensionViewController+BJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BJExtensionViewController+BJCategory.m"; sourceTree = "<group>"; };
+		A4EAF257257911820079BA49 /* BJExtensionViewController+BJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJCategory.h"; sourceTree = "<group>"; };
+		A4EAF25A257911820079BA49 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A4EAF25B257911820079BA49 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
+		A4EAF25C257911820079BA49 /* BJPolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPolymorphismViewController.h; sourceTree = "<group>"; };
+		A4EAF25D257911820079BA49 /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
+		A4EAF25E257911820079BA49 /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
+		A4EAF25F257911820079BA49 /* BJPolymorphismViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPolymorphismViewController.m; sourceTree = "<group>"; };
+		A4EAF260257911820079BA49 /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
+		A4EAF261257911820079BA49 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A4EAF262257911820079BA49 /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
+		A4EAF263257911820079BA49 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
+		A4EAF265257911820079BA49 /* BJObjectOrNot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJObjectOrNot.h; sourceTree = "<group>"; };
+		A4EAF266257911820079BA49 /* BJPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPeople.h; sourceTree = "<group>"; };
+		A4EAF267257911820079BA49 /* BJDictionaryType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDictionaryType.h; sourceTree = "<group>"; };
+		A4EAF268257911820079BA49 /* BJArrayType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJArrayType.m; sourceTree = "<group>"; };
+		A4EAF269257911820079BA49 /* BJKVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVCViewController.m; sourceTree = "<group>"; };
+		A4EAF26A257911820079BA49 /* BJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJStudent.h; sourceTree = "<group>"; };
+		A4EAF26B257911820079BA49 /* BJPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPeople.m; sourceTree = "<group>"; };
+		A4EAF26C257911820079BA49 /* BJObjectOrNot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJObjectOrNot.m; sourceTree = "<group>"; };
+		A4EAF26D257911820079BA49 /* BJDictionaryType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDictionaryType.m; sourceTree = "<group>"; };
+		A4EAF26E257911820079BA49 /* BJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJStudent.m; sourceTree = "<group>"; };
+		A4EAF26F257911820079BA49 /* BJKVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVCViewController.h; sourceTree = "<group>"; };
+		A4EAF270257911820079BA49 /* BJArrayType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJArrayType.h; sourceTree = "<group>"; };
+		A4EAF28B257912220079BA49 /* BJExtensionViewController+BJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJExtension.h"; sourceTree = "<group>"; };
+		A4EAF28D257912D70079BA49 /* BJDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegate.h; sourceTree = "<group>"; };
+		A4EAF292257915400079BA49 /* BJRuntimeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeButtonViewController.h; sourceTree = "<group>"; };
+		A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BJRuntimeControl.m"; sourceTree = "<group>"; };
+		A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeButtonViewController.m; sourceTree = "<group>"; };
+		A4EAF295257915400079BA49 /* UIControl+BJRuntimeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BJRuntimeControl.h"; sourceTree = "<group>"; };
+		A4EAF297257915400079BA49 /* UIFont+BJFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BJFont.m"; sourceTree = "<group>"; };
+		A4EAF298257915400079BA49 /* BJRuntimeFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeFontViewController.h; sourceTree = "<group>"; };
+		A4EAF299257915400079BA49 /* UIFont+BJFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BJFont.h"; sourceTree = "<group>"; };
+		A4EAF29A257915400079BA49 /* BJRuntimeFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeFontViewController.m; sourceTree = "<group>"; };
+		A4EAF2AE257915C40079BA49 /* BJHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJHook.h; sourceTree = "<group>"; };
+		A4EAF2AF257915C40079BA49 /* BJHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJHook.m; sourceTree = "<group>"; };
 		E53316F81CFFD942004A2CB9 /* BJOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53316FC1CFFD942004A2CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E53316FE1CFFD942004A2CB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -82,68 +145,12 @@
 		E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeForwordViewController.m; sourceTree = "<group>"; };
 		E56180D0237BF79200A316C8 /* BJRuntimeGrammarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeGrammarViewController.h; sourceTree = "<group>"; };
 		E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeGrammarViewController.m; sourceTree = "<group>"; };
-		E56180D4237BF79200A316C8 /* UIFont+BJFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BJFont.m"; sourceTree = "<group>"; };
-		E56180D5237BF79200A316C8 /* BJRuntimeFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeFontViewController.h; sourceTree = "<group>"; };
-		E56180D6237BF79200A316C8 /* UIFont+BJFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BJFont.h"; sourceTree = "<group>"; };
-		E56180D7237BF79200A316C8 /* BJRuntimeFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeFontViewController.m; sourceTree = "<group>"; };
 		E56180D9237BF79200A316C8 /* BJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJObject.h; sourceTree = "<group>"; };
 		E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJClassAndObjectViewController.m; sourceTree = "<group>"; };
 		E56180DB237BF79200A316C8 /* BJObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJObject.m; sourceTree = "<group>"; };
 		E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJClassAndObjectViewController.h; sourceTree = "<group>"; };
-		E56180DE237BF79200A316C8 /* BJRuntimeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeButtonViewController.h; sourceTree = "<group>"; };
-		E56180DF237BF79200A316C8 /* UIControl+BJRuntimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BJRuntimeControl.m"; sourceTree = "<group>"; };
-		E56180E0237BF79200A316C8 /* BJRuntimeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeButtonViewController.m; sourceTree = "<group>"; };
-		E56180E1237BF79200A316C8 /* UIControl+BJRuntimeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BJRuntimeControl.h"; sourceTree = "<group>"; };
 		E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJSelfAndSuperViewController.m; sourceTree = "<group>"; };
 		E56180F2237BF9CF00A316C8 /* BJSelfAndSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJSelfAndSuperViewController.h; sourceTree = "<group>"; };
-		E587CD962231208600671170 /* BJDelegateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegateViewController.h; sourceTree = "<group>"; };
-		E587CD972231208600671170 /* BJDelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDelegateViewController.m; sourceTree = "<group>"; };
-		E587CD992231237100671170 /* BJDelegateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegateView.h; sourceTree = "<group>"; };
-		E587CD9A2231237100671170 /* BJDelegateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDelegateView.m; sourceTree = "<group>"; };
-		E58DC5A82383C3B80080FAAB /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
-		E58DC5A92383C3B80080FAAB /* BJDesignatedInitializerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDesignatedInitializerViewController.h; sourceTree = "<group>"; };
-		E58DC5AA2383C3B80080FAAB /* BJDesignatedInitializerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDesignatedInitializerViewController.m; sourceTree = "<group>"; };
-		E58DC5AB2383C3B80080FAAB /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
-		E58DC5AD2383C3B80080FAAB /* BJuseXIBinit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BJuseXIBinit.xib; sourceTree = "<group>"; };
-		E58DC5AE2383C3B80080FAAB /* BJuseCODEinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJuseCODEinit.m; sourceTree = "<group>"; };
-		E58DC5AF2383C3B80080FAAB /* BJInitViewTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJInitViewTypeViewController.m; sourceTree = "<group>"; };
-		E58DC5B02383C3B80080FAAB /* BJuseXIBinit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJuseXIBinit.m; sourceTree = "<group>"; };
-		E58DC5B12383C3B80080FAAB /* BJInitViewTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJInitViewTypeViewController.h; sourceTree = "<group>"; };
-		E58DC5B22383C3B80080FAAB /* BJuseCODEinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseCODEinit.h; sourceTree = "<group>"; };
-		E58DC5B32383C3B80080FAAB /* BJuseXIBinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseXIBinit.h; sourceTree = "<group>"; };
-		E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVCViewController.m; sourceTree = "<group>"; };
-		E5A37768223BAFCC00CCFDE6 /* BJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJStudent.h; sourceTree = "<group>"; };
-		E5A37769223BAFCC00CCFDE6 /* BJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJStudent.m; sourceTree = "<group>"; };
-		E5A3776A223BAFCC00CCFDE6 /* BJKVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVCViewController.h; sourceTree = "<group>"; };
-		E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
-		E5A3776D223BAFCC00CCFDE6 /* BJKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVOViewController.h; sourceTree = "<group>"; };
-		E5A3776E223BAFCC00CCFDE6 /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
-		E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
-		E5C2F91322B8870200F0CECE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		E5C2F91422B8870200F0CECE /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
-		E5C2F91522B8870200F0CECE /* BJPolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPolymorphismViewController.h; sourceTree = "<group>"; };
-		E5C2F91622B8870200F0CECE /* ColorPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPrinter.h; sourceTree = "<group>"; };
-		E5C2F91722B8870200F0CECE /* BlackPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackPrinter.h; sourceTree = "<group>"; };
-		E5C2F91822B8870200F0CECE /* BJPolymorphismViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPolymorphismViewController.m; sourceTree = "<group>"; };
-		E5C2F91922B8870200F0CECE /* Printer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Printer.m; sourceTree = "<group>"; };
-		E5C2F91A22B8870200F0CECE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		E5C2F91B22B8870200F0CECE /* ColorPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPrinter.m; sourceTree = "<group>"; };
-		E5C2F91C22B8870200F0CECE /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
-		E5C2F92322B8889B00F0CECE /* BJArithmeticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJArithmeticViewController.h; sourceTree = "<group>"; };
-		E5C2F92422B8889B00F0CECE /* BJArithmeticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJArithmeticViewController.m; sourceTree = "<group>"; };
-		E5C2F92F22B8BCFD00F0CECE /* BJExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJExtensionViewController.h; sourceTree = "<group>"; };
-		E5C2F93022B8BCFD00F0CECE /* BJExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJExtensionViewController.m; sourceTree = "<group>"; };
-		E5C2F93322B8C0AF00F0CECE /* BJExtensionViewController+BJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJExtension.h"; sourceTree = "<group>"; };
-		E5C2F93422B8C43100F0CECE /* BJExtensionViewController+BJCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJCategory.h"; sourceTree = "<group>"; };
-		E5C2F93522B8C43100F0CECE /* BJExtensionViewController+BJCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJExtensionViewController+BJCategory.m"; sourceTree = "<group>"; };
-		E5EF1E28223F38AC005DCC76 /* BJPeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJPeople.h; sourceTree = "<group>"; };
-		E5EF1E29223F38AC005DCC76 /* BJPeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJPeople.m; sourceTree = "<group>"; };
-		E5EF1E2B223F3DCE005DCC76 /* BJObjectOrNot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectOrNot.h; sourceTree = "<group>"; };
-		E5EF1E2C223F3DCE005DCC76 /* BJObjectOrNot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJObjectOrNot.m; sourceTree = "<group>"; };
-		E5EF1E2E223F40D8005DCC76 /* BJArrayType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJArrayType.h; sourceTree = "<group>"; };
-		E5EF1E2F223F40D8005DCC76 /* BJArrayType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJArrayType.m; sourceTree = "<group>"; };
-		E5EF1E31223F44C9005DCC76 /* BJDictionaryType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDictionaryType.h; sourceTree = "<group>"; };
-		E5EF1E32223F44C9005DCC76 /* BJDictionaryType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJDictionaryType.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +178,175 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A4EAF22B25790D080079BA49 /* runtimeMethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF22C25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.h */,
+				A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */,
+				A4EAF2AE257915C40079BA49 /* BJHook.h */,
+				A4EAF2AF257915C40079BA49 /* BJHook.m */,
+				A4EAF291257915400079BA49 /* runtimeButton */,
+				A4EAF296257915400079BA49 /* runtimeFont */,
+			);
+			path = runtimeMethodSwizzling;
+			sourceTree = "<group>";
+		};
+		A4EAF23225790F560079BA49 /* Arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF23325790F560079BA49 /* BJArithmeticViewController.h */,
+				A4EAF23425790F560079BA49 /* BJArithmeticViewController.m */,
+			);
+			path = Arithmetic;
+			sourceTree = "<group>";
+		};
+		A4EAF239257911820079BA49 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF23A257911820079BA49 /* KVO */,
+				A4EAF23F257911820079BA49 /* Delegate */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		A4EAF23A257911820079BA49 /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF23B257911820079BA49 /* BJPerson.m */,
+				A4EAF23C257911820079BA49 /* BJKVOViewController.h */,
+				A4EAF23D257911820079BA49 /* BJPerson.h */,
+				A4EAF23E257911820079BA49 /* BJKVOViewController.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		A4EAF23F257911820079BA49 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF241257911820079BA49 /* BJDelegateViewController.h */,
+				A4EAF243257911820079BA49 /* BJDelegateViewController.m */,
+				A4EAF242257911820079BA49 /* BJDelegateView.h */,
+				A4EAF240257911820079BA49 /* BJDelegateView.m */,
+				A4EAF28D257912D70079BA49 /* BJDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A4EAF244257911820079BA49 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF259257911820079BA49 /* Polymorphism */,
+				A4EAF24A257911820079BA49 /* Extension */,
+				A4EAF255257911820079BA49 /* Category */,
+				A4EAF24D257911820079BA49 /* BJViewLife */,
+				A4EAF245257911820079BA49 /* BJDesignatedInit */,
+				A4EAF264257911820079BA49 /* KVC */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
+		A4EAF245257911820079BA49 /* BJDesignatedInit */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF247257911820079BA49 /* BJDesignatedInitializerViewController.h */,
+				A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */,
+				A4EAF249257911820079BA49 /* Animal.h */,
+				A4EAF246257911820079BA49 /* Animal.m */,
+			);
+			path = BJDesignatedInit;
+			sourceTree = "<group>";
+		};
+		A4EAF24A257911820079BA49 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF24C257911820079BA49 /* BJExtensionViewController.h */,
+				A4EAF24B257911820079BA49 /* BJExtensionViewController.m */,
+				A4EAF28B257912220079BA49 /* BJExtensionViewController+BJExtension.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A4EAF24D257911820079BA49 /* BJViewLife */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF252257911820079BA49 /* BJInitViewTypeViewController.h */,
+				A4EAF250257911820079BA49 /* BJInitViewTypeViewController.m */,
+				A4EAF254257911820079BA49 /* BJuseXIBinit.h */,
+				A4EAF251257911820079BA49 /* BJuseXIBinit.m */,
+				A4EAF24E257911820079BA49 /* BJuseXIBinit.xib */,
+				A4EAF253257911820079BA49 /* BJuseCODEinit.h */,
+				A4EAF24F257911820079BA49 /* BJuseCODEinit.m */,
+			);
+			path = BJViewLife;
+			sourceTree = "<group>";
+		};
+		A4EAF255257911820079BA49 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF257257911820079BA49 /* BJExtensionViewController+BJCategory.h */,
+				A4EAF256257911820079BA49 /* BJExtensionViewController+BJCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A4EAF259257911820079BA49 /* Polymorphism */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF25C257911820079BA49 /* BJPolymorphismViewController.h */,
+				A4EAF25F257911820079BA49 /* BJPolymorphismViewController.m */,
+				A4EAF25A257911820079BA49 /* Person.h */,
+				A4EAF261257911820079BA49 /* Person.m */,
+				A4EAF25B257911820079BA49 /* Printer.h */,
+				A4EAF260257911820079BA49 /* Printer.m */,
+				A4EAF25D257911820079BA49 /* ColorPrinter.h */,
+				A4EAF262257911820079BA49 /* ColorPrinter.m */,
+				A4EAF25E257911820079BA49 /* BlackPrinter.h */,
+				A4EAF263257911820079BA49 /* BlackPrinter.m */,
+			);
+			path = Polymorphism;
+			sourceTree = "<group>";
+		};
+		A4EAF264257911820079BA49 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF26F257911820079BA49 /* BJKVCViewController.h */,
+				A4EAF269257911820079BA49 /* BJKVCViewController.m */,
+				A4EAF266257911820079BA49 /* BJPeople.h */,
+				A4EAF26B257911820079BA49 /* BJPeople.m */,
+				A4EAF26A257911820079BA49 /* BJStudent.h */,
+				A4EAF26E257911820079BA49 /* BJStudent.m */,
+				A4EAF267257911820079BA49 /* BJDictionaryType.h */,
+				A4EAF26D257911820079BA49 /* BJDictionaryType.m */,
+				A4EAF26C257911820079BA49 /* BJObjectOrNot.m */,
+				A4EAF265257911820079BA49 /* BJObjectOrNot.h */,
+				A4EAF270257911820079BA49 /* BJArrayType.h */,
+				A4EAF268257911820079BA49 /* BJArrayType.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		A4EAF291257915400079BA49 /* runtimeButton */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF292257915400079BA49 /* BJRuntimeButtonViewController.h */,
+				A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */,
+				A4EAF295257915400079BA49 /* UIControl+BJRuntimeControl.h */,
+				A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */,
+			);
+			path = runtimeButton;
+			sourceTree = "<group>";
+		};
+		A4EAF296257915400079BA49 /* runtimeFont */ = {
+			isa = PBXGroup;
+			children = (
+				A4EAF298257915400079BA49 /* BJRuntimeFontViewController.h */,
+				A4EAF29A257915400079BA49 /* BJRuntimeFontViewController.m */,
+				A4EAF299257915400079BA49 /* UIFont+BJFont.h */,
+				A4EAF297257915400079BA49 /* UIFont+BJFont.m */,
+			);
+			path = runtimeFont;
+			sourceTree = "<group>";
+		};
 		E53316EF1CFFD942004A2CB9 = {
 			isa = PBXGroup;
 			children = (
@@ -217,13 +393,11 @@
 		E56180C4237BF79200A316C8 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				A4EAF22B25790D080079BA49 /* runtimeMethodSwizzling */,
 				E56180ED237BF9CF00A316C8 /* runtimeMassageSend */,
 				E56180CC237BF79200A316C8 /* runtimeMassageForword */,
 				E56180CF237BF79200A316C8 /* runtimeGrammar */,
-				E56180D2237BF79200A316C8 /* runtimeMethodSwizzling */,
-				E56180D3237BF79200A316C8 /* runtimeFont */,
 				E56180D8237BF79200A316C8 /* classAndNSObject */,
-				E56180DD237BF79200A316C8 /* runtimeButton */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -246,44 +420,15 @@
 			path = runtimeGrammar;
 			sourceTree = "<group>";
 		};
-		E56180D2237BF79200A316C8 /* runtimeMethodSwizzling */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = runtimeMethodSwizzling;
-			sourceTree = "<group>";
-		};
-		E56180D3237BF79200A316C8 /* runtimeFont */ = {
-			isa = PBXGroup;
-			children = (
-				E56180D6237BF79200A316C8 /* UIFont+BJFont.h */,
-				E56180D4237BF79200A316C8 /* UIFont+BJFont.m */,
-				E56180D5237BF79200A316C8 /* BJRuntimeFontViewController.h */,
-				E56180D7237BF79200A316C8 /* BJRuntimeFontViewController.m */,
-			);
-			path = runtimeFont;
-			sourceTree = "<group>";
-		};
 		E56180D8237BF79200A316C8 /* classAndNSObject */ = {
 			isa = PBXGroup;
 			children = (
+				E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */,
+				E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */,
 				E56180D9237BF79200A316C8 /* BJObject.h */,
 				E56180DB237BF79200A316C8 /* BJObject.m */,
-				E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */,
-				E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */,
 			);
 			path = classAndNSObject;
-			sourceTree = "<group>";
-		};
-		E56180DD237BF79200A316C8 /* runtimeButton */ = {
-			isa = PBXGroup;
-			children = (
-				E56180DE237BF79200A316C8 /* BJRuntimeButtonViewController.h */,
-				E56180E0237BF79200A316C8 /* BJRuntimeButtonViewController.m */,
-				E56180E1237BF79200A316C8 /* UIControl+BJRuntimeControl.h */,
-				E56180DF237BF79200A316C8 /* UIControl+BJRuntimeControl.m */,
-			);
-			path = runtimeButton;
 			sourceTree = "<group>";
 		};
 		E56180ED237BF9CF00A316C8 /* runtimeMassageSend */ = {
@@ -295,124 +440,15 @@
 			path = runtimeMassageSend;
 			sourceTree = "<group>";
 		};
-		E587CD912231205A00671170 /* Delegate代理 */ = {
-			isa = PBXGroup;
-			children = (
-				E587CD962231208600671170 /* BJDelegateViewController.h */,
-				E587CD972231208600671170 /* BJDelegateViewController.m */,
-				E587CD992231237100671170 /* BJDelegateView.h */,
-				E587CD9A2231237100671170 /* BJDelegateView.m */,
-			);
-			path = "Delegate代理";
-			sourceTree = "<group>";
-		};
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				E58DC5A72383C3B80080FAAB /* BJDesignatedInit */,
-				E58DC5AC2383C3B80080FAAB /* BJViewLife */,
+				A4EAF23225790F560079BA49 /* Arithmetic */,
+				A4EAF239257911820079BA49 /* Message */,
+				A4EAF244257911820079BA49 /* Basics */,
 				E56180C4237BF79200A316C8 /* Runtime */,
-				E5C2F92222B8889B00F0CECE /* Arithmetic算法 */,
-				E5C2F91222B8870200F0CECE /* Polymorphism多态 */,
-				E5C2F92E22B8BCEF00F0CECE /* Extension扩展、分类 */,
-				E5A37766223BAFCC00CCFDE6 /* KVC */,
-				E587CD912231205A00671170 /* Delegate代理 */,
-				E5A3776B223BAFCC00CCFDE6 /* KVO */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		E58DC5A72383C3B80080FAAB /* BJDesignatedInit */ = {
-			isa = PBXGroup;
-			children = (
-				E58DC5A92383C3B80080FAAB /* BJDesignatedInitializerViewController.h */,
-				E58DC5AA2383C3B80080FAAB /* BJDesignatedInitializerViewController.m */,
-				E58DC5AB2383C3B80080FAAB /* Animal.h */,
-				E58DC5A82383C3B80080FAAB /* Animal.m */,
-			);
-			path = BJDesignatedInit;
-			sourceTree = "<group>";
-		};
-		E58DC5AC2383C3B80080FAAB /* BJViewLife */ = {
-			isa = PBXGroup;
-			children = (
-				E58DC5B12383C3B80080FAAB /* BJInitViewTypeViewController.h */,
-				E58DC5AF2383C3B80080FAAB /* BJInitViewTypeViewController.m */,
-				E58DC5B22383C3B80080FAAB /* BJuseCODEinit.h */,
-				E58DC5AE2383C3B80080FAAB /* BJuseCODEinit.m */,
-				E58DC5B32383C3B80080FAAB /* BJuseXIBinit.h */,
-				E58DC5B02383C3B80080FAAB /* BJuseXIBinit.m */,
-				E58DC5AD2383C3B80080FAAB /* BJuseXIBinit.xib */,
-			);
-			path = BJViewLife;
-			sourceTree = "<group>";
-		};
-		E5A37766223BAFCC00CCFDE6 /* KVC */ = {
-			isa = PBXGroup;
-			children = (
-				E5A3776A223BAFCC00CCFDE6 /* BJKVCViewController.h */,
-				E5A37767223BAFCC00CCFDE6 /* BJKVCViewController.m */,
-				E5A37768223BAFCC00CCFDE6 /* BJStudent.h */,
-				E5A37769223BAFCC00CCFDE6 /* BJStudent.m */,
-				E5EF1E28223F38AC005DCC76 /* BJPeople.h */,
-				E5EF1E29223F38AC005DCC76 /* BJPeople.m */,
-				E5EF1E2B223F3DCE005DCC76 /* BJObjectOrNot.h */,
-				E5EF1E2C223F3DCE005DCC76 /* BJObjectOrNot.m */,
-				E5EF1E2E223F40D8005DCC76 /* BJArrayType.h */,
-				E5EF1E2F223F40D8005DCC76 /* BJArrayType.m */,
-				E5EF1E31223F44C9005DCC76 /* BJDictionaryType.h */,
-				E5EF1E32223F44C9005DCC76 /* BJDictionaryType.m */,
-			);
-			path = KVC;
-			sourceTree = "<group>";
-		};
-		E5A3776B223BAFCC00CCFDE6 /* KVO */ = {
-			isa = PBXGroup;
-			children = (
-				E5A3776D223BAFCC00CCFDE6 /* BJKVOViewController.h */,
-				E5A3776F223BAFCC00CCFDE6 /* BJKVOViewController.m */,
-				E5A3776E223BAFCC00CCFDE6 /* BJPerson.h */,
-				E5A3776C223BAFCC00CCFDE6 /* BJPerson.m */,
-			);
-			path = KVO;
-			sourceTree = "<group>";
-		};
-		E5C2F91222B8870200F0CECE /* Polymorphism多态 */ = {
-			isa = PBXGroup;
-			children = (
-				E5C2F91522B8870200F0CECE /* BJPolymorphismViewController.h */,
-				E5C2F91822B8870200F0CECE /* BJPolymorphismViewController.m */,
-				E5C2F91322B8870200F0CECE /* Person.h */,
-				E5C2F91A22B8870200F0CECE /* Person.m */,
-				E5C2F91422B8870200F0CECE /* Printer.h */,
-				E5C2F91922B8870200F0CECE /* Printer.m */,
-				E5C2F91622B8870200F0CECE /* ColorPrinter.h */,
-				E5C2F91B22B8870200F0CECE /* ColorPrinter.m */,
-				E5C2F91722B8870200F0CECE /* BlackPrinter.h */,
-				E5C2F91C22B8870200F0CECE /* BlackPrinter.m */,
-			);
-			path = "Polymorphism多态";
-			sourceTree = "<group>";
-		};
-		E5C2F92222B8889B00F0CECE /* Arithmetic算法 */ = {
-			isa = PBXGroup;
-			children = (
-				E5C2F92322B8889B00F0CECE /* BJArithmeticViewController.h */,
-				E5C2F92422B8889B00F0CECE /* BJArithmeticViewController.m */,
-			);
-			path = "Arithmetic算法";
-			sourceTree = "<group>";
-		};
-		E5C2F92E22B8BCEF00F0CECE /* Extension扩展、分类 */ = {
-			isa = PBXGroup;
-			children = (
-				E5C2F92F22B8BCFD00F0CECE /* BJExtensionViewController.h */,
-				E5C2F93022B8BCFD00F0CECE /* BJExtensionViewController.m */,
-				E5C2F93322B8C0AF00F0CECE /* BJExtensionViewController+BJExtension.h */,
-				E5C2F93422B8C43100F0CECE /* BJExtensionViewController+BJCategory.h */,
-				E5C2F93522B8C43100F0CECE /* BJExtensionViewController+BJCategory.m */,
-			);
-			path = "Extension扩展、分类";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,7 +559,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */,
-				E58DC5B62383C3B90080FAAB /* BJuseXIBinit.xib in Resources */,
+				A4EAF278257911820079BA49 /* BJuseXIBinit.xib in Resources */,
 				E53317081CFFD942004A2CB9 /* Assets.xcassets in Resources */,
 				E53317061CFFD942004A2CB9 /* Main.storyboard in Resources */,
 			);
@@ -550,41 +586,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C2F92022B8870200F0CECE /* ColorPrinter.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
+				A4EAF271257911820079BA49 /* BJPerson.m in Sources */,
+				A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */,
+				A4EAF280257911820079BA49 /* ColorPrinter.m in Sources */,
+				A4EAF27F257911820079BA49 /* Person.m in Sources */,
 				E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */,
-				E5C2F93122B8BCFD00F0CECE /* BJExtensionViewController.m in Sources */,
-				E5EF1E33223F44C9005DCC76 /* BJDictionaryType.m in Sources */,
+				A4EAF274257911820079BA49 /* BJDelegateViewController.m in Sources */,
+				A4EAF279257911820079BA49 /* BJuseCODEinit.m in Sources */,
 				E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */,
-				E56180EC237BF79300A316C8 /* BJRuntimeButtonViewController.m in Sources */,
-				E5A37773223BAFCC00CCFDE6 /* BJKVOViewController.m in Sources */,
-				E5C2F92522B8889B00F0CECE /* BJArithmeticViewController.m in Sources */,
-				E58DC5B52383C3B80080FAAB /* BJDesignatedInitializerViewController.m in Sources */,
-				E587CD9B2231237100671170 /* BJDelegateView.m in Sources */,
-				E58DC5B92383C3B90080FAAB /* BJuseXIBinit.m in Sources */,
+				A4EAF23525790F560079BA49 /* BJArithmeticViewController.m in Sources */,
+				A4EAF27A257911820079BA49 /* BJInitViewTypeViewController.m in Sources */,
+				A4EAF22E25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m in Sources */,
+				A4EAF275257911820079BA49 /* Animal.m in Sources */,
+				A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */,
+				A4EAF27E257911820079BA49 /* Printer.m in Sources */,
+				A4EAF273257911820079BA49 /* BJDelegateView.m in Sources */,
 				E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */,
-				E5C2F91F22B8870200F0CECE /* Person.m in Sources */,
-				E56180E8237BF79300A316C8 /* BJRuntimeFontViewController.m in Sources */,
-				E5EF1E2A223F38AC005DCC76 /* BJPeople.m in Sources */,
+				A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */,
+				A4EAF29B257915400079BA49 /* UIControl+BJRuntimeControl.m in Sources */,
+				A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */,
+				A4EAF282257911820079BA49 /* BJArrayType.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
-				E5EF1E2D223F3DCE005DCC76 /* BJObjectOrNot.m in Sources */,
-				E58DC5B82383C3B90080FAAB /* BJInitViewTypeViewController.m in Sources */,
-				E5A37772223BAFCC00CCFDE6 /* BJPerson.m in Sources */,
+				A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */,
+				A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */,
+				A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */,
+				A4EAF27C257911820079BA49 /* BJExtensionViewController+BJCategory.m in Sources */,
 				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
-				E58DC5B42383C3B80080FAAB /* Animal.m in Sources */,
-				E5C2F91E22B8870200F0CECE /* Printer.m in Sources */,
+				A4EAF287257911820079BA49 /* BJStudent.m in Sources */,
+				A4EAF272257911820079BA49 /* BJKVOViewController.m in Sources */,
+				A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */,
+				A4EAF29C257915400079BA49 /* BJRuntimeButtonViewController.m in Sources */,
+				A4EAF281257911820079BA49 /* BlackPrinter.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
-				E5EF1E30223F40D8005DCC76 /* BJArrayType.m in Sources */,
-				E5C2F93622B8C43100F0CECE /* BJExtensionViewController+BJCategory.m in Sources */,
-				E56180E7237BF79300A316C8 /* UIFont+BJFont.m in Sources */,
-				E56180EB237BF79300A316C8 /* UIControl+BJRuntimeControl.m in Sources */,
-				E58DC5B72383C3B90080FAAB /* BJuseCODEinit.m in Sources */,
+				A4EAF284257911820079BA49 /* BJPeople.m in Sources */,
 				E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */,
-				E587CD982231208600671170 /* BJDelegateViewController.m in Sources */,
-				E5A37770223BAFCC00CCFDE6 /* BJKVCViewController.m in Sources */,
-				E5A37771223BAFCC00CCFDE6 /* BJStudent.m in Sources */,
-				E5C2F91D22B8870200F0CECE /* BJPolymorphismViewController.m in Sources */,
-				E5C2F92122B8870200F0CECE /* BlackPrinter.m in Sources */,
+				A4EAF27D257911820079BA49 /* BJPolymorphismViewController.m in Sources */,
+				A4EAF283257911820079BA49 /* BJKVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

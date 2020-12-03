@@ -9,9 +9,10 @@
 #import "BJDelegateViewController.h"
 #import "BJDelegateView.h"
 
-@interface BJDelegateViewController ()<BJDelegateViewDelegate>
+@interface BJDelegateViewController ()<BJDelegateViewDelegate, BJDelegate>
 
 @property (nonatomic, strong) BJDelegateView *bjView;
+
 @end
 
 @implementation BJDelegateViewController
@@ -24,6 +25,7 @@
     
     _bjView = [[BJDelegateView alloc] initWithFrame:CGRectMake(0, 64, 300, 300)];
     _bjView.delegate = self;
+    _bjView.bjDelegate = self;
     _bjView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [self.view addSubview:_bjView];
 }
@@ -38,12 +40,14 @@
     NSLog(@"销毁了");
 }
 
+#pragma mark - delegate
 - (void)clickBtnAction{
     self.view.backgroundColor = [UIColor whiteColor];
-    
-    
 }
 
+- (void)toDoSomething {
+    self.view.backgroundColor = [UIColor redColor];
+}
 
 
 @end

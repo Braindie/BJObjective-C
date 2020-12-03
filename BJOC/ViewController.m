@@ -17,7 +17,7 @@
 #import "BJDesignatedInitializerViewController.h"
 #import "BJInitViewTypeViewController.h"
 
-//#import "BJSelfAndSuperViewController.h"
+#import "BJRuntimeMethodSwizzlingViewController.h"
 #import "BJRuntimeGrammarViewController.h"
 #import "BJRuntimeButtonViewController.h"
 #import "BJRuntimeFontViewController.h"
@@ -176,8 +176,8 @@ static NSString * str;
         [self.navigationController pushViewController:vc animated:YES];
         
       }else if (indexPath.row == 2){
-//        BJSelfAndSuperViewController *vc = [[BJSelfAndSuperViewController alloc] init];
-//        [self.navigationController pushViewController:vc animated:YES];
+        BJRuntimeMethodSwizzlingViewController *vc = [[BJRuntimeMethodSwizzlingViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
         
       }else if (indexPath.row == 3){
         BJRuntimeForwordViewController *vc = [[BJRuntimeForwordViewController alloc] init];
@@ -195,8 +195,12 @@ static NSString * str;
   }
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 20;
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 50;
+    return 30;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
@@ -208,16 +212,16 @@ static NSString * str;
     
     switch (section) {
         case 0:
-            label.text = @"算法";
+            label.text = @"";
             break;
         case 1:
-            label.text = @"通信方式";
+            label.text = @"";
             break;
         case 2:
-            label.text = @"一般语法";
+            label.text = @"";
             break;
         case 3:
-            label.text = @"重要语法（Runtime）";
+            label.text = @"";
             break;
         default:
             break;

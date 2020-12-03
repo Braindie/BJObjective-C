@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BJDelegate.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -22,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 //所以iOS9之后这些地方就改成了weak内存修饰符，内存被回收的时候通过weak表，把这些指针设为nil。也大幅度减少了野指针的出现。
 
 @property (nonatomic, assign) id<BJDelegateViewDelegate> delegate;
+
+@property (nonatomic, weak) id<BJDelegate> bjDelegate;
 
 @end
 
