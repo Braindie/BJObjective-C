@@ -43,9 +43,40 @@
 //    [self kvcAndDictionary];
     
     //KVC与崩溃
-    [self kvcAndCrash];
-    [self arrAndCrash];
+//    [self kvcAndCrash];
+//    [self arrAndCrash];
     
+    
+    [self arrayCrash];
+    
+}
+
+- (void)arrayCrash {
+//     for (NSString *str in array) {
+//
+//         NSLog(@"%@", str);
+//         NSLog(@"%@", array);
+////        if ([str isEqualToString:@"4"]) {
+////        }
+//         [array removeObject:str];
+//
+//         NSLog(@"--%@", str);
+//         NSLog(@"--%@", array);
+//
+//     }
+    NSMutableArray *array = [NSMutableArray arrayWithObjects:@"2",@"3",@"4",@"9",@"4",@"12",@"13", nil];
+
+    for (int i = 0; i < array.count; i++) {
+        NSLog(@"==============%d", i);
+        NSString *str  = array[i];
+        NSLog(@"删除前%@", str);
+        NSLog(@"删除前%@", array);
+
+        [array removeObject:str];
+        NSLog(@"删除后--%@", str);
+        NSLog(@"删除后--%@", array);
+
+     }
 }
 
 - (void)kvcAndCrash {
@@ -166,5 +197,7 @@
     [dicObjc setValuesForKeysWithDictionary:dict];//用key value来修改Model的属性（如果mode没有这个属性，会崩）
     NSLog(@"country:%@  province:%@ city:%@",dicObjc.country,dicObjc.province,dicObjc.city);
 }
+
+
 
 @end

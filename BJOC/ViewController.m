@@ -51,9 +51,9 @@ static NSString * str;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
   if (section == 0) {
-    return 1;
+    return 2;
   } else if (section == 1) {
-    return 4;
+    return 2;
   } else if (section == 2) {
     return 5;
   } else if (section == 3) {
@@ -65,23 +65,21 @@ static NSString * str;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
-  if (indexPath.section == 0) {
-    if (indexPath.row == 0) {
-      cell.textLabel.text = @"算法";
-    }
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            cell.textLabel.text = @"算法";
+        } else if (indexPath.row == 1) {
+            cell.textLabel.text = @"多态";
+        }
   } else if (indexPath.section == 1) {
       if (indexPath.row == 0){
           cell.textLabel.text = @"代理";
       }else if (indexPath.row == 1){
-          cell.textLabel.text = @"Block";
-      }else if (indexPath.row == 2){
-          cell.textLabel.text = @"通知";
-      }else if (indexPath.row == 3){
           cell.textLabel.text = @"KVO";
       }
   } else if (indexPath.section == 2) {
       if (indexPath.row == 0){
-          cell.textLabel.text = @"多态";
+
       }else if (indexPath.row == 1){
           cell.textLabel.text = @"扩展、分类";
       }else if (indexPath.row == 2){
@@ -123,6 +121,9 @@ static NSString * str;
     if (indexPath.row == 0) {
       BJArithmeticViewController *vc = [[BJArithmeticViewController alloc] init];
       [self.navigationController pushViewController:vc animated:YES];
+    } else if (indexPath.row == 1) {
+        BJPolymorphismViewController *vc = [[BJPolymorphismViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
     }
   } else if (indexPath.section == 1) {
       if (indexPath.row == 0){
@@ -130,25 +131,12 @@ static NSString * str;
           [self.navigationController pushViewController:vc animated:YES];
           
       }else if (indexPath.row == 1){
-          UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"有个单独的Demo" preferredStyle:UIAlertControllerStyleAlert];
-          [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
-          [self.navigationController presentViewController:alert animated:YES completion:nil];
-          
-      }else if (indexPath.row == 2){
-          UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"太常见了，没写" preferredStyle:UIAlertControllerStyleAlert];
-          [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil]];
-          [self.navigationController presentViewController:alert animated:YES completion:nil];
-          
-      }else if (indexPath.row == 3){
           BJKVOViewController *vc = [[BJKVOViewController alloc] init];
           [self.navigationController pushViewController:vc animated:YES];
-          
       }
   } else if (indexPath.section == 2) {
       if (indexPath.row == 0){
-          BJPolymorphismViewController *vc = [[BJPolymorphismViewController alloc] init];
-          [self.navigationController pushViewController:vc animated:YES];
-          
+
       }else if (indexPath.row == 1){
           BJExtensionViewController *vc = [[BJExtensionViewController alloc] init];
           [self.navigationController pushViewController:vc animated:YES];
@@ -196,11 +184,11 @@ static NSString * str;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 20;
+    return 30;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
-    return 30;
+    return 20;
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
