@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BBA30DDDAD733AF8FB08C0F76432AEF947A4415F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BBA30DDDAD733AF8FB08C0F76432AEF947A4415F" : 9223372036854775807,
+    "B093C1875EDA84CE36AEEBDFBE87257117A2E7E7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "27C163C8-C7AF-4693-B1D0-9C6E1A99CCB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BBA30DDDAD733AF8FB08C0F76432AEF947A4415F" : "BJBlock\/",
+    "B093C1875EDA84CE36AEEBDFBE87257117A2E7E7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BJBlock",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BJBlock.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Braindie\/BJMemory.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B093C1875EDA84CE36AEEBDFBE87257117A2E7E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Braindie\/BJBlock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBA30DDDAD733AF8FB08C0F76432AEF947A4415F"
+    }
+  ]
+}
