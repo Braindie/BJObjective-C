@@ -11,14 +11,19 @@
 #import <objc/runtime.h>
 #import <malloc/malloc.h>
 
+// NSObject Implementation
+struct NSObject_IMPL {
+    Class isa; // 8个字节
+};
+
 @interface Student : NSObject {
     @public
-    int _num;
-    int _num2;
+    int _num;// 内存对齐：结构体的大小必须是最大成员大小的倍数
+//    int _num2;
 }
 
 //@property (nonatomic, assign) int age;// 4字节
-//@property (nonatomic, assign) NSInteger age;// 8字节
+@property (nonatomic, assign) NSInteger age;// 8字节
 
 //@property (nonatomic, assign) NSInteger nom;
 //@property (nonatomic, strong) NSArray *arr;// 指针8字节
@@ -50,19 +55,18 @@
     
     // NSObject实例对象的成员变量所占的大小 8
 //    NSLog(@"%zd", class_getInstanceSize([NSObject class]));
+    // obj指针所指向内存的大小 16
 //    NSLog(@"%zd", malloc_size((__bridge const void *)(obj)));
     
     
     
     Student *stu = [[Student alloc] init];
-    stu->_num = 1;
-//    stu.age = 2;
+//    stu->_num = 1;
+    stu.age = 2;
 //    stu.nom = 3;
     
     NSLog(@"%zd", class_getInstanceSize([Student class]));
     NSLog(@"%zd", malloc_size((__bridge const void *)(stu)));
-    
-    
 }
 
 /*
