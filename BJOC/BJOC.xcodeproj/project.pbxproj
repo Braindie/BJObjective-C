@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A478A38125E50D96005FCB06 /* BJObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A478A38025E50D96005FCB06 /* BJObjectViewController.m */; };
+		A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A478A38025E50D96005FCB06 /* BJObjectViewController.mm */; };
 		A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8C258100D000888263 /* BJPolymorphismViewController.m */; };
 		A4E9FF95258100D000888263 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8D258100D000888263 /* Printer.m */; };
 		A4E9FF96258100D000888263 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8E258100D000888263 /* Person.m */; };
@@ -69,8 +69,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A454C4B325E8F78D006658F3 /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
 		A478A37F25E50D96005FCB06 /* BJObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectViewController.h; sourceTree = "<group>"; };
-		A478A38025E50D96005FCB06 /* BJObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJObjectViewController.m; sourceTree = "<group>"; };
+		A478A38025E50D96005FCB06 /* BJObjectViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BJObjectViewController.mm; sourceTree = "<group>"; };
 		A4E9FF87258100D000888263 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A4E9FF88258100D000888263 /* Printer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Printer.h; sourceTree = "<group>"; };
 		A4E9FF89258100D000888263 /* BJPolymorphismViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPolymorphismViewController.h; sourceTree = "<group>"; };
@@ -185,7 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				A478A37F25E50D96005FCB06 /* BJObjectViewController.h */,
-				A478A38025E50D96005FCB06 /* BJObjectViewController.m */,
+				A478A38025E50D96005FCB06 /* BJObjectViewController.mm */,
+				A454C4B325E8F78D006658F3 /* MJClassInfo.h */,
 			);
 			path = Object;
 			sourceTree = "<group>";
@@ -250,10 +252,10 @@
 		A4EAF23A257911820079BA49 /* KVO */ = {
 			isa = PBXGroup;
 			children = (
-				A4EAF23B257911820079BA49 /* BJPerson.m */,
 				A4EAF23C257911820079BA49 /* BJKVOViewController.h */,
-				A4EAF23D257911820079BA49 /* BJPerson.h */,
 				A4EAF23E257911820079BA49 /* BJKVOViewController.m */,
+				A4EAF23D257911820079BA49 /* BJPerson.h */,
+				A4EAF23B257911820079BA49 /* BJPerson.m */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
@@ -630,7 +632,7 @@
 				A4EAF282257911820079BA49 /* BJArrayType.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
 				A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */,
-				A478A38125E50D96005FCB06 /* BJObjectViewController.m in Sources */,
+				A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */,
 				A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */,
 				A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */,
 				A4EAF27C257911820079BA49 /* BJExtensionViewController+BJCategory.m in Sources */,

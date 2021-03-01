@@ -11,9 +11,16 @@
 #import <objc/runtime.h>
 #import <malloc/malloc.h>
 
+#import "MJClassInfo.h"
+
 // NSObject Implementation
 struct NSObject_IMPL {
     Class isa; // 8个字节
+};
+
+struct bj_objc_class {
+    Class isa;
+    Class superclass;
 };
 
 @interface Student : NSObject {
@@ -23,14 +30,25 @@ struct NSObject_IMPL {
 }
 
 //@property (nonatomic, assign) int age;// 4字节
-@property (nonatomic, assign) NSInteger age;// 8字节
+//@property (nonatomic, assign) NSInteger age;// 8字节
 
+- (void)test;
+
++ (void)text;
 //@property (nonatomic, assign) NSInteger nom;
 //@property (nonatomic, strong) NSArray *arr;// 指针8字节
 
 @end
 
 @implementation Student
+
+- (void)test {
+    
+}
+
++ (void)text {
+    
+}
 
 @end
 
@@ -50,7 +68,9 @@ struct NSObject_IMPL {
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    [self object_type];
+//    [self object_type];
+    
+    [self isaAndSuperclass];
 }
 
 - (void)object_memory {
@@ -69,7 +89,7 @@ struct NSObject_IMPL {
     
     Student *stu = [[Student alloc] init];
 //    stu->_num = 1;
-    stu.age = 2;
+//    stu.age = 2;
 //    stu.nom = 3;
     
     
@@ -147,6 +167,34 @@ struct NSObject_IMPL {
      
      */
 
+}
+
+// 那个经典的isa和superclass的指示图
+
+- (void)isaAndSuperclass {
+    
+    // 模拟类的结构体，查看类的结构
+//    mj_objc_class *studentClass2 = (__bridge mj_objc_class *)([Student class]);
+//
+//    class_rw_t *studentClass2Data = studentClass2->data();
+//
+//    class_rw_t *studentClass2MetaData = studentClass2->metaClass()->data();
+
+    
+    
+    
+    // MJPerson实例对象的isa：0x001d8001000014c9
+
+    // MJPerson类对象的地址：0x00000001000014c8
+    // isa & ISA_MASK：0x00000001000014c8
+    // ISA_MASK = 0x0000000ffffffff8
+    
+    
+    Student *student = [[Student alloc] init];
+    
+    struct bj_objc_class *studentClass = (__bridge struct bj_objc_class *)([Student class]);
+    
+    NSLog(@"");
 }
 
 @end
