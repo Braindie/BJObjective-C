@@ -8,6 +8,7 @@
 
 #import "BJKVOViewController.h"
 #import "BJPerson.h"
+#import <objc/runtime.h>
 
 @interface BJKVOViewController ()
 @property (nonatomic, strong) BJPerson *person1;
@@ -39,16 +40,25 @@
     NSKeyValueObservingOptions option = NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld;
     [self.person1 addObserver:self forKeyPath:@"age" options:option context:@"测试"];
     
+    // NSKVONotifying_Person是使用Runtime动态创建的一个类，是Person的子类
     NSLog(@"person1：%s,person2：%s",object_getClassName(self.person1),object_getClassName(self.person2));
 //    person1：NSKVONotifying_BJPerson,person2：BJPerson
     NSLog(@"%@ %@", [self.person1 class], [self.person2 class]);
-//    BJPerson BJPerson(和上面打印的类名不同是重写了class方法）苹果并不希望把NSKVONotifying_Person这个类暴露出来，屏蔽内部实现，隐藏这个类的存在。
     
-
     
     NSLog(@"person1-IMP：%p",[self.person1 methodForSelector:@selector(setAge:)]);
 //    (Foundation`_NSSetObjectValueAndNotify)
-
+    
+    
+    /*
+        NSKVONotifying_BJPerson 调用了这些方法
+            setAge:,
+            class,
+            dealloc,
+            _isKVOA,
+     */
+    [self printMethodNamesOfClass:object_getClass(self.person1)];
+    [self printMethodNamesOfClass:object_getClass(self.person2)];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
@@ -67,6 +77,27 @@
 
     NSLog(@"\n 被观测对象：%@\n 被观测的属性：%@\n 值的改变: %@\n 携带信息:%@", object, keyPath, change, context);
 
+}
+
+// 验证 NSKVONotifying_BJPerson 重写的方法
+- (void)printMethodNamesOfClass:(Class)cls {
+    unsigned int count;
+    // 获取方法数组
+    Method *methodList = class_copyMethodList(cls, &count);
+    
+    NSMutableString *methodNames = [NSMutableString string];
+    for (NSInteger i = 0; i < count; i++) {
+        // 获得方法
+        Method method = methodList[i];
+        // 获得方法名
+        NSString *methodName = NSStringFromSelector(method_getName(method));
+        // 拼接方法名
+        [methodNames appendFormat:@"%@, ",methodName];
+    }
+    // 释放
+    free(methodList);
+    
+    NSLog(@"%@  %@", cls, methodNames);
 }
 
 

@@ -126,8 +126,9 @@ static NSString * str;
             [self.navigationController pushViewController:vc animated:YES];
             
         }else if (indexPath.row == 1){
-            BJExtensionViewController *vc = [[BJExtensionViewController alloc] init];
+            BJKVOViewController *vc = [[BJKVOViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
+
 
         }else if (indexPath.row == 2){
             BJKVCViewController *vc = [[BJKVCViewController alloc] init];
@@ -141,17 +142,17 @@ static NSString * str;
             BJDesignatedInitializerViewController *vc = [[BJDesignatedInitializerViewController alloc] init];
             vc.title = @"指定初始化函数";
             [self.navigationController pushViewController:vc animated:YES];
-        }
-    } else if (indexPath.section == 2) {
-        if (indexPath.row == 0){
+        } else if (indexPath.row == 5){
+            
+            BJExtensionViewController *vc = [[BJExtensionViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        } else if (indexPath.row == 6){
             BJDelegateViewController *vc = [[BJDelegateViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
 
-        }else if (indexPath.row == 1){
-            BJKVOViewController *vc = [[BJKVOViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
         }
-    } else if (indexPath.section == 3) {
+    } else if (indexPath.section == 2) {
         if (indexPath.row == 0) {
             BJClassAndObjectViewController *vc = [[BJClassAndObjectViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
@@ -226,7 +227,7 @@ static NSString * str;
 
 - (NSArray *)basicsArray {
     if (!_basicsArray) {
-        _basicsArray = @[@"对象", @"扩展、分类", @"KVC", @"生命周期", @"初始化函数"];
+        _basicsArray = @[@"对象", @"KVO", @"KVC", @"分类", @"生命周期", @"初始化函数"];
     }
     return _basicsArray;
 }

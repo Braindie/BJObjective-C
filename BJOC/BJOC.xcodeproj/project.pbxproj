@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A435C7A625EDEEC9006D2DBC /* BJDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C79C25EDEEC9006D2DBC /* BJDelegateView.m */; };
+		A435C7A725EDEEC9006D2DBC /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7A025EDEEC9006D2DBC /* BJDelegateViewController.m */; };
+		A435C7A825EDEEC9006D2DBC /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7A225EDEEC9006D2DBC /* BJPerson.m */; };
+		A435C7A925EDEEC9006D2DBC /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7A525EDEEC9006D2DBC /* BJKVOViewController.m */; };
 		A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A478A38025E50D96005FCB06 /* BJObjectViewController.mm */; };
 		A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8C258100D000888263 /* BJPolymorphismViewController.m */; };
 		A4E9FF95258100D000888263 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8D258100D000888263 /* Printer.m */; };
@@ -15,10 +19,6 @@
 		A4E9FF98258100D000888263 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF90258100D000888263 /* BlackPrinter.m */; };
 		A4E9FF99258100D000888263 /* BJArithmeticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF93258100D000888263 /* BJArithmeticViewController.m */; };
 		A4EAF22E25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */; };
-		A4EAF271257911820079BA49 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF23B257911820079BA49 /* BJPerson.m */; };
-		A4EAF272257911820079BA49 /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF23E257911820079BA49 /* BJKVOViewController.m */; };
-		A4EAF273257911820079BA49 /* BJDelegateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF240257911820079BA49 /* BJDelegateView.m */; };
-		A4EAF274257911820079BA49 /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF243257911820079BA49 /* BJDelegateViewController.m */; };
 		A4EAF275257911820079BA49 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF246257911820079BA49 /* Animal.m */; };
 		A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */; };
 		A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF24B257911820079BA49 /* BJExtensionViewController.m */; };
@@ -69,6 +69,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A435C79C25EDEEC9006D2DBC /* BJDelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDelegateView.m; sourceTree = "<group>"; };
+		A435C79D25EDEEC9006D2DBC /* BJDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegate.h; sourceTree = "<group>"; };
+		A435C79E25EDEEC9006D2DBC /* BJDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegateViewController.h; sourceTree = "<group>"; };
+		A435C79F25EDEEC9006D2DBC /* BJDelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegateView.h; sourceTree = "<group>"; };
+		A435C7A025EDEEC9006D2DBC /* BJDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDelegateViewController.m; sourceTree = "<group>"; };
+		A435C7A225EDEEC9006D2DBC /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
+		A435C7A325EDEEC9006D2DBC /* BJKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVOViewController.h; sourceTree = "<group>"; };
+		A435C7A425EDEEC9006D2DBC /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
+		A435C7A525EDEEC9006D2DBC /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
+		A435C7B425EE0FE9006D2DBC /* NSKVONotifying_BJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_BJPerson.h; sourceTree = "<group>"; };
+		A435C7B525EE0FE9006D2DBC /* NSKVONotifying_BJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_BJPerson.m; sourceTree = "<group>"; };
 		A454C4B325E8F78D006658F3 /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
 		A478A37F25E50D96005FCB06 /* BJObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectViewController.h; sourceTree = "<group>"; };
 		A478A38025E50D96005FCB06 /* BJObjectViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BJObjectViewController.mm; sourceTree = "<group>"; };
@@ -86,14 +97,6 @@
 		A4E9FF93258100D000888263 /* BJArithmeticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJArithmeticViewController.m; sourceTree = "<group>"; };
 		A4EAF22C25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRuntimeMethodSwizzlingViewController.h; sourceTree = "<group>"; };
 		A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeMethodSwizzlingViewController.m; sourceTree = "<group>"; };
-		A4EAF23B257911820079BA49 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
-		A4EAF23C257911820079BA49 /* BJKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVOViewController.h; sourceTree = "<group>"; };
-		A4EAF23D257911820079BA49 /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
-		A4EAF23E257911820079BA49 /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
-		A4EAF240257911820079BA49 /* BJDelegateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDelegateView.m; sourceTree = "<group>"; };
-		A4EAF241257911820079BA49 /* BJDelegateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegateViewController.h; sourceTree = "<group>"; };
-		A4EAF242257911820079BA49 /* BJDelegateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDelegateView.h; sourceTree = "<group>"; };
-		A4EAF243257911820079BA49 /* BJDelegateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDelegateViewController.m; sourceTree = "<group>"; };
 		A4EAF246257911820079BA49 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		A4EAF247257911820079BA49 /* BJDesignatedInitializerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDesignatedInitializerViewController.h; sourceTree = "<group>"; };
 		A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDesignatedInitializerViewController.m; sourceTree = "<group>"; };
@@ -122,7 +125,6 @@
 		A4EAF26F257911820079BA49 /* BJKVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVCViewController.h; sourceTree = "<group>"; };
 		A4EAF270257911820079BA49 /* BJArrayType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJArrayType.h; sourceTree = "<group>"; };
 		A4EAF28B257912220079BA49 /* BJExtensionViewController+BJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJExtension.h"; sourceTree = "<group>"; };
-		A4EAF28D257912D70079BA49 /* BJDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJDelegate.h; sourceTree = "<group>"; };
 		A4EAF292257915400079BA49 /* BJRuntimeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeButtonViewController.h; sourceTree = "<group>"; };
 		A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BJRuntimeControl.m"; sourceTree = "<group>"; };
 		A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeButtonViewController.m; sourceTree = "<group>"; };
@@ -182,6 +184,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A435C79B25EDEEC9006D2DBC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				A435C79C25EDEEC9006D2DBC /* BJDelegateView.m */,
+				A435C79D25EDEEC9006D2DBC /* BJDelegate.h */,
+				A435C79E25EDEEC9006D2DBC /* BJDelegateViewController.h */,
+				A435C79F25EDEEC9006D2DBC /* BJDelegateView.h */,
+				A435C7A025EDEEC9006D2DBC /* BJDelegateViewController.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		A435C7A125EDEEC9006D2DBC /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				A435C7A325EDEEC9006D2DBC /* BJKVOViewController.h */,
+				A435C7A525EDEEC9006D2DBC /* BJKVOViewController.m */,
+				A435C7A425EDEEC9006D2DBC /* BJPerson.h */,
+				A435C7A225EDEEC9006D2DBC /* BJPerson.m */,
+				A435C7B425EE0FE9006D2DBC /* NSKVONotifying_BJPerson.h */,
+				A435C7B525EE0FE9006D2DBC /* NSKVONotifying_BJPerson.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 		A478A37E25E50D51005FCB06 /* Object */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,47 +267,17 @@
 			path = runtimeMethodSwizzling;
 			sourceTree = "<group>";
 		};
-		A4EAF239257911820079BA49 /* Message */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF23A257911820079BA49 /* KVO */,
-				A4EAF23F257911820079BA49 /* Delegate */,
-			);
-			path = Message;
-			sourceTree = "<group>";
-		};
-		A4EAF23A257911820079BA49 /* KVO */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF23C257911820079BA49 /* BJKVOViewController.h */,
-				A4EAF23E257911820079BA49 /* BJKVOViewController.m */,
-				A4EAF23D257911820079BA49 /* BJPerson.h */,
-				A4EAF23B257911820079BA49 /* BJPerson.m */,
-			);
-			path = KVO;
-			sourceTree = "<group>";
-		};
-		A4EAF23F257911820079BA49 /* Delegate */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF241257911820079BA49 /* BJDelegateViewController.h */,
-				A4EAF243257911820079BA49 /* BJDelegateViewController.m */,
-				A4EAF242257911820079BA49 /* BJDelegateView.h */,
-				A4EAF240257911820079BA49 /* BJDelegateView.m */,
-				A4EAF28D257912D70079BA49 /* BJDelegate.h */,
-			);
-			path = Delegate;
-			sourceTree = "<group>";
-		};
 		A4EAF244257911820079BA49 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
 				A478A37E25E50D51005FCB06 /* Object */,
-				A4EAF24A257911820079BA49 /* Extension */,
+				A435C7A125EDEEC9006D2DBC /* KVO */,
+				A4EAF264257911820079BA49 /* KVC */,
 				A4EAF255257911820079BA49 /* Category */,
+				A4EAF24A257911820079BA49 /* Extension */,
 				A4EAF24D257911820079BA49 /* BJViewLife */,
 				A4EAF245257911820079BA49 /* BJDesignatedInit */,
-				A4EAF264257911820079BA49 /* KVC */,
+				A435C79B25EDEEC9006D2DBC /* Delegate */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -467,7 +464,6 @@
 			isa = PBXGroup;
 			children = (
 				A4E9FF85258100D000888263 /* Commons */,
-				A4EAF239257911820079BA49 /* Message */,
 				A4EAF244257911820079BA49 /* Basics */,
 				E56180C4237BF79200A316C8 /* Runtime */,
 			);
@@ -610,24 +606,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
-				A4EAF271257911820079BA49 /* BJPerson.m in Sources */,
 				A4E9FF95258100D000888263 /* Printer.m in Sources */,
 				A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */,
+				A435C7A725EDEEC9006D2DBC /* BJDelegateViewController.m in Sources */,
 				E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */,
 				A4E9FF98258100D000888263 /* BlackPrinter.m in Sources */,
-				A4EAF274257911820079BA49 /* BJDelegateViewController.m in Sources */,
 				A4EAF279257911820079BA49 /* BJuseCODEinit.m in Sources */,
+				A435C7A825EDEEC9006D2DBC /* BJPerson.m in Sources */,
 				A4E9FF96258100D000888263 /* Person.m in Sources */,
 				E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */,
 				A4EAF27A257911820079BA49 /* BJInitViewTypeViewController.m in Sources */,
 				A4EAF22E25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m in Sources */,
 				A4EAF275257911820079BA49 /* Animal.m in Sources */,
+				A435C7A625EDEEC9006D2DBC /* BJDelegateView.m in Sources */,
 				A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */,
-				A4EAF273257911820079BA49 /* BJDelegateView.m in Sources */,
 				E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */,
 				A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */,
 				A4EAF29B257915400079BA49 /* UIControl+BJRuntimeControl.m in Sources */,
 				A4E9FF97258100D000888263 /* ColorPrinter.m in Sources */,
+				A435C7A925EDEEC9006D2DBC /* BJKVOViewController.m in Sources */,
 				A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */,
 				A4EAF282257911820079BA49 /* BJArrayType.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
@@ -638,7 +635,6 @@
 				A4EAF27C257911820079BA49 /* BJExtensionViewController+BJCategory.m in Sources */,
 				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
 				A4EAF287257911820079BA49 /* BJStudent.m in Sources */,
-				A4EAF272257911820079BA49 /* BJKVOViewController.m in Sources */,
 				A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */,
 				A4EAF29C257915400079BA49 /* BJRuntimeButtonViewController.m in Sources */,
 				A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */,
