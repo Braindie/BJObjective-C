@@ -335,12 +335,12 @@
 				A4EAF26B257911820079BA49 /* BJPeople.m */,
 				A4EAF26A257911820079BA49 /* BJStudent.h */,
 				A4EAF26E257911820079BA49 /* BJStudent.m */,
-				A4EAF267257911820079BA49 /* BJDictionaryType.h */,
-				A4EAF26D257911820079BA49 /* BJDictionaryType.m */,
 				A4EAF26C257911820079BA49 /* BJObjectOrNot.m */,
 				A4EAF265257911820079BA49 /* BJObjectOrNot.h */,
 				A4EAF270257911820079BA49 /* BJArrayType.h */,
 				A4EAF268257911820079BA49 /* BJArrayType.m */,
+				A4EAF267257911820079BA49 /* BJDictionaryType.h */,
+				A4EAF26D257911820079BA49 /* BJDictionaryType.m */,
 			);
 			path = KVC;
 			sourceTree = "<group>";

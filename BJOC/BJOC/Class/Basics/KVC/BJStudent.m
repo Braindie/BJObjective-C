@@ -9,44 +9,42 @@
 #import "BJStudent.h"
 
 @interface BJStudent (){
+    // KVC 的赋值顺序，从上到下
     NSString *_name;
-    NSString *myName;//实例变量
+    NSString *_isName;
+    NSString *name;
+    NSString *isName;
 }
 
 @end
 
 @implementation BJStudent
 
-//- (void)setName:(NSString *)name{
-//    myName = name;
-//}
-//- (NSString *)name{
-//    return myName;
-//}
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        myName = @"hello";
-        NSLog(@"%@",myName);
+//        myName = @"hello";
+//        NSLog(@"%@",myName);
     }
     return self;
 }
 
-
-+ (BOOL)accessInstanceVariablesDirectly{//默认会返回YES，改为NO之后会执行下面的方法
-    return NO;
-}
-
-- (id)valueForUndefinedKey:(NSString *)key{//这段代码会报Crash，重写后不会Crash
-    NSLog(@"%s",__func__);
-    NSLog(@"出现异常，该key不存在%@",key);
-    return nil;
-}
-- (void)setValue:(id)value forUndefinedKey:(NSString *)key{//这段代码会报Crash，重写后不会Crash
-    NSLog(@"%s",__func__);
-    NSLog(@"出现异常，该key不存在%@",key);
-}
+// 默认会返回YES
+//+ (BOOL)accessInstanceVariablesDirectly{//改为NO之后会执行下面的方法
+//    return NO;
+//}
+//
+//- (id)valueForUndefinedKey:(NSString *)key{//这段代码会报Crash，重写后不会Crash
+//    NSLog(@"%s",__func__);
+//    NSLog(@"出现异常，该key不存在%@",key);
+//    return nil;
+//}
+//
+//- (void)setValue:(id)value forUndefinedKey:(NSString *)key{//这段代码会报Crash，重写后不会Crash
+//    NSLog(@"%s",__func__);
+//    NSLog(@"出现异常，该key不存在%@",key);
+//}
 
 @end

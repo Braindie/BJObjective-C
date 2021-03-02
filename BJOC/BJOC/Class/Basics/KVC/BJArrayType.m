@@ -16,6 +16,7 @@
     if (self) {
         _array = [NSMutableArray new];
         [self addObserver:self forKeyPath:@"array" options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew context:nil];
+        [self addObserver:self forKeyPath:@"_name" options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew context:nil];
     }
     return self;
 }
@@ -30,16 +31,26 @@
     [self removeObserver:self forKeyPath:@"array"];
 }
 
+#pragma mark -
+// 通过KVC修改实例变量也能触发KVO
+- (void)changeInstance {
+    [self setValue:@"zhang" forKey:@"_name"];
+}
 
-- (void)addItem{//无法触发KVO
+#pragma mark -
+//无法触发KVO
+- (void)addItem{
     [_array addObject:@"1"];
 }
 
-- (void)addItemObserver{//触发KVO
+//触发KVO
+- (void)addItemObserver{
+    // mutableArrayValueForKey为KVC方法
     [[self mutableArrayValueForKey:@"array"] addObject:@"1"];
 }
 
-- (void)removeItemObserver{//触发KVO
+//触发KVO
+- (void)removeItemObserver{
     [[self mutableArrayValueForKey:@"array"] removeLastObject];
 }
 

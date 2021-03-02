@@ -49,7 +49,7 @@ static NSString * str;
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"OC";
+    self.title = @"";
 
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
@@ -235,7 +235,7 @@ static NSString * str;
 
 - (NSArray *)messageArray {
     if (!_messageArray) {
-        _messageArray = @[@"代理", @"KVO"];
+        _messageArray = @[];
     }
     return _messageArray;
 }

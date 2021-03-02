@@ -10,12 +10,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BJArrayType : NSObject
+@interface BJArrayType : NSObject{
+    NSString *_name;
+}
+
 @property (nonatomic, strong) NSMutableArray *array;
 
 - (void)addItem;
 - (void)addItemObserver;
 - (void)removeItemObserver;
+
+- (void)changeInstance;
 @end
 
 NS_ASSUME_NONNULL_END

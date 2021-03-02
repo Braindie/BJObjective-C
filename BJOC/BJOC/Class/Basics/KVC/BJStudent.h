@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BJStudent : NSObject
+
 @property (nonatomic, assign) NSInteger age;
+
 @end
 
 NS_ASSUME_NONNULL_END
