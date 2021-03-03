@@ -16,7 +16,7 @@
 #import "BJDelegateViewController.h"
 #import "BJKVCViewController.h"
 #import "BJKVOViewController.h"
-
+#import "BJCategoryController.h"
 #import "BJDesignatedInitializerViewController.h"
 #import "BJInitViewTypeViewController.h"
 
@@ -135,12 +135,11 @@ static NSString * str;
             [self.navigationController pushViewController:vc animated:YES];
 
         } else if (indexPath.row == 3){
-            BJInitViewTypeViewController *vc = [[BJInitViewTypeViewController alloc] init];
-            vc.title = @"生命周期";
+            
+            BJCategoryController *vc = [[BJCategoryController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         } else if (indexPath.row == 4){
             BJDesignatedInitializerViewController *vc = [[BJDesignatedInitializerViewController alloc] init];
-            vc.title = @"指定初始化函数";
             [self.navigationController pushViewController:vc animated:YES];
         } else if (indexPath.row == 5){
             
@@ -151,6 +150,9 @@ static NSString * str;
             BJDelegateViewController *vc = [[BJDelegateViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
 
+        } else if (indexPath.row == 7){
+            BJInitViewTypeViewController *vc = [[BJInitViewTypeViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
     } else if (indexPath.section == 2) {
         if (indexPath.row == 0) {

@@ -13,4 +13,5 @@
 - (void)categoryMethod{
     NSLog(@"分类、这是一个分类的方法");
 }
+
 @end

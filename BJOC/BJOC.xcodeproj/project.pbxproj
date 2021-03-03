@@ -11,6 +11,10 @@
 		A435C7A725EDEEC9006D2DBC /* BJDelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7A025EDEEC9006D2DBC /* BJDelegateViewController.m */; };
 		A435C7A825EDEEC9006D2DBC /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7A225EDEEC9006D2DBC /* BJPerson.m */; };
 		A435C7A925EDEEC9006D2DBC /* BJKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7A525EDEEC9006D2DBC /* BJKVOViewController.m */; };
+		A435C7C925EE50EA006D2DBC /* BJCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7C825EE50EA006D2DBC /* BJCategoryController.m */; };
+		A435C7CF25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7CD25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m */; };
+		A443EF4225EF3D4F00441E99 /* BJCatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EF4125EF3D4F00441E99 /* BJCatePerson.m */; };
+		A443EF4825EF3D8800441E99 /* BJCatePerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */; };
 		A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A478A38025E50D96005FCB06 /* BJObjectViewController.mm */; };
 		A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8C258100D000888263 /* BJPolymorphismViewController.m */; };
 		A4E9FF95258100D000888263 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8D258100D000888263 /* Printer.m */; };
@@ -26,7 +30,6 @@
 		A4EAF279257911820079BA49 /* BJuseCODEinit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF24F257911820079BA49 /* BJuseCODEinit.m */; };
 		A4EAF27A257911820079BA49 /* BJInitViewTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF250257911820079BA49 /* BJInitViewTypeViewController.m */; };
 		A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF251257911820079BA49 /* BJuseXIBinit.m */; };
-		A4EAF27C257911820079BA49 /* BJExtensionViewController+BJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF256257911820079BA49 /* BJExtensionViewController+BJCategory.m */; };
 		A4EAF282257911820079BA49 /* BJArrayType.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF268257911820079BA49 /* BJArrayType.m */; };
 		A4EAF283257911820079BA49 /* BJKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF269257911820079BA49 /* BJKVCViewController.m */; };
 		A4EAF284257911820079BA49 /* BJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26B257911820079BA49 /* BJPeople.m */; };
@@ -80,6 +83,14 @@
 		A435C7A525EDEEC9006D2DBC /* BJKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJKVOViewController.m; sourceTree = "<group>"; };
 		A435C7B425EE0FE9006D2DBC /* NSKVONotifying_BJPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_BJPerson.h; sourceTree = "<group>"; };
 		A435C7B525EE0FE9006D2DBC /* NSKVONotifying_BJPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_BJPerson.m; sourceTree = "<group>"; };
+		A435C7C725EE50EA006D2DBC /* BJCategoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJCategoryController.h; sourceTree = "<group>"; };
+		A435C7C825EE50EA006D2DBC /* BJCategoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJCategoryController.m; sourceTree = "<group>"; };
+		A435C7CD25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BJExtensionViewController+BJCategory.m"; sourceTree = "<group>"; };
+		A435C7CE25EE513A006D2DBC /* BJExtensionViewController+BJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJCategory.h"; sourceTree = "<group>"; };
+		A443EF4025EF3D4F00441E99 /* BJCatePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJCatePerson.h; sourceTree = "<group>"; };
+		A443EF4125EF3D4F00441E99 /* BJCatePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJCatePerson.m; sourceTree = "<group>"; };
+		A443EF4625EF3D8800441E99 /* BJCatePerson+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJCatePerson+Test.h"; sourceTree = "<group>"; };
+		A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJCatePerson+Test.m"; sourceTree = "<group>"; };
 		A454C4B325E8F78D006658F3 /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
 		A478A37F25E50D96005FCB06 /* BJObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectViewController.h; sourceTree = "<group>"; };
 		A478A38025E50D96005FCB06 /* BJObjectViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BJObjectViewController.mm; sourceTree = "<group>"; };
@@ -110,8 +121,6 @@
 		A4EAF252257911820079BA49 /* BJInitViewTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJInitViewTypeViewController.h; sourceTree = "<group>"; };
 		A4EAF253257911820079BA49 /* BJuseCODEinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseCODEinit.h; sourceTree = "<group>"; };
 		A4EAF254257911820079BA49 /* BJuseXIBinit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJuseXIBinit.h; sourceTree = "<group>"; };
-		A4EAF256257911820079BA49 /* BJExtensionViewController+BJCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BJExtensionViewController+BJCategory.m"; sourceTree = "<group>"; };
-		A4EAF257257911820079BA49 /* BJExtensionViewController+BJCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJCategory.h"; sourceTree = "<group>"; };
 		A4EAF265257911820079BA49 /* BJObjectOrNot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJObjectOrNot.h; sourceTree = "<group>"; };
 		A4EAF266257911820079BA49 /* BJPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPeople.h; sourceTree = "<group>"; };
 		A4EAF267257911820079BA49 /* BJDictionaryType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDictionaryType.h; sourceTree = "<group>"; };
@@ -299,6 +308,8 @@
 				A4EAF24C257911820079BA49 /* BJExtensionViewController.h */,
 				A4EAF24B257911820079BA49 /* BJExtensionViewController.m */,
 				A4EAF28B257912220079BA49 /* BJExtensionViewController+BJExtension.h */,
+				A435C7CE25EE513A006D2DBC /* BJExtensionViewController+BJCategory.h */,
+				A435C7CD25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -320,8 +331,12 @@
 		A4EAF255257911820079BA49 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				A4EAF257257911820079BA49 /* BJExtensionViewController+BJCategory.h */,
-				A4EAF256257911820079BA49 /* BJExtensionViewController+BJCategory.m */,
+				A435C7C725EE50EA006D2DBC /* BJCategoryController.h */,
+				A435C7C825EE50EA006D2DBC /* BJCategoryController.m */,
+				A443EF4025EF3D4F00441E99 /* BJCatePerson.h */,
+				A443EF4125EF3D4F00441E99 /* BJCatePerson.m */,
+				A443EF4625EF3D8800441E99 /* BJCatePerson+Test.h */,
+				A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -605,6 +620,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A435C7C925EE50EA006D2DBC /* BJCategoryController.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
 				A4E9FF95258100D000888263 /* Printer.m in Sources */,
 				A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */,
@@ -622,17 +638,19 @@
 				A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */,
 				E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */,
 				A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */,
+				A435C7CF25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m in Sources */,
 				A4EAF29B257915400079BA49 /* UIControl+BJRuntimeControl.m in Sources */,
 				A4E9FF97258100D000888263 /* ColorPrinter.m in Sources */,
 				A435C7A925EDEEC9006D2DBC /* BJKVOViewController.m in Sources */,
 				A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */,
 				A4EAF282257911820079BA49 /* BJArrayType.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
+				A443EF4225EF3D4F00441E99 /* BJCatePerson.m in Sources */,
 				A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */,
+				A443EF4825EF3D8800441E99 /* BJCatePerson+Test.m in Sources */,
 				A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */,
 				A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */,
 				A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */,
-				A4EAF27C257911820079BA49 /* BJExtensionViewController+BJCategory.m in Sources */,
 				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
 				A4EAF287257911820079BA49 /* BJStudent.m in Sources */,
 				A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */,

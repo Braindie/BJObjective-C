@@ -27,15 +27,15 @@
 /*
  当类或分类（Category）被加载到 Objective-C runtime 时（就是被引用的时候）被调用的，实现这个方法可以让我们在类加载的时候执行一些类相关的行为。当类被引用进项目的时候就会执行 load 函数（在 main 函数开始执行之前），与这个类是否被用到无关，每个类的 load 函数只会自动调用一次。x
  */
-+ (void)load{
-  NSLog(@"load");
++ (void)load {
+//  NSLog(@"load");
 }
 
 /*
  函数是在类或者其子类的收到第一条消息之前调用。这里所指的消息包括实例方法和类方法的调用。也就是说 initialize 方法是以懒加载的方式被调用的，如果程序一直没有给某个类或它的子类发送消息，那么这个类的 initialize 方法是永远不会被调用的。
  */
-+ (void)initialize{
-  NSLog(@"initialize");
++ (void)initialize {
+//  NSLog(@"initialize");
 }
 
 - (instancetype)init
