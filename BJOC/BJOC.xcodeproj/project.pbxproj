@@ -15,6 +15,12 @@
 		A435C7CF25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A435C7CD25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m */; };
 		A443EF4225EF3D4F00441E99 /* BJCatePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EF4125EF3D4F00441E99 /* BJCatePerson.m */; };
 		A443EF4825EF3D8800441E99 /* BJCatePerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */; };
+		A443EF9425EF9A6400441E99 /* BJLoadPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EF9325EF9A6400441E99 /* BJLoadPerson.m */; };
+		A443EF9D25EF9A7900441E99 /* BJLoadStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EF9C25EF9A7900441E99 /* BJLoadStudent.m */; };
+		A443EFA325EF9B9900441E99 /* BJLoadPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFA225EF9B9900441E99 /* BJLoadPerson+Test1.m */; };
+		A443EFA925EF9BA900441E99 /* BJLoadPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFA825EF9BA900441E99 /* BJLoadPerson+Test2.m */; };
+		A443EFAF25EF9BBF00441E99 /* BJLoadStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFAE25EF9BBF00441E99 /* BJLoadStudent+Test1.m */; };
+		A443EFB525EF9BCD00441E99 /* BJLoadStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFB425EF9BCD00441E99 /* BJLoadStudent+Test2.m */; };
 		A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A478A38025E50D96005FCB06 /* BJObjectViewController.mm */; };
 		A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8C258100D000888263 /* BJPolymorphismViewController.m */; };
 		A4E9FF95258100D000888263 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8D258100D000888263 /* Printer.m */; };
@@ -91,6 +97,18 @@
 		A443EF4125EF3D4F00441E99 /* BJCatePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJCatePerson.m; sourceTree = "<group>"; };
 		A443EF4625EF3D8800441E99 /* BJCatePerson+Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJCatePerson+Test.h"; sourceTree = "<group>"; };
 		A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJCatePerson+Test.m"; sourceTree = "<group>"; };
+		A443EF9225EF9A6400441E99 /* BJLoadPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJLoadPerson.h; sourceTree = "<group>"; };
+		A443EF9325EF9A6400441E99 /* BJLoadPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJLoadPerson.m; sourceTree = "<group>"; };
+		A443EF9B25EF9A7900441E99 /* BJLoadStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJLoadStudent.h; sourceTree = "<group>"; };
+		A443EF9C25EF9A7900441E99 /* BJLoadStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJLoadStudent.m; sourceTree = "<group>"; };
+		A443EFA125EF9B9900441E99 /* BJLoadPerson+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJLoadPerson+Test1.h"; sourceTree = "<group>"; };
+		A443EFA225EF9B9900441E99 /* BJLoadPerson+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJLoadPerson+Test1.m"; sourceTree = "<group>"; };
+		A443EFA725EF9BA900441E99 /* BJLoadPerson+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJLoadPerson+Test2.h"; sourceTree = "<group>"; };
+		A443EFA825EF9BA900441E99 /* BJLoadPerson+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJLoadPerson+Test2.m"; sourceTree = "<group>"; };
+		A443EFAD25EF9BBF00441E99 /* BJLoadStudent+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJLoadStudent+Test1.h"; sourceTree = "<group>"; };
+		A443EFAE25EF9BBF00441E99 /* BJLoadStudent+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJLoadStudent+Test1.m"; sourceTree = "<group>"; };
+		A443EFB325EF9BCD00441E99 /* BJLoadStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJLoadStudent+Test2.h"; sourceTree = "<group>"; };
+		A443EFB425EF9BCD00441E99 /* BJLoadStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJLoadStudent+Test2.m"; sourceTree = "<group>"; };
 		A454C4B325E8F78D006658F3 /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
 		A478A37F25E50D96005FCB06 /* BJObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectViewController.h; sourceTree = "<group>"; };
 		A478A38025E50D96005FCB06 /* BJObjectViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BJObjectViewController.mm; sourceTree = "<group>"; };
@@ -218,6 +236,25 @@
 			path = KVO;
 			sourceTree = "<group>";
 		};
+		A443EF9125EF9A4700441E99 /* BJLoad */ = {
+			isa = PBXGroup;
+			children = (
+				A443EF9225EF9A6400441E99 /* BJLoadPerson.h */,
+				A443EF9325EF9A6400441E99 /* BJLoadPerson.m */,
+				A443EFA125EF9B9900441E99 /* BJLoadPerson+Test1.h */,
+				A443EFA225EF9B9900441E99 /* BJLoadPerson+Test1.m */,
+				A443EFA725EF9BA900441E99 /* BJLoadPerson+Test2.h */,
+				A443EFA825EF9BA900441E99 /* BJLoadPerson+Test2.m */,
+				A443EF9B25EF9A7900441E99 /* BJLoadStudent.h */,
+				A443EF9C25EF9A7900441E99 /* BJLoadStudent.m */,
+				A443EFAD25EF9BBF00441E99 /* BJLoadStudent+Test1.h */,
+				A443EFAE25EF9BBF00441E99 /* BJLoadStudent+Test1.m */,
+				A443EFB325EF9BCD00441E99 /* BJLoadStudent+Test2.h */,
+				A443EFB425EF9BCD00441E99 /* BJLoadStudent+Test2.m */,
+			);
+			path = BJLoad;
+			sourceTree = "<group>";
+		};
 		A478A37E25E50D51005FCB06 /* Object */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +374,7 @@
 				A443EF4125EF3D4F00441E99 /* BJCatePerson.m */,
 				A443EF4625EF3D8800441E99 /* BJCatePerson+Test.h */,
 				A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */,
+				A443EF9125EF9A4700441E99 /* BJLoad */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -644,6 +682,12 @@
 				A435C7A925EDEEC9006D2DBC /* BJKVOViewController.m in Sources */,
 				A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */,
 				A4EAF282257911820079BA49 /* BJArrayType.m in Sources */,
+				A443EFA925EF9BA900441E99 /* BJLoadPerson+Test2.m in Sources */,
+				A443EFA325EF9B9900441E99 /* BJLoadPerson+Test1.m in Sources */,
+				A443EFAF25EF9BBF00441E99 /* BJLoadStudent+Test1.m in Sources */,
+				A443EFB525EF9BCD00441E99 /* BJLoadStudent+Test2.m in Sources */,
+				A443EF9D25EF9A7900441E99 /* BJLoadStudent.m in Sources */,
+				A443EF9425EF9A6400441E99 /* BJLoadPerson.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
 				A443EF4225EF3D4F00441E99 /* BJCatePerson.m in Sources */,
 				A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */,
