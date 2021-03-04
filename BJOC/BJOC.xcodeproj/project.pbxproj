@@ -21,6 +21,13 @@
 		A443EFA925EF9BA900441E99 /* BJLoadPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFA825EF9BA900441E99 /* BJLoadPerson+Test2.m */; };
 		A443EFAF25EF9BBF00441E99 /* BJLoadStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFAE25EF9BBF00441E99 /* BJLoadStudent+Test1.m */; };
 		A443EFB525EF9BCD00441E99 /* BJLoadStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = A443EFB425EF9BCD00441E99 /* BJLoadStudent+Test2.m */; };
+		A45A5B0B25F08B6900E3DAAB /* BJInitializePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B0A25F08B6900E3DAAB /* BJInitializePerson.m */; };
+		A45A5B1425F08BC500E3DAAB /* BJInitializeStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B1325F08BC500E3DAAB /* BJInitializeStudent.m */; };
+		A45A5B1A25F08BE000E3DAAB /* BJInitializePerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B1925F08BE000E3DAAB /* BJInitializePerson+Test1.m */; };
+		A45A5B2025F08BED00E3DAAB /* BJInitializePerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B1F25F08BED00E3DAAB /* BJInitializePerson+Test2.m */; };
+		A45A5B2625F08C0100E3DAAB /* BJInitializeStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B2525F08C0100E3DAAB /* BJInitializeStudent+Test1.m */; };
+		A45A5B2C25F08C1200E3DAAB /* BJInitializeStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B2B25F08C1200E3DAAB /* BJInitializeStudent+Test2.m */; };
+		A45A5B3225F0952100E3DAAB /* BJInitializeTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = A45A5B3125F0952100E3DAAB /* BJInitializeTeacher.m */; };
 		A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A478A38025E50D96005FCB06 /* BJObjectViewController.mm */; };
 		A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8C258100D000888263 /* BJPolymorphismViewController.m */; };
 		A4E9FF95258100D000888263 /* Printer.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8D258100D000888263 /* Printer.m */; };
@@ -110,6 +117,20 @@
 		A443EFB325EF9BCD00441E99 /* BJLoadStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJLoadStudent+Test2.h"; sourceTree = "<group>"; };
 		A443EFB425EF9BCD00441E99 /* BJLoadStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJLoadStudent+Test2.m"; sourceTree = "<group>"; };
 		A454C4B325E8F78D006658F3 /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
+		A45A5B0925F08B6900E3DAAB /* BJInitializePerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJInitializePerson.h; sourceTree = "<group>"; };
+		A45A5B0A25F08B6900E3DAAB /* BJInitializePerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJInitializePerson.m; sourceTree = "<group>"; };
+		A45A5B1225F08BC500E3DAAB /* BJInitializeStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJInitializeStudent.h; sourceTree = "<group>"; };
+		A45A5B1325F08BC500E3DAAB /* BJInitializeStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJInitializeStudent.m; sourceTree = "<group>"; };
+		A45A5B1825F08BE000E3DAAB /* BJInitializePerson+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJInitializePerson+Test1.h"; sourceTree = "<group>"; };
+		A45A5B1925F08BE000E3DAAB /* BJInitializePerson+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJInitializePerson+Test1.m"; sourceTree = "<group>"; };
+		A45A5B1E25F08BED00E3DAAB /* BJInitializePerson+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJInitializePerson+Test2.h"; sourceTree = "<group>"; };
+		A45A5B1F25F08BED00E3DAAB /* BJInitializePerson+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJInitializePerson+Test2.m"; sourceTree = "<group>"; };
+		A45A5B2425F08C0100E3DAAB /* BJInitializeStudent+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJInitializeStudent+Test1.h"; sourceTree = "<group>"; };
+		A45A5B2525F08C0100E3DAAB /* BJInitializeStudent+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJInitializeStudent+Test1.m"; sourceTree = "<group>"; };
+		A45A5B2A25F08C1200E3DAAB /* BJInitializeStudent+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BJInitializeStudent+Test2.h"; sourceTree = "<group>"; };
+		A45A5B2B25F08C1200E3DAAB /* BJInitializeStudent+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BJInitializeStudent+Test2.m"; sourceTree = "<group>"; };
+		A45A5B3025F0952100E3DAAB /* BJInitializeTeacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJInitializeTeacher.h; sourceTree = "<group>"; };
+		A45A5B3125F0952100E3DAAB /* BJInitializeTeacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJInitializeTeacher.m; sourceTree = "<group>"; };
 		A478A37F25E50D96005FCB06 /* BJObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjectViewController.h; sourceTree = "<group>"; };
 		A478A38025E50D96005FCB06 /* BJObjectViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BJObjectViewController.mm; sourceTree = "<group>"; };
 		A4E9FF87258100D000888263 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -255,6 +276,27 @@
 			path = BJLoad;
 			sourceTree = "<group>";
 		};
+		A45A5B0825F08A0000E3DAAB /* BJInitialize */ = {
+			isa = PBXGroup;
+			children = (
+				A45A5B0925F08B6900E3DAAB /* BJInitializePerson.h */,
+				A45A5B0A25F08B6900E3DAAB /* BJInitializePerson.m */,
+				A45A5B1825F08BE000E3DAAB /* BJInitializePerson+Test1.h */,
+				A45A5B1925F08BE000E3DAAB /* BJInitializePerson+Test1.m */,
+				A45A5B1E25F08BED00E3DAAB /* BJInitializePerson+Test2.h */,
+				A45A5B1F25F08BED00E3DAAB /* BJInitializePerson+Test2.m */,
+				A45A5B1225F08BC500E3DAAB /* BJInitializeStudent.h */,
+				A45A5B1325F08BC500E3DAAB /* BJInitializeStudent.m */,
+				A45A5B2425F08C0100E3DAAB /* BJInitializeStudent+Test1.h */,
+				A45A5B2525F08C0100E3DAAB /* BJInitializeStudent+Test1.m */,
+				A45A5B2A25F08C1200E3DAAB /* BJInitializeStudent+Test2.h */,
+				A45A5B2B25F08C1200E3DAAB /* BJInitializeStudent+Test2.m */,
+				A45A5B3025F0952100E3DAAB /* BJInitializeTeacher.h */,
+				A45A5B3125F0952100E3DAAB /* BJInitializeTeacher.m */,
+			);
+			path = BJInitialize;
+			sourceTree = "<group>";
+		};
 		A478A37E25E50D51005FCB06 /* Object */ = {
 			isa = PBXGroup;
 			children = (
@@ -374,6 +416,7 @@
 				A443EF4125EF3D4F00441E99 /* BJCatePerson.m */,
 				A443EF4625EF3D8800441E99 /* BJCatePerson+Test.h */,
 				A443EF4725EF3D8800441E99 /* BJCatePerson+Test.m */,
+				A45A5B0825F08A0000E3DAAB /* BJInitialize */,
 				A443EF9125EF9A4700441E99 /* BJLoad */,
 			);
 			path = Category;
@@ -662,9 +705,11 @@
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
 				A4E9FF95258100D000888263 /* Printer.m in Sources */,
 				A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */,
+				A45A5B0B25F08B6900E3DAAB /* BJInitializePerson.m in Sources */,
 				A435C7A725EDEEC9006D2DBC /* BJDelegateViewController.m in Sources */,
 				E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */,
 				A4E9FF98258100D000888263 /* BlackPrinter.m in Sources */,
+				A45A5B3225F0952100E3DAAB /* BJInitializeTeacher.m in Sources */,
 				A4EAF279257911820079BA49 /* BJuseCODEinit.m in Sources */,
 				A435C7A825EDEEC9006D2DBC /* BJPerson.m in Sources */,
 				A4E9FF96258100D000888263 /* Person.m in Sources */,
@@ -688,13 +733,18 @@
 				A443EFB525EF9BCD00441E99 /* BJLoadStudent+Test2.m in Sources */,
 				A443EF9D25EF9A7900441E99 /* BJLoadStudent.m in Sources */,
 				A443EF9425EF9A6400441E99 /* BJLoadPerson.m in Sources */,
+				A45A5B2C25F08C1200E3DAAB /* BJInitializeStudent+Test2.m in Sources */,
 				E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */,
 				A443EF4225EF3D4F00441E99 /* BJCatePerson.m in Sources */,
 				A4EAF27B257911820079BA49 /* BJuseXIBinit.m in Sources */,
+				A45A5B1A25F08BE000E3DAAB /* BJInitializePerson+Test1.m in Sources */,
+				A45A5B2625F08C0100E3DAAB /* BJInitializeStudent+Test1.m in Sources */,
 				A443EF4825EF3D8800441E99 /* BJCatePerson+Test.m in Sources */,
 				A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */,
 				A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */,
+				A45A5B2025F08BED00E3DAAB /* BJInitializePerson+Test2.m in Sources */,
 				A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */,
+				A45A5B1425F08BC500E3DAAB /* BJInitializeStudent.m in Sources */,
 				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
 				A4EAF287257911820079BA49 /* BJStudent.m in Sources */,
 				A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */,
