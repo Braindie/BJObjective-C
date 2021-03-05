@@ -45,6 +45,9 @@ struct category_t {
 #import "BJInitializeStudent+Test2.h"
 #import "BJInitializeTeacher.h"
 
+#import "BJAssociatePerson.h"
+#import "BJAssociatePerson+Test.h"
+
 @interface BJCategoryController ()
 
 @end
@@ -59,7 +62,9 @@ struct category_t {
 //
 //    [person test];
     
-    [self initializeMethod];
+//    [self initializeMethod];
+    
+    [self associatedObject];
 }
 
 - (void)loadMethodOrder {
@@ -181,6 +186,24 @@ struct category_t {
          1> 先初始化父类
          2> 再初始化子类（可能最终调用的是父类的initialize方法）
      */
+    
+}
+
+- (void)associatedObject {
+    
+    BJAssociatePerson *person = [[BJAssociatePerson alloc] init];
+    
+    person.age = 20;
+    
+    NSLog(@"age : %ld", (long)person.age);
+    
+    
+    person.name = @"张三";
+    
+    person.weight = 120;
+    
+    
+    NSLog(@"name : %@,   weight : %ld", person.name, person.weight);
     
 }
 
