@@ -21,7 +21,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor grayColor];
-    self.title = @"Block";
     
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     self.tableView.delegate = self;
@@ -38,11 +37,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cell"];
     if (indexPath.row == 0) {
-        cell.textLabel.text = @"block的分类（捕获外部变量）";
+//        cell.textLabel.text = @"block的分类（捕获外部变量）";
     }else if (indexPath.row == 1){
-      cell.textLabel.text = @"循环引用解决方法";
+//        cell.textLabel.text = @"循环引用解决方法";
     }else if (indexPath.row == 2){
-       cell.textLabel.text = @"block的原理（包含了__block的作用)";
+//       cell.textLabel.text = @"block的原理（包含了__block的作用)";
     }
     return cell;
 }

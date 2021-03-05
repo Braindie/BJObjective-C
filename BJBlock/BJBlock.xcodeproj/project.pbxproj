@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4731F1525F2402F00B63E41 /* BJBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = A4731F1425F2402F00B63E41 /* BJBlock.m */; };
 		E54B2AE02226960700776279 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E54B2ADD2226960700776279 /* BJPerson.m */; };
 		E54B2AE12226960700776279 /* BJTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54B2ADE2226960700776279 /* BJTwoViewController.m */; };
 		E54B2AE5222696BF00776279 /* BJBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54B2AE4222696BF00776279 /* BJBlockViewController.m */; };
@@ -19,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4731F1025F21C1800B63E41 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4731F1325F2402F00B63E41 /* BJBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJBlock.h; sourceTree = "<group>"; };
+		A4731F1425F2402F00B63E41 /* BJBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJBlock.m; sourceTree = "<group>"; };
+		A4731F1725F2414200B63E41 /* BJBlock.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJBlock.cpp; sourceTree = "<group>"; };
 		E54B2ADC2226960700776279 /* BJTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJTwoViewController.h; sourceTree = "<group>"; };
 		E54B2ADD2226960700776279 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
 		E54B2ADE2226960700776279 /* BJTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJTwoViewController.m; sourceTree = "<group>"; };
@@ -116,6 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				E58589871E10CE19007D9EC3 /* main.m */,
+				A4731F1325F2402F00B63E41 /* BJBlock.h */,
+				A4731F1425F2402F00B63E41 /* BJBlock.m */,
+				A4731F1725F2414200B63E41 /* BJBlock.cpp */,
+				A4731F1025F21C1800B63E41 /* main.cpp */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -161,6 +170,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -194,6 +204,7 @@
 				E54B2AE02226960700776279 /* BJPerson.m in Sources */,
 				E54B2AE92226A17900776279 /* BJRealizeViewController.m in Sources */,
 				E585899F1E10CEF5007D9EC3 /* BJOneViewController.m in Sources */,
+				A4731F1525F2402F00B63E41 /* BJBlock.m in Sources */,
 				E54B2AE5222696BF00776279 /* BJBlockViewController.m in Sources */,
 				E585898B1E10CE19007D9EC3 /* AppDelegate.m in Sources */,
 				E58589881E10CE19007D9EC3 /* main.m in Sources */,

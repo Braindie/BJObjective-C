@@ -106,8 +106,23 @@ struct __AtAutoreleasePool {
 };
 
 #define __OFFSETOFIVAR__(TYPE, MEMBER) ((long long) &((TYPE *)0)->MEMBER)
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_yy_qc0s36r50tb5y1qhyc1vc9hc0000gn_T_main_1e8224_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"Block\344\270\255 local = %d",19};
-static __NSConstantStringImpl __NSConstantStringImpl__var_folders_yy_qc0s36r50tb5y1qhyc1vc9hc0000gn_T_main_1e8224_mi_1 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"Block\344\270\255 static_local = %d",26};
+static __NSConstantStringImpl __NSConstantStringImpl__var_folders_yy_qc0s36r50tb5y1qhyc1vc9hc0000gn_T_BJBlock_33cf7a_mi_0 __attribute__ ((section ("__DATA, __cfstring"))) = {__CFConstantStringClassReference,0x000007c8,"this is a %@",12};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34160,49 +34175,227 @@ struct NSUUID_IMPL {
 
 #pragma clang assume_nonnull end
 
-struct __main_block_impl_0 {
+#pragma clang assume_nonnull begin
+
+
+#ifndef _REWRITER_typedef_BJBlock
+#define _REWRITER_typedef_BJBlock
+typedef struct objc_object BJBlock;
+typedef struct {} _objc_exc_BJBlock;
+#endif
+
+extern "C" unsigned long OBJC_IVAR_$_BJBlock$_name;
+struct BJBlock_IMPL {
+	struct NSObject_IMPL NSObject_IVARS;
+	NSString * _Nonnull _name;
+};
+
+
+// @property (nonatomic, copy) NSString *name;
+
+/* @end */
+
+#pragma clang assume_nonnull end
+
+// @implementation BJBlock
+
+
+struct __BJBlock__test_block_impl_0 {
   struct __block_impl impl;
-  struct __main_block_desc_0* Desc;
-  int local;
-  int *static_local;
-  __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int _local, int *_static_local, int flags=0) : local(_local), static_local(_static_local) {
+  struct __BJBlock__test_block_desc_0* Desc;
+  BJBlock *self;
+  __BJBlock__test_block_impl_0(void *fp, struct __BJBlock__test_block_desc_0 *desc, BJBlock *_self, int flags=0) : self(_self) {
     impl.isa = &_NSConcreteStackBlock;
     impl.Flags = flags;
     impl.FuncPtr = fp;
     Desc = desc;
   }
 };
-static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
-  int local = __cself->local; // bound by copy
-  int *static_local = __cself->static_local; // bound by copy
+static void __BJBlock__test_block_func_0(struct __BJBlock__test_block_impl_0 *__cself) {
+  BJBlock *self = __cself->self; // bound by copy
 
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_yy_qc0s36r50tb5y1qhyc1vc9hc0000gn_T_main_1e8224_mi_0, local);
-            NSLog((NSString *)&__NSConstantStringImpl__var_folders_yy_qc0s36r50tb5y1qhyc1vc9hc0000gn_T_main_1e8224_mi_1, (*static_local));
+        NSLog((NSString *)&__NSConstantStringImpl__var_folders_yy_qc0s36r50tb5y1qhyc1vc9hc0000gn_T_BJBlock_33cf7a_mi_0, (*(NSString * _Nonnull *)((char *)self + OBJC_IVAR_$_BJBlock$_name)));
+    }
+static void __BJBlock__test_block_copy_0(struct __BJBlock__test_block_impl_0*dst, struct __BJBlock__test_block_impl_0*src) {_Block_object_assign((void*)&dst->self, (void*)src->self, 3/*BLOCK_FIELD_IS_OBJECT*/);}
 
+static void __BJBlock__test_block_dispose_0(struct __BJBlock__test_block_impl_0*src) {_Block_object_dispose((void*)src->self, 3/*BLOCK_FIELD_IS_OBJECT*/);}
 
-
-        }
-
-static struct __main_block_desc_0 {
+static struct __BJBlock__test_block_desc_0 {
   size_t reserved;
   size_t Block_size;
-} __main_block_desc_0_DATA = { 0, sizeof(struct __main_block_impl_0)};
-int main(int argc, char * argv[]) {
-    /* @autoreleasepool */ { __AtAutoreleasePool __autoreleasepool; 
+  void (*copy)(struct __BJBlock__test_block_impl_0*, struct __BJBlock__test_block_impl_0*);
+  void (*dispose)(struct __BJBlock__test_block_impl_0*);
+} __BJBlock__test_block_desc_0_DATA = { 0, sizeof(struct __BJBlock__test_block_impl_0), __BJBlock__test_block_copy_0, __BJBlock__test_block_dispose_0};
 
-        auto int local = 3;
-
-        static int static_local = 4;
-
-        void (*block)() = ((void (*)())&__main_block_impl_0((void *)__main_block_func_0, &__main_block_desc_0_DATA, local, &static_local));
-        ((void (*)(__block_impl *))((__block_impl *)block)->FuncPtr)((__block_impl *)block);
-
-
-
-
-
-
-        return 0;
-    }
+static void _I_BJBlock_test(BJBlock * self, SEL _cmd) {
+    void (*block)() = ((void (*)())&__BJBlock__test_block_impl_0((void *)__BJBlock__test_block_func_0, &__BJBlock__test_block_desc_0_DATA, self, 570425344));
+    ((void (*)(__block_impl *))((__block_impl *)block)->FuncPtr)((__block_impl *)block);
 }
+
+
+static NSString * _Nonnull _I_BJBlock_name(BJBlock * self, SEL _cmd) { return (*(NSString * _Nonnull *)((char *)self + OBJC_IVAR_$_BJBlock$_name)); }
+extern "C" __declspec(dllimport) void objc_setProperty (id, SEL, long, id, bool, bool);
+
+static void _I_BJBlock_setName_(BJBlock * self, SEL _cmd, NSString * _Nonnull name) { objc_setProperty (self, _cmd, __OFFSETOFIVAR__(struct BJBlock, _name), (id)name, 0, 1); }
+// @end
+
+struct _prop_t {
+	const char *name;
+	const char *attributes;
+};
+
+struct _protocol_t;
+
+struct _objc_method {
+	struct objc_selector * _cmd;
+	const char *method_type;
+	void  *_imp;
+};
+
+struct _protocol_t {
+	void * isa;  // NULL
+	const char *protocol_name;
+	const struct _protocol_list_t * protocol_list; // super protocols
+	const struct method_list_t *instance_methods;
+	const struct method_list_t *class_methods;
+	const struct method_list_t *optionalInstanceMethods;
+	const struct method_list_t *optionalClassMethods;
+	const struct _prop_list_t * properties;
+	const unsigned int size;  // sizeof(struct _protocol_t)
+	const unsigned int flags;  // = 0
+	const char ** extendedMethodTypes;
+};
+
+struct _ivar_t {
+	unsigned long int *offset;  // pointer to ivar offset location
+	const char *name;
+	const char *type;
+	unsigned int alignment;
+	unsigned int  size;
+};
+
+struct _class_ro_t {
+	unsigned int flags;
+	unsigned int instanceStart;
+	unsigned int instanceSize;
+	const unsigned char *ivarLayout;
+	const char *name;
+	const struct _method_list_t *baseMethods;
+	const struct _objc_protocol_list *baseProtocols;
+	const struct _ivar_list_t *ivars;
+	const unsigned char *weakIvarLayout;
+	const struct _prop_list_t *properties;
+};
+
+struct _class_t {
+	struct _class_t *isa;
+	struct _class_t *superclass;
+	void *cache;
+	void *vtable;
+	struct _class_ro_t *ro;
+};
+
+struct _category_t {
+	const char *name;
+	struct _class_t *cls;
+	const struct _method_list_t *instance_methods;
+	const struct _method_list_t *class_methods;
+	const struct _protocol_list_t *protocols;
+	const struct _prop_list_t *properties;
+};
+extern "C" __declspec(dllimport) struct objc_cache _objc_empty_cache;
+#pragma warning(disable:4273)
+
+extern "C" unsigned long int OBJC_IVAR_$_BJBlock$_name __attribute__ ((used, section ("__DATA,__objc_ivar"))) = __OFFSETOFIVAR__(struct BJBlock, _name);
+
+static struct /*_ivar_list_t*/ {
+	unsigned int entsize;  // sizeof(struct _prop_t)
+	unsigned int count;
+	struct _ivar_t ivar_list[1];
+} _OBJC_$_INSTANCE_VARIABLES_BJBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	sizeof(_ivar_t),
+	1,
+	{{(unsigned long int *)&OBJC_IVAR_$_BJBlock$_name, "_name", "@\"NSString\"", 3, 8}}
+};
+
+static struct /*_method_list_t*/ {
+	unsigned int entsize;  // sizeof(struct _objc_method)
+	unsigned int method_count;
+	struct _objc_method method_list[5];
+} _OBJC_$_INSTANCE_METHODS_BJBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	sizeof(_objc_method),
+	5,
+	{{(struct objc_selector *)"test", "v16@0:8", (void *)_I_BJBlock_test},
+	{(struct objc_selector *)"name", "@16@0:8", (void *)_I_BJBlock_name},
+	{(struct objc_selector *)"setName:", "v24@0:8@16", (void *)_I_BJBlock_setName_},
+	{(struct objc_selector *)"name", "@16@0:8", (void *)_I_BJBlock_name},
+	{(struct objc_selector *)"setName:", "v24@0:8@16", (void *)_I_BJBlock_setName_}}
+};
+
+static struct /*_prop_list_t*/ {
+	unsigned int entsize;  // sizeof(struct _prop_t)
+	unsigned int count_of_properties;
+	struct _prop_t prop_list[1];
+} _OBJC_$_PROP_LIST_BJBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	sizeof(_prop_t),
+	1,
+	{{"name","T@\"NSString\",C,N,V_name"}}
+};
+
+static struct _class_ro_t _OBJC_METACLASS_RO_$_BJBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	1, sizeof(struct _class_t), sizeof(struct _class_t), 
+	0, 
+	"BJBlock",
+	0, 
+	0, 
+	0, 
+	0, 
+	0, 
+};
+
+static struct _class_ro_t _OBJC_CLASS_RO_$_BJBlock __attribute__ ((used, section ("__DATA,__objc_const"))) = {
+	0, __OFFSETOFIVAR__(struct BJBlock, _name), sizeof(struct BJBlock_IMPL), 
+	0, 
+	"BJBlock",
+	(const struct _method_list_t *)&_OBJC_$_INSTANCE_METHODS_BJBlock,
+	0, 
+	(const struct _ivar_list_t *)&_OBJC_$_INSTANCE_VARIABLES_BJBlock,
+	0, 
+	(const struct _prop_list_t *)&_OBJC_$_PROP_LIST_BJBlock,
+};
+
+extern "C" __declspec(dllimport) struct _class_t OBJC_METACLASS_$_NSObject;
+
+extern "C" __declspec(dllexport) struct _class_t OBJC_METACLASS_$_BJBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
+	0, // &OBJC_METACLASS_$_NSObject,
+	0, // &OBJC_METACLASS_$_NSObject,
+	0, // (void *)&_objc_empty_cache,
+	0, // unused, was (void *)&_objc_empty_vtable,
+	&_OBJC_METACLASS_RO_$_BJBlock,
+};
+
+extern "C" __declspec(dllimport) struct _class_t OBJC_CLASS_$_NSObject;
+
+extern "C" __declspec(dllexport) struct _class_t OBJC_CLASS_$_BJBlock __attribute__ ((used, section ("__DATA,__objc_data"))) = {
+	0, // &OBJC_METACLASS_$_BJBlock,
+	0, // &OBJC_CLASS_$_NSObject,
+	0, // (void *)&_objc_empty_cache,
+	0, // unused, was (void *)&_objc_empty_vtable,
+	&_OBJC_CLASS_RO_$_BJBlock,
+};
+static void OBJC_CLASS_SETUP_$_BJBlock(void ) {
+	OBJC_METACLASS_$_BJBlock.isa = &OBJC_METACLASS_$_NSObject;
+	OBJC_METACLASS_$_BJBlock.superclass = &OBJC_METACLASS_$_NSObject;
+	OBJC_METACLASS_$_BJBlock.cache = &_objc_empty_cache;
+	OBJC_CLASS_$_BJBlock.isa = &OBJC_METACLASS_$_BJBlock;
+	OBJC_CLASS_$_BJBlock.superclass = &OBJC_CLASS_$_NSObject;
+	OBJC_CLASS_$_BJBlock.cache = &_objc_empty_cache;
+}
+#pragma section(".objc_inithooks$B", long, read, write)
+__declspec(allocate(".objc_inithooks$B")) static void *OBJC_CLASS_SETUP[] = {
+	(void *)&OBJC_CLASS_SETUP_$_BJBlock,
+};
+static struct _class_t *L_OBJC_LABEL_CLASS_$ [1] __attribute__((used, section ("__DATA, __objc_classlist,regular,no_dead_strip")))= {
+	&OBJC_CLASS_$_BJBlock,
+};
 static struct IMAGE_INFO { unsigned version; unsigned flag; } _OBJC_IMAGE_INFO = { 0, 2 };
