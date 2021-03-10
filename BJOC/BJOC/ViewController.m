@@ -20,13 +20,6 @@
 #import "BJDesignatedInitializerViewController.h"
 #import "BJInitViewTypeViewController.h"
 
-#import "BJRuntimeMethodSwizzlingViewController.h"
-#import "BJRuntimeGrammarViewController.h"
-#import "BJRuntimeButtonViewController.h"
-#import "BJRuntimeFontViewController.h"
-#import "BJRuntimeForwordViewController.h"
-#import "BJClassAndObjectViewController.h"
-
 static NSString * str;
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -34,8 +27,6 @@ static NSString * str;
 @property (nonatomic, copy) NSArray *commonsArray;
 
 @property (nonatomic, copy) NSArray *basicsArray;
-
-@property (nonatomic, copy) NSArray *messageArray;
 
 
 
@@ -65,7 +56,7 @@ static NSString * str;
     } else if (section == 1) {
         return self.basicsArray.count;
     } else if (section == 2) {
-        return self.messageArray.count;
+        return 0;
     } else if (section == 3) {
         return 0;
     } else {
@@ -81,31 +72,6 @@ static NSString * str;
     } else if (indexPath.section == 1) {
         cell.textLabel.text = self.basicsArray[indexPath.row];
 
-    } else if (indexPath.section == 2) {
-        cell.textLabel.text = self.messageArray[indexPath.row];
-
-    } else if (indexPath.section == 3) {
-        if (indexPath.row == 0) {
-            cell.textLabel.text = @"Runtime与NSObject";
-
-        }else if (indexPath.row == 1){
-            cell.textLabel.text = @"Runtime库函数";
-
-        }else if (indexPath.row == 2){
-            cell.textLabel.text = @"消息发送（objc_msgSend）";
-
-        }else if (indexPath.row == 3){
-            cell.textLabel.text = @"消息转发（objc_msgForward）";
-
-        }else if (indexPath.row == 4){
-            cell.textLabel.text = @"方法交换（Method Swizzling）";
-
-        }else if (indexPath.row == 5){
-            cell.textLabel.text = @"应用（防止按钮重复点击）";
-
-        }else if (indexPath.row == 6){
-            cell.textLabel.text = @"应用（修改字体大小）";
-        }
     }
 
     return cell;
@@ -153,32 +119,6 @@ static NSString * str;
         } else if (indexPath.row == 7){
             BJInitViewTypeViewController *vc = [[BJInitViewTypeViewController alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
-        }
-    } else if (indexPath.section == 2) {
-        if (indexPath.row == 0) {
-            BJClassAndObjectViewController *vc = [[BJClassAndObjectViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-
-        }else if (indexPath.row == 1){
-            BJRuntimeGrammarViewController *vc = [[BJRuntimeGrammarViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-
-        }else if (indexPath.row == 2){
-            BJRuntimeMethodSwizzlingViewController *vc = [[BJRuntimeMethodSwizzlingViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-
-        }else if (indexPath.row == 3){
-            BJRuntimeForwordViewController *vc = [[BJRuntimeForwordViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-
-        }else if (indexPath.row == 4){
-            BJRuntimeButtonViewController *vc = [[BJRuntimeButtonViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-
-        }else if (indexPath.row == 5){
-            BJRuntimeFontViewController *vc = [[BJRuntimeFontViewController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-
         }
     }
 }
@@ -234,13 +174,6 @@ static NSString * str;
     return _basicsArray;
 }
 
-
-- (NSArray *)messageArray {
-    if (!_messageArray) {
-        _messageArray = @[];
-    }
-    return _messageArray;
-}
 
 
 

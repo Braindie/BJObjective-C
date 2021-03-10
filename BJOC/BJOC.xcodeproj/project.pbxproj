@@ -37,7 +37,6 @@
 		A4E9FF97258100D000888263 /* ColorPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF8F258100D000888263 /* ColorPrinter.m */; };
 		A4E9FF98258100D000888263 /* BlackPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF90258100D000888263 /* BlackPrinter.m */; };
 		A4E9FF99258100D000888263 /* BJArithmeticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E9FF93258100D000888263 /* BJArithmeticViewController.m */; };
-		A4EAF22E25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */; };
 		A4EAF275257911820079BA49 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF246257911820079BA49 /* Animal.m */; };
 		A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */; };
 		A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF24B257911820079BA49 /* BJExtensionViewController.m */; };
@@ -51,22 +50,12 @@
 		A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26C257911820079BA49 /* BJObjectOrNot.m */; };
 		A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26D257911820079BA49 /* BJDictionaryType.m */; };
 		A4EAF287257911820079BA49 /* BJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF26E257911820079BA49 /* BJStudent.m */; };
-		A4EAF29B257915400079BA49 /* UIControl+BJRuntimeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */; };
-		A4EAF29C257915400079BA49 /* BJRuntimeButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */; };
-		A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF297257915400079BA49 /* UIFont+BJFont.m */; };
-		A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF29A257915400079BA49 /* BJRuntimeFontViewController.m */; };
-		A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EAF2AF257915C40079BA49 /* BJHook.m */; };
 		E53316FD1CFFD942004A2CB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E53316FC1CFFD942004A2CB9 /* main.m */; };
 		E53317001CFFD942004A2CB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E53316FF1CFFD942004A2CB9 /* AppDelegate.m */; };
 		E53317031CFFD942004A2CB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53317021CFFD942004A2CB9 /* ViewController.m */; };
 		E53317061CFFD942004A2CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317041CFFD942004A2CB9 /* Main.storyboard */; };
 		E53317081CFFD942004A2CB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53317071CFFD942004A2CB9 /* Assets.xcassets */; };
 		E533170B1CFFD942004A2CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53317091CFFD942004A2CB9 /* LaunchScreen.storyboard */; };
-		E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */; };
-		E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */; };
-		E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */; };
-		E56180EA237BF79300A316C8 /* BJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180DB237BF79200A316C8 /* BJObject.m */; };
-		E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,8 +140,6 @@
 		A4E9FF90258100D000888263 /* BlackPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackPrinter.m; sourceTree = "<group>"; };
 		A4E9FF92258100D000888263 /* BJArithmeticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJArithmeticViewController.h; sourceTree = "<group>"; };
 		A4E9FF93258100D000888263 /* BJArithmeticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJArithmeticViewController.m; sourceTree = "<group>"; };
-		A4EAF22C25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJRuntimeMethodSwizzlingViewController.h; sourceTree = "<group>"; };
-		A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeMethodSwizzlingViewController.m; sourceTree = "<group>"; };
 		A4EAF246257911820079BA49 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 		A4EAF247257911820079BA49 /* BJDesignatedInitializerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJDesignatedInitializerViewController.h; sourceTree = "<group>"; };
 		A4EAF248257911820079BA49 /* BJDesignatedInitializerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJDesignatedInitializerViewController.m; sourceTree = "<group>"; };
@@ -179,16 +166,6 @@
 		A4EAF26F257911820079BA49 /* BJKVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJKVCViewController.h; sourceTree = "<group>"; };
 		A4EAF270257911820079BA49 /* BJArrayType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJArrayType.h; sourceTree = "<group>"; };
 		A4EAF28B257912220079BA49 /* BJExtensionViewController+BJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BJExtensionViewController+BJExtension.h"; sourceTree = "<group>"; };
-		A4EAF292257915400079BA49 /* BJRuntimeButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeButtonViewController.h; sourceTree = "<group>"; };
-		A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+BJRuntimeControl.m"; sourceTree = "<group>"; };
-		A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeButtonViewController.m; sourceTree = "<group>"; };
-		A4EAF295257915400079BA49 /* UIControl+BJRuntimeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+BJRuntimeControl.h"; sourceTree = "<group>"; };
-		A4EAF297257915400079BA49 /* UIFont+BJFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+BJFont.m"; sourceTree = "<group>"; };
-		A4EAF298257915400079BA49 /* BJRuntimeFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeFontViewController.h; sourceTree = "<group>"; };
-		A4EAF299257915400079BA49 /* UIFont+BJFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+BJFont.h"; sourceTree = "<group>"; };
-		A4EAF29A257915400079BA49 /* BJRuntimeFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeFontViewController.m; sourceTree = "<group>"; };
-		A4EAF2AE257915C40079BA49 /* BJHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJHook.h; sourceTree = "<group>"; };
-		A4EAF2AF257915C40079BA49 /* BJHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJHook.m; sourceTree = "<group>"; };
 		E53316F81CFFD942004A2CB9 /* BJOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BJOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E53316FC1CFFD942004A2CB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E53316FE1CFFD942004A2CB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -201,16 +178,6 @@
 		E533170C1CFFD942004A2CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53317111CFFD942004A2CB9 /* BJOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E533171C1CFFD942004A2CB9 /* BJOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BJOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E56180CD237BF79200A316C8 /* BJRuntimeForwordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeForwordViewController.h; sourceTree = "<group>"; };
-		E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeForwordViewController.m; sourceTree = "<group>"; };
-		E56180D0237BF79200A316C8 /* BJRuntimeGrammarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeGrammarViewController.h; sourceTree = "<group>"; };
-		E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeGrammarViewController.m; sourceTree = "<group>"; };
-		E56180D9237BF79200A316C8 /* BJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJObject.h; sourceTree = "<group>"; };
-		E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJClassAndObjectViewController.m; sourceTree = "<group>"; };
-		E56180DB237BF79200A316C8 /* BJObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJObject.m; sourceTree = "<group>"; };
-		E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJClassAndObjectViewController.h; sourceTree = "<group>"; };
-		E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJSelfAndSuperViewController.m; sourceTree = "<group>"; };
-		E56180F2237BF9CF00A316C8 /* BJSelfAndSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJSelfAndSuperViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,19 +326,6 @@
 			path = Arithmetic;
 			sourceTree = "<group>";
 		};
-		A4EAF22B25790D080079BA49 /* runtimeMethodSwizzling */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF22C25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.h */,
-				A4EAF22D25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m */,
-				A4EAF2AE257915C40079BA49 /* BJHook.h */,
-				A4EAF2AF257915C40079BA49 /* BJHook.m */,
-				A4EAF291257915400079BA49 /* runtimeButton */,
-				A4EAF296257915400079BA49 /* runtimeFont */,
-			);
-			path = runtimeMethodSwizzling;
-			sourceTree = "<group>";
-		};
 		A4EAF244257911820079BA49 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,28 +413,6 @@
 			path = KVC;
 			sourceTree = "<group>";
 		};
-		A4EAF291257915400079BA49 /* runtimeButton */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF292257915400079BA49 /* BJRuntimeButtonViewController.h */,
-				A4EAF294257915400079BA49 /* BJRuntimeButtonViewController.m */,
-				A4EAF295257915400079BA49 /* UIControl+BJRuntimeControl.h */,
-				A4EAF293257915400079BA49 /* UIControl+BJRuntimeControl.m */,
-			);
-			path = runtimeButton;
-			sourceTree = "<group>";
-		};
-		A4EAF296257915400079BA49 /* runtimeFont */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF298257915400079BA49 /* BJRuntimeFontViewController.h */,
-				A4EAF29A257915400079BA49 /* BJRuntimeFontViewController.m */,
-				A4EAF299257915400079BA49 /* UIFont+BJFont.h */,
-				A4EAF297257915400079BA49 /* UIFont+BJFont.m */,
-			);
-			path = runtimeFont;
-			sourceTree = "<group>";
-		};
 		E53316EF1CFFD942004A2CB9 = {
 			isa = PBXGroup;
 			children = (
@@ -524,62 +456,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E56180C4237BF79200A316C8 /* Runtime */ = {
-			isa = PBXGroup;
-			children = (
-				A4EAF22B25790D080079BA49 /* runtimeMethodSwizzling */,
-				E56180ED237BF9CF00A316C8 /* runtimeMassageSend */,
-				E56180CC237BF79200A316C8 /* runtimeMassageForword */,
-				E56180CF237BF79200A316C8 /* runtimeGrammar */,
-				E56180D8237BF79200A316C8 /* classAndNSObject */,
-			);
-			path = Runtime;
-			sourceTree = "<group>";
-		};
-		E56180CC237BF79200A316C8 /* runtimeMassageForword */ = {
-			isa = PBXGroup;
-			children = (
-				E56180CD237BF79200A316C8 /* BJRuntimeForwordViewController.h */,
-				E56180CE237BF79200A316C8 /* BJRuntimeForwordViewController.m */,
-			);
-			path = runtimeMassageForword;
-			sourceTree = "<group>";
-		};
-		E56180CF237BF79200A316C8 /* runtimeGrammar */ = {
-			isa = PBXGroup;
-			children = (
-				E56180D0237BF79200A316C8 /* BJRuntimeGrammarViewController.h */,
-				E56180D1237BF79200A316C8 /* BJRuntimeGrammarViewController.m */,
-			);
-			path = runtimeGrammar;
-			sourceTree = "<group>";
-		};
-		E56180D8237BF79200A316C8 /* classAndNSObject */ = {
-			isa = PBXGroup;
-			children = (
-				E56180DC237BF79200A316C8 /* BJClassAndObjectViewController.h */,
-				E56180DA237BF79200A316C8 /* BJClassAndObjectViewController.m */,
-				E56180D9237BF79200A316C8 /* BJObject.h */,
-				E56180DB237BF79200A316C8 /* BJObject.m */,
-			);
-			path = classAndNSObject;
-			sourceTree = "<group>";
-		};
-		E56180ED237BF9CF00A316C8 /* runtimeMassageSend */ = {
-			isa = PBXGroup;
-			children = (
-				E56180F2237BF9CF00A316C8 /* BJSelfAndSuperViewController.h */,
-				E56180EF237BF9CF00A316C8 /* BJSelfAndSuperViewController.m */,
-			);
-			path = runtimeMassageSend;
-			sourceTree = "<group>";
-		};
 		E58AA8BE21958CC7001455F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
 				A4E9FF85258100D000888263 /* Commons */,
 				A4EAF244257911820079BA49 /* Basics */,
-				E56180C4237BF79200A316C8 /* Runtime */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -722,30 +603,23 @@
 				A435C7C925EE50EA006D2DBC /* BJCategoryController.m in Sources */,
 				E53317031CFFD942004A2CB9 /* ViewController.m in Sources */,
 				A4E9FF95258100D000888263 /* Printer.m in Sources */,
-				A4EAF29D257915400079BA49 /* UIFont+BJFont.m in Sources */,
 				A45A5B0B25F08B6900E3DAAB /* BJInitializePerson.m in Sources */,
 				A4731F0725F1E6C900B63E41 /* BJAssociatePerson+Test.m in Sources */,
 				A435C7A725EDEEC9006D2DBC /* BJDelegateViewController.m in Sources */,
-				E56180F4237BF9CF00A316C8 /* BJSelfAndSuperViewController.m in Sources */,
 				A4E9FF98258100D000888263 /* BlackPrinter.m in Sources */,
 				A4731EFE25F1E6AE00B63E41 /* BJAssociatePerson.m in Sources */,
 				A45A5B3225F0952100E3DAAB /* BJInitializeTeacher.m in Sources */,
 				A4EAF279257911820079BA49 /* BJuseCODEinit.m in Sources */,
 				A435C7A825EDEEC9006D2DBC /* BJPerson.m in Sources */,
 				A4E9FF96258100D000888263 /* Person.m in Sources */,
-				E56180E9237BF79300A316C8 /* BJClassAndObjectViewController.m in Sources */,
 				A4EAF27A257911820079BA49 /* BJInitViewTypeViewController.m in Sources */,
-				A4EAF22E25790D210079BA49 /* BJRuntimeMethodSwizzlingViewController.m in Sources */,
 				A4EAF275257911820079BA49 /* Animal.m in Sources */,
 				A435C7A625EDEEC9006D2DBC /* BJDelegateView.m in Sources */,
 				A4EAF276257911820079BA49 /* BJDesignatedInitializerViewController.m in Sources */,
-				E56180E5237BF79300A316C8 /* BJRuntimeForwordViewController.m in Sources */,
 				A4EAF277257911820079BA49 /* BJExtensionViewController.m in Sources */,
 				A435C7CF25EE513A006D2DBC /* BJExtensionViewController+BJCategory.m in Sources */,
-				A4EAF29B257915400079BA49 /* UIControl+BJRuntimeControl.m in Sources */,
 				A4E9FF97258100D000888263 /* ColorPrinter.m in Sources */,
 				A435C7A925EDEEC9006D2DBC /* BJKVOViewController.m in Sources */,
-				A4EAF2B0257915C40079BA49 /* BJHook.m in Sources */,
 				A4EAF282257911820079BA49 /* BJArrayType.m in Sources */,
 				A443EFA925EF9BA900441E99 /* BJLoadPerson+Test2.m in Sources */,
 				A443EFA325EF9B9900441E99 /* BJLoadPerson+Test1.m in Sources */,
@@ -761,19 +635,15 @@
 				A45A5B2625F08C0100E3DAAB /* BJInitializeStudent+Test1.m in Sources */,
 				A443EF4825EF3D8800441E99 /* BJCatePerson+Test.m in Sources */,
 				A478A38125E50D96005FCB06 /* BJObjectViewController.mm in Sources */,
-				A4EAF29E257915400079BA49 /* BJRuntimeFontViewController.m in Sources */,
 				A45A5B2025F08BED00E3DAAB /* BJInitializePerson+Test2.m in Sources */,
 				A4EAF286257911820079BA49 /* BJDictionaryType.m in Sources */,
 				A45A5B1425F08BC500E3DAAB /* BJInitializeStudent.m in Sources */,
-				E56180EA237BF79300A316C8 /* BJObject.m in Sources */,
 				A4EAF287257911820079BA49 /* BJStudent.m in Sources */,
 				A4EAF285257911820079BA49 /* BJObjectOrNot.m in Sources */,
-				A4EAF29C257915400079BA49 /* BJRuntimeButtonViewController.m in Sources */,
 				A4E9FF94258100D000888263 /* BJPolymorphismViewController.m in Sources */,
 				E53316FD1CFFD942004A2CB9 /* main.m in Sources */,
 				A4EAF284257911820079BA49 /* BJPeople.m in Sources */,
 				A4E9FF99258100D000888263 /* BJArithmeticViewController.m in Sources */,
-				E56180E6237BF79300A316C8 /* BJRuntimeGrammarViewController.m in Sources */,
 				A4EAF283257911820079BA49 /* BJKVCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
