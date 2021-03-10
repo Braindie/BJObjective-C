@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "BJRuntimeController.h"
 #import "BJRuntimeMethodSwizzlingViewController.h"
 #import "BJRuntimeGrammarViewController.h"
 #import "BJRuntimeButtonViewController.h"
@@ -57,8 +58,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
-        BJClassAndObjectViewController *vc = [[BJClassAndObjectViewController alloc] init];
+        BJRuntimeController *vc = [[BJRuntimeController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+        
+//        BJClassAndObjectViewController *vc = [[BJClassAndObjectViewController alloc] init];
+//        [self.navigationController pushViewController:vc animated:YES];
 
     }else if (indexPath.row == 1){
         BJRuntimeGrammarViewController *vc = [[BJRuntimeGrammarViewController alloc] init];
@@ -89,14 +93,15 @@
 
 - (NSArray *)runtimeArray {
     if (!_runtimeArray) {
-        _runtimeArray = @[@"Runtime与NSObject",
-                          @"Runtime库函数",
-                          @"消息发送（objc_msgSend）",
-                          @"消息转发（objc_msgForward）",
-                          @"方法交换（Method Swizzling）",
-                          @"初始化函数",
-                          @"应用（防止按钮重复点击）",
-                          @"应用（修改字体大小）"];
+        _runtimeArray = @[@""];
+//        _runtimeArray = @[@"Runtime与NSObject",
+//                          @"Runtime库函数",
+//                          @"消息发送（objc_msgSend）",
+//                          @"消息转发（objc_msgForward）",
+//                          @"方法交换（Method Swizzling）",
+//                          @"初始化函数",
+//                          @"应用（防止按钮重复点击）",
+//                          @"应用（修改字体大小）"];
     }
     return _runtimeArray;
 }

@@ -27,6 +27,8 @@
 		A42EFCDE25F8C12100EC01A2 /* BJClassAndObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCD025F8C12100EC01A2 /* BJClassAndObjectViewController.m */; };
 		A42EFCDF25F8C12100EC01A2 /* BJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCD125F8C12100EC01A2 /* BJObject.m */; };
 		A42EFCE425F8C34B00EC01A2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCE225F8C34B00EC01A2 /* SceneDelegate.m */; };
+		A42EFCE925F8CCA200EC01A2 /* BJIsaPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCE825F8CCA200EC01A2 /* BJIsaPerson.m */; };
+		A42EFCF225F8D11D00EC01A2 /* BJRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,10 @@
 		A42EFCD225F8C12100EC01A2 /* BJClassAndObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJClassAndObjectViewController.h; sourceTree = "<group>"; };
 		A42EFCE225F8C34B00EC01A2 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		A42EFCE325F8C34B00EC01A2 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A42EFCE725F8CCA200EC01A2 /* BJIsaPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJIsaPerson.h; sourceTree = "<group>"; };
+		A42EFCE825F8CCA200EC01A2 /* BJIsaPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJIsaPerson.m; sourceTree = "<group>"; };
+		A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeController.m; sourceTree = "<group>"; };
+		A42EFCF125F8D11C00EC01A2 /* BJRuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,9 @@
 		A42EFCB125F8C12100EC01A2 /* Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				A42EFCF125F8D11C00EC01A2 /* BJRuntimeController.h */,
+				A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */,
+				A42EFCE625F8C4E600EC01A2 /* Isa */,
 				A42EFCB225F8C12100EC01A2 /* runtimeMassageSend */,
 				A42EFCB925F8C12100EC01A2 /* runtimeMassageForword */,
 				A42EFCBC25F8C12100EC01A2 /* runtimeGrammar */,
@@ -213,6 +222,15 @@
 			path = classAndNSObject;
 			sourceTree = "<group>";
 		};
+		A42EFCE625F8C4E600EC01A2 /* Isa */ = {
+			isa = PBXGroup;
+			children = (
+				A42EFCE725F8CCA200EC01A2 /* BJIsaPerson.h */,
+				A42EFCE825F8CCA200EC01A2 /* BJIsaPerson.m */,
+			);
+			path = Isa;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -286,11 +304,13 @@
 				A42EFCE425F8C34B00EC01A2 /* SceneDelegate.m in Sources */,
 				A42EFCDD25F8C12100EC01A2 /* BJRuntimeButtonViewController.m in Sources */,
 				A42EFCDA25F8C12100EC01A2 /* BJRuntimeFontViewController.m in Sources */,
+				A42EFCE925F8CCA200EC01A2 /* BJIsaPerson.m in Sources */,
 				A42EFCD525F8C12100EC01A2 /* Son.m in Sources */,
 				A42EFCD325F8C12100EC01A2 /* BJSelfAndSuperViewController.m in Sources */,
 				A42EFCDC25F8C12100EC01A2 /* UIControl+BJRuntimeControl.m in Sources */,
 				A42EFCD725F8C12100EC01A2 /* BJRuntimeGrammarViewController.m in Sources */,
 				A42EFCD425F8C12100EC01A2 /* BJPerson.m in Sources */,
+				A42EFCF225F8D11D00EC01A2 /* BJRuntimeController.m in Sources */,
 				A42EFCDF25F8C12100EC01A2 /* BJObject.m in Sources */,
 				A42EFCD625F8C12100EC01A2 /* BJRuntimeForwordViewController.m in Sources */,
 				A42EFC9A25F8C08D00EC01A2 /* ViewController.m in Sources */,
