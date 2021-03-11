@@ -29,6 +29,8 @@
 		A42EFCE425F8C34B00EC01A2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCE225F8C34B00EC01A2 /* SceneDelegate.m */; };
 		A42EFCE925F8CCA200EC01A2 /* BJIsaPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCE825F8CCA200EC01A2 /* BJIsaPerson.m */; };
 		A42EFCF225F8D11D00EC01A2 /* BJRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */; };
+		A4B714EB25FA0CF10037D135 /* BJClassPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B714EA25FA0CF10037D135 /* BJClassPerson.m */; };
+		A4B714F125FA19220037D135 /* BJMethodPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B714F025FA19220037D135 /* BJMethodPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,11 @@
 		A42EFCE825F8CCA200EC01A2 /* BJIsaPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJIsaPerson.m; sourceTree = "<group>"; };
 		A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeController.m; sourceTree = "<group>"; };
 		A42EFCF125F8D11C00EC01A2 /* BJRuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeController.h; sourceTree = "<group>"; };
+		A4B714E525FA0B6A0037D135 /* MJClassInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
+		A4B714E925FA0CF10037D135 /* BJClassPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJClassPerson.h; sourceTree = "<group>"; };
+		A4B714EA25FA0CF10037D135 /* BJClassPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJClassPerson.m; sourceTree = "<group>"; };
+		A4B714EF25FA19220037D135 /* BJMethodPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJMethodPerson.h; sourceTree = "<group>"; };
+		A4B714F025FA19220037D135 /* BJMethodPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJMethodPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +143,8 @@
 				A42EFCF125F8D11C00EC01A2 /* BJRuntimeController.h */,
 				A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */,
 				A42EFCE625F8C4E600EC01A2 /* Isa */,
+				A4B714E425FA0B4E0037D135 /* Class */,
+				A4B714EE25FA190D0037D135 /* Method */,
 				A42EFCB225F8C12100EC01A2 /* runtimeMassageSend */,
 				A42EFCB925F8C12100EC01A2 /* runtimeMassageForword */,
 				A42EFCBC25F8C12100EC01A2 /* runtimeGrammar */,
@@ -231,6 +240,25 @@
 			path = Isa;
 			sourceTree = "<group>";
 		};
+		A4B714E425FA0B4E0037D135 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				A4B714E525FA0B6A0037D135 /* MJClassInfo.h */,
+				A4B714E925FA0CF10037D135 /* BJClassPerson.h */,
+				A4B714EA25FA0CF10037D135 /* BJClassPerson.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		A4B714EE25FA190D0037D135 /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				A4B714EF25FA19220037D135 /* BJMethodPerson.h */,
+				A4B714F025FA19220037D135 /* BJMethodPerson.m */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,6 +331,8 @@
 				A42EFCDB25F8C12100EC01A2 /* BJHook.m in Sources */,
 				A42EFCE425F8C34B00EC01A2 /* SceneDelegate.m in Sources */,
 				A42EFCDD25F8C12100EC01A2 /* BJRuntimeButtonViewController.m in Sources */,
+				A4B714F125FA19220037D135 /* BJMethodPerson.m in Sources */,
+				A4B714EB25FA0CF10037D135 /* BJClassPerson.m in Sources */,
 				A42EFCDA25F8C12100EC01A2 /* BJRuntimeFontViewController.m in Sources */,
 				A42EFCE925F8CCA200EC01A2 /* BJIsaPerson.m in Sources */,
 				A42EFCD525F8C12100EC01A2 /* Son.m in Sources */,
