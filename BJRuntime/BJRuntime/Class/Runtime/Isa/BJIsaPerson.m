@@ -20,21 +20,44 @@
 #define MJRichMask (1<<1)
 #define MJHandsomeMask (1<<2)
 
+@interface BJIsaPerson () {
+    /// 位域
+//    struct {
+//        char tall : 1;
+//        char rich : 1;
+//        char handsome : 1;
+//    } _tallRichHandsome;
+    
+    /// 共用体
+    union {
+        int bits;
+        
+        struct {
+            char tall : 1;
+            char rich : 1;
+            char handsome : 1;
+        };
+    } _tallRichHandsome;
+}
+
+@end
+
 @implementation BJIsaPerson {
-    char _tallRichHandsome;
+//    char _tallRichHandsome;
 }
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        _tallRichHandsome = 0b00000111;
+//        _tallRichHandsome = 0b00000111;
     }
     return self;
 }
 
 
-
+#pragma mark -
+/*
 - (void)setTall:(BOOL)tall
 {
     if (tall) {
@@ -76,6 +99,83 @@
 {
     return !!(_tallRichHandsome & MJHandsomeMask);
 }
+ 
+ */
 
+#pragma mark - 位域
+/*
+- (void)setTall:(BOOL)tall
+{
+    _tallRichHandsome.tall = tall;
+}
+
+- (BOOL)isTall
+{
+    return !!_tallRichHandsome.tall;
+}
+
+- (void)setRich:(BOOL)rich
+{
+    _tallRichHandsome.rich = rich;
+}
+
+- (BOOL)isRich
+{
+    return !!_tallRichHandsome.rich;
+}
+
+- (void)setHandsome:(BOOL)handsome
+{
+    _tallRichHandsome.handsome = handsome;
+}
+
+- (BOOL)isHandsome
+{
+    return !!_tallRichHandsome.handsome;
+}
+*/
+
+#pragma mark - 共用体
+- (void)setTall:(BOOL)tall
+{
+    if (tall) {
+        _tallRichHandsome.bits |= MJTallMask;
+    } else {
+        _tallRichHandsome.bits &= ~MJTallMask;
+    }
+}
+
+- (BOOL)isTall
+{
+    return !!(_tallRichHandsome.bits & MJTallMask);
+}
+
+- (void)setRich:(BOOL)rich
+{
+    if (rich) {
+        _tallRichHandsome.bits |= MJRichMask;
+    } else {
+        _tallRichHandsome.bits &= ~MJRichMask;
+    }
+}
+
+- (BOOL)isRich
+{
+    return !!(_tallRichHandsome.bits & MJRichMask);
+}
+
+- (void)setHandsome:(BOOL)handsome
+{
+    if (handsome) {
+        _tallRichHandsome.bits |= MJHandsomeMask;
+    } else {
+        _tallRichHandsome.bits &= ~MJHandsomeMask;
+    }
+}
+
+- (BOOL)isHandsome
+{
+    return !!(_tallRichHandsome.bits & MJHandsomeMask);
+}
 
 @end

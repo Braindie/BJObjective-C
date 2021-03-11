@@ -20,8 +20,8 @@
     
     BJIsaPerson *person = [[BJIsaPerson alloc] init];
 //    person.tall = YES;
-//    person.rich = NO;
-//    person.handsome = YES;
+    person.rich = NO;
+    person.handsome = YES;
     
     NSLog(@"tall : %d   rich : %d  handsome : %d", person.isTall, person.isRich, person.isHandsome);
 }
