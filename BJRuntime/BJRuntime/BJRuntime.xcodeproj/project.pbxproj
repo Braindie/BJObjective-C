@@ -13,10 +13,6 @@
 		A42EFC9F25F8C08F00EC01A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42EFC9E25F8C08F00EC01A2 /* Assets.xcassets */; };
 		A42EFCA225F8C08F00EC01A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42EFCA025F8C08F00EC01A2 /* LaunchScreen.storyboard */; };
 		A42EFCA525F8C08F00EC01A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCA425F8C08F00EC01A2 /* main.m */; };
-		A42EFCD325F8C12100EC01A2 /* BJSelfAndSuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCB325F8C12100EC01A2 /* BJSelfAndSuperViewController.m */; };
-		A42EFCD425F8C12100EC01A2 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCB525F8C12100EC01A2 /* BJPerson.m */; };
-		A42EFCD525F8C12100EC01A2 /* Son.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCB625F8C12100EC01A2 /* Son.m */; };
-		A42EFCD625F8C12100EC01A2 /* BJRuntimeForwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCBB25F8C12100EC01A2 /* BJRuntimeForwordViewController.m */; };
 		A42EFCD725F8C12100EC01A2 /* BJRuntimeGrammarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCBE25F8C12100EC01A2 /* BJRuntimeGrammarViewController.m */; };
 		A42EFCD825F8C12100EC01A2 /* BJRuntimeMethodSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCC225F8C12100EC01A2 /* BJRuntimeMethodSwizzlingViewController.m */; };
 		A42EFCD925F8C12100EC01A2 /* UIFont+BJFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCC425F8C12100EC01A2 /* UIFont+BJFont.m */; };
@@ -31,6 +27,9 @@
 		A42EFCF225F8D11D00EC01A2 /* BJRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A42EFCF025F8D11C00EC01A2 /* BJRuntimeController.m */; };
 		A4B714EB25FA0CF10037D135 /* BJClassPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B714EA25FA0CF10037D135 /* BJClassPerson.m */; };
 		A4B714F125FA19220037D135 /* BJMethodPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B714F025FA19220037D135 /* BJMethodPerson.m */; };
+		A4D92DD725FB70CE0039E1F7 /* BJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D92DD225FB70CE0039E1F7 /* BJPerson.m */; };
+		A4D92DDC25FB71A10039E1F7 /* BJObjcMsgSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D92DDB25FB71A10039E1F7 /* BJObjcMsgSendController.m */; };
+		A4D92DE525FB754B0039E1F7 /* BJRuntimeForwordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D92DE325FB754B0039E1F7 /* BJRuntimeForwordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,14 +43,6 @@
 		A42EFCA125F8C08F00EC01A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A42EFCA325F8C08F00EC01A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42EFCA425F8C08F00EC01A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A42EFCB325F8C12100EC01A2 /* BJSelfAndSuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJSelfAndSuperViewController.m; sourceTree = "<group>"; };
-		A42EFCB425F8C12100EC01A2 /* Son.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Son.h; sourceTree = "<group>"; };
-		A42EFCB525F8C12100EC01A2 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
-		A42EFCB625F8C12100EC01A2 /* Son.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Son.m; sourceTree = "<group>"; };
-		A42EFCB725F8C12100EC01A2 /* BJSelfAndSuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJSelfAndSuperViewController.h; sourceTree = "<group>"; };
-		A42EFCB825F8C12100EC01A2 /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
-		A42EFCBA25F8C12100EC01A2 /* BJRuntimeForwordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeForwordViewController.h; sourceTree = "<group>"; };
-		A42EFCBB25F8C12100EC01A2 /* BJRuntimeForwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeForwordViewController.m; sourceTree = "<group>"; };
 		A42EFCBD25F8C12100EC01A2 /* BJRuntimeGrammarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeGrammarViewController.h; sourceTree = "<group>"; };
 		A42EFCBE25F8C12100EC01A2 /* BJRuntimeGrammarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeGrammarViewController.m; sourceTree = "<group>"; };
 		A42EFCC025F8C12100EC01A2 /* BJHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHook.h; sourceTree = "<group>"; };
@@ -81,6 +72,13 @@
 		A4B714EA25FA0CF10037D135 /* BJClassPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJClassPerson.m; sourceTree = "<group>"; };
 		A4B714EF25FA19220037D135 /* BJMethodPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJMethodPerson.h; sourceTree = "<group>"; };
 		A4B714F025FA19220037D135 /* BJMethodPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJMethodPerson.m; sourceTree = "<group>"; };
+		A4D92DD225FB70CE0039E1F7 /* BJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJPerson.m; sourceTree = "<group>"; };
+		A4D92DD525FB70CE0039E1F7 /* BJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJPerson.h; sourceTree = "<group>"; };
+		A4D92DDA25FB71A10039E1F7 /* BJObjcMsgSendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJObjcMsgSendController.h; sourceTree = "<group>"; };
+		A4D92DDB25FB71A10039E1F7 /* BJObjcMsgSendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJObjcMsgSendController.m; sourceTree = "<group>"; };
+		A4D92DE125FB73D10039E1F7 /* BJPerson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BJPerson.cpp; sourceTree = "<group>"; };
+		A4D92DE325FB754B0039E1F7 /* BJRuntimeForwordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJRuntimeForwordViewController.m; sourceTree = "<group>"; };
+		A4D92DE425FB754B0039E1F7 /* BJRuntimeForwordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJRuntimeForwordViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,35 +143,12 @@
 				A42EFCE625F8C4E600EC01A2 /* Isa */,
 				A4B714E425FA0B4E0037D135 /* Class */,
 				A4B714EE25FA190D0037D135 /* Method */,
-				A42EFCB225F8C12100EC01A2 /* runtimeMassageSend */,
-				A42EFCB925F8C12100EC01A2 /* runtimeMassageForword */,
+				A4D92DCF25FB70CE0039E1F7 /* Objc_msgSend */,
 				A42EFCBC25F8C12100EC01A2 /* runtimeGrammar */,
 				A42EFCBF25F8C12100EC01A2 /* runtimeMethodSwizzling */,
 				A42EFCCE25F8C12100EC01A2 /* classAndNSObject */,
 			);
 			path = Runtime;
-			sourceTree = "<group>";
-		};
-		A42EFCB225F8C12100EC01A2 /* runtimeMassageSend */ = {
-			isa = PBXGroup;
-			children = (
-				A42EFCB725F8C12100EC01A2 /* BJSelfAndSuperViewController.h */,
-				A42EFCB325F8C12100EC01A2 /* BJSelfAndSuperViewController.m */,
-				A42EFCB425F8C12100EC01A2 /* Son.h */,
-				A42EFCB525F8C12100EC01A2 /* BJPerson.m */,
-				A42EFCB625F8C12100EC01A2 /* Son.m */,
-				A42EFCB825F8C12100EC01A2 /* BJPerson.h */,
-			);
-			path = runtimeMassageSend;
-			sourceTree = "<group>";
-		};
-		A42EFCB925F8C12100EC01A2 /* runtimeMassageForword */ = {
-			isa = PBXGroup;
-			children = (
-				A42EFCBA25F8C12100EC01A2 /* BJRuntimeForwordViewController.h */,
-				A42EFCBB25F8C12100EC01A2 /* BJRuntimeForwordViewController.m */,
-			);
-			path = runtimeMassageForword;
 			sourceTree = "<group>";
 		};
 		A42EFCBC25F8C12100EC01A2 /* runtimeGrammar */ = {
@@ -223,10 +198,10 @@
 		A42EFCCE25F8C12100EC01A2 /* classAndNSObject */ = {
 			isa = PBXGroup;
 			children = (
-				A42EFCCF25F8C12100EC01A2 /* BJObject.h */,
-				A42EFCD025F8C12100EC01A2 /* BJClassAndObjectViewController.m */,
-				A42EFCD125F8C12100EC01A2 /* BJObject.m */,
 				A42EFCD225F8C12100EC01A2 /* BJClassAndObjectViewController.h */,
+				A42EFCD025F8C12100EC01A2 /* BJClassAndObjectViewController.m */,
+				A42EFCCF25F8C12100EC01A2 /* BJObject.h */,
+				A42EFCD125F8C12100EC01A2 /* BJObject.m */,
 			);
 			path = classAndNSObject;
 			sourceTree = "<group>";
@@ -257,6 +232,20 @@
 				A4B714F025FA19220037D135 /* BJMethodPerson.m */,
 			);
 			path = Method;
+			sourceTree = "<group>";
+		};
+		A4D92DCF25FB70CE0039E1F7 /* Objc_msgSend */ = {
+			isa = PBXGroup;
+			children = (
+				A4D92DDA25FB71A10039E1F7 /* BJObjcMsgSendController.h */,
+				A4D92DDB25FB71A10039E1F7 /* BJObjcMsgSendController.m */,
+				A4D92DD525FB70CE0039E1F7 /* BJPerson.h */,
+				A4D92DD225FB70CE0039E1F7 /* BJPerson.m */,
+				A4D92DE125FB73D10039E1F7 /* BJPerson.cpp */,
+				A4D92DE425FB754B0039E1F7 /* BJRuntimeForwordViewController.h */,
+				A4D92DE325FB754B0039E1F7 /* BJRuntimeForwordViewController.m */,
+			);
+			path = Objc_msgSend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,22 +319,21 @@
 			files = (
 				A42EFCDB25F8C12100EC01A2 /* BJHook.m in Sources */,
 				A42EFCE425F8C34B00EC01A2 /* SceneDelegate.m in Sources */,
+				A4D92DE525FB754B0039E1F7 /* BJRuntimeForwordViewController.m in Sources */,
+				A4D92DDC25FB71A10039E1F7 /* BJObjcMsgSendController.m in Sources */,
 				A42EFCDD25F8C12100EC01A2 /* BJRuntimeButtonViewController.m in Sources */,
 				A4B714F125FA19220037D135 /* BJMethodPerson.m in Sources */,
 				A4B714EB25FA0CF10037D135 /* BJClassPerson.m in Sources */,
 				A42EFCDA25F8C12100EC01A2 /* BJRuntimeFontViewController.m in Sources */,
 				A42EFCE925F8CCA200EC01A2 /* BJIsaPerson.m in Sources */,
-				A42EFCD525F8C12100EC01A2 /* Son.m in Sources */,
-				A42EFCD325F8C12100EC01A2 /* BJSelfAndSuperViewController.m in Sources */,
 				A42EFCDC25F8C12100EC01A2 /* UIControl+BJRuntimeControl.m in Sources */,
 				A42EFCD725F8C12100EC01A2 /* BJRuntimeGrammarViewController.m in Sources */,
-				A42EFCD425F8C12100EC01A2 /* BJPerson.m in Sources */,
 				A42EFCF225F8D11D00EC01A2 /* BJRuntimeController.m in Sources */,
 				A42EFCDF25F8C12100EC01A2 /* BJObject.m in Sources */,
-				A42EFCD625F8C12100EC01A2 /* BJRuntimeForwordViewController.m in Sources */,
 				A42EFC9A25F8C08D00EC01A2 /* ViewController.m in Sources */,
 				A42EFCDE25F8C12100EC01A2 /* BJClassAndObjectViewController.m in Sources */,
 				A42EFC9425F8C08D00EC01A2 /* AppDelegate.m in Sources */,
+				A4D92DD725FB70CE0039E1F7 /* BJPerson.m in Sources */,
 				A42EFCD925F8C12100EC01A2 /* UIFont+BJFont.m in Sources */,
 				A42EFCA525F8C08F00EC01A2 /* main.m in Sources */,
 				A42EFCD825F8C12100EC01A2 /* BJRuntimeMethodSwizzlingViewController.m in Sources */,

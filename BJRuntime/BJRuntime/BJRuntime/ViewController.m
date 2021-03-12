@@ -15,6 +15,7 @@
 #import "BJRuntimeFontViewController.h"
 #import "BJRuntimeForwordViewController.h"
 #import "BJClassAndObjectViewController.h"
+#import "BJObjcMsgSendController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -58,8 +59,12 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
-        BJRuntimeController *vc = [[BJRuntimeController alloc] init];
+        
+        BJObjcMsgSendController *vc = [[BJObjcMsgSendController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+        
+//        BJRuntimeController *vc = [[BJRuntimeController alloc] init];
+//        [self.navigationController pushViewController:vc animated:YES];
         
 //        BJClassAndObjectViewController *vc = [[BJClassAndObjectViewController alloc] init];
 //        [self.navigationController pushViewController:vc animated:YES];

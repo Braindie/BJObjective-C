@@ -10,9 +10,17 @@
 
 @implementation BJPerson
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self personTest];
+    }
+    return self;
+}
 
-//- (NSString *)personGetString{
-//    return @"123";
-//}
+- (void)personTest {
+    NSLog(@"123");
+}
 
 @end
